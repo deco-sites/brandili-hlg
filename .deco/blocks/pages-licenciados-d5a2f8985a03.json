@@ -7,7 +7,7 @@
       "noIndexing": false,
       "description": "Escolha a maior loja de moda infantil para fazer parte do guarda-roupa das crianças! Peças confortáveis, charmosas e muito acessíveis, confira!",
       "__resolveType": "website/sections/Seo/Seo.tsx",
-      "titleTemplate": "%s",
+      "titleTemplate": "Licenciados | %s",
       "descriptionTemplate": "%s"
     },
     {

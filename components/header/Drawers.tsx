@@ -28,9 +28,9 @@ export interface Props {
 const Aside = ({ title, onClose, children }: { title: string; onClose?: () => void; children: ComponentChildren }) => (
   <div class="bg-base-100 h-full w-full max-w-[375px]">
     <div class="flex justify-between items-center">
-      <h1 class="px-4 py-3">
+      <h3 class="px-4 py-3">
         <span class="font-medium text-2xl text-gray-0">{title}</span>
-      </h1>
+      </h3>
       {onClose && (
         <Button aria-label="X" class="btn btn-ghost" onClick={onClose}>
           <Icon id="XMark" width={13} height={13} strokeWidth={1} />
@@ -62,14 +62,14 @@ const AsideMinicart = ({
   return (
     <div class="bg-base-100 grid grid-rows-[auto_1fr] h-full">
       <div class="flex justify-between items-center">
-        <h1 class="px-4 py-3 flex items-center gap-3">
+        <h3 class="px-4 py-3 flex items-center gap-3">
           <span class="font-normal text-xl text-gray-0">{title}</span>
           {qtdItemsMinicart.value > 0 && (
             <span class="quantity-items text-sm text-gray-3 font-normal">
               {`(${qtdItemsMinicart.value} ${qtdItemsMinicart.value > 1 ? "itens" : "item"} )`}
             </span>
           )}
-        </h1>
+        </h3>
         {onClose && (
           <Button aria-label="X" class="btn btn-ghost" onClick={onClose}>
             <Icon id="XMark" width={13} height={13} strokeWidth={1} />
@@ -121,9 +121,9 @@ const AsideKitLook = ({
 }) => (
   <div class="bg-white-0 grid grid-rows-[auto_1fr] h-full">
     <div class="flex justify-between items-center mb-5">
-      <h1 class="px-4 py-3">
+      <h3 class="px-4 py-3">
         <span class="font-normal text-2xl text-gray-0">{title}</span>
-      </h1>
+      </h3>
       {onClose && (
         <Button aria-label="X" class="btn btn-ghost" onClick={onClose}>
           <Icon id="XMark" width={13} height={13} strokeWidth={1} />

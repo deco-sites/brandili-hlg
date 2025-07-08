@@ -33,9 +33,11 @@ export default function ShelfWithImage({ backgroundColor, title, titleLayout, se
         <div class={`flex flex-row sm-tablet:flex-col items-center relative ${position === "reverse" ? " flex-row-reverse" : ""}`}>
           <div class={`image-content w-full sm-tablet:w-full full-tablet:w-1/2 ${image?.hiddenMobile ? "sm-tablet:hidden" : ""}`}>
             <a href={image?.href}>
-              <Source src={image.src} class="w-full object-contain" width={395} height={214} alt={image?.alt} media="(max-width: 767px)"/>
-              <Source src={image.src} class="w-full object-contain" width={369} height={300} alt={image?.alt} media="(min-width: 768px)"/>
-              <img src={image.src} class="w-full object-contain max-w-[706px] sm-tablet:mx-auto" width={703} height={460} alt={image?.alt}/>
+              <Picture>
+                <Source src={image.src} class="w-full object-contain" width={395} height={214} alt={image?.alt} media="(max-width: 767px)"/>
+                <Source src={image.src} class="w-full object-contain" width={369} height={300} alt={image?.alt} media="(min-width: 768px)"/>
+                <Image src={image.src} class="w-full object-contain max-w-[706px] sm-tablet:mx-auto" width={703} height={460} alt={image?.alt}/>
+              </Picture>
             </a>
             <div class="flex flex-col gap-2 my-6 ">
               <h3 class="text-xl text-gray-0 font-bold">{label}</h3>

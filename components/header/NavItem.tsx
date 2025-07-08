@@ -62,6 +62,8 @@ function NavItem({ item }: { item: SiteNavigationElement }) {
         src={image1.url}
         alt={image1.alternateName}
         loading="lazy"
+        height={600}
+        width={740}
         />
         </div>
       )}
@@ -71,6 +73,8 @@ function NavItem({ item }: { item: SiteNavigationElement }) {
         src={image2.url}
         alt={image2.alternateName}
         loading="lazy"
+        height={600}
+        width={740}
         />
         </div>
       )}
@@ -80,6 +84,8 @@ function NavItem({ item }: { item: SiteNavigationElement }) {
         src={image3.url}
         alt={image3.alternateName}
         loading="lazy"
+        height={600}
+        width={740}
         />
         </div>
       )}

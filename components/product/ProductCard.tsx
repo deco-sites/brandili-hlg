@@ -155,7 +155,7 @@ function ProductCard({ product, preload, itemListName, layout, index }: Props) {
                 ? "duration-100 transition-scale transition-3s scale-100 lg:group-hover:scale-125"
                 : ""
             }`}
-            preload={preload}
+            // preload={preload}
             loading={preload ? "eager" : "lazy"}
             decoding="async"
           />

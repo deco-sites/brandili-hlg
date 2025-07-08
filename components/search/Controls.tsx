@@ -44,9 +44,9 @@ function SearchControls({
               >
                 <Icon id="XMark" class="text-white-0" width={13} height={13} strokeWidth={3} />
               </Button>
-              <h1 class="px-4 py-3">
+              <h2 class="px-4 py-3">
                 <span class="font-medium text-white-0 text-xl">Filtros</span>
-              </h1>
+              </h2>
             </div>
             <div class="filter-aside flex-grow overflow-auto">
               <Filters filters={filters} />

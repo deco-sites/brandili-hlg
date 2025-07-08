@@ -258,8 +258,8 @@ function ProductCountDownCard({
                 : ""
             }`}
             sizes="(max-width: 640px) 50vw, 20vw"
-            preload={preload}
-            loading="eager"
+            // preload={preload}
+            loading="lazy"
             decoding="async"
           />
           {(!l?.onMouseOver?.image ||
@@ -271,7 +271,7 @@ function ProductCountDownCard({
               height={HEIGHT}
               class="bg-base-100 col-span-full row-span-full transition-opacity rounded w-full opacity-0 lg:group-hover:opacity-100"
               sizes="(max-width: 640px) 50vw, 20vw"
-              loading="eager"
+              loading="lazy"
               decoding="async"
             />
           )}

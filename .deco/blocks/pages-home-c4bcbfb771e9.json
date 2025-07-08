@@ -2441,6 +2441,12 @@
       {
         "value": [
           {
+            "__resolveType": "website/sections/Seo/SeoV2.tsx",
+            "type": "website",
+            "title": "Brandili - Moda para Crianças",
+            "titleTemplate": "Roupas Infantis de Qualidade | "
+          },
+          {
             "__resolveType": "Header - 01"
           },
           {
@@ -2454,7 +2460,7 @@
                     {
                       "alt": "Descontos Monstros 2",
                       "mobile": "https://data.decoassets.com/brandili/7a67cd04-2d36-4a06-a564-51b56ee64953/FASE-2_375x480px.jpg",
-                      "desktop": "https://data.decoassets.com/brandili/1f36848c-f583-411a-9bc7-45a1f9bb5120/FASE-2.jpg",
+                      "desktop": "https://assets.decocache.com/brandili-hlg/ea7f5b8f-5c71-4f7e-aa14-9af5af4438e5/FASE-2-webp.webp",
                       "action": {
                         "href": "/descontos-monstros"
                       }
@@ -2488,7 +2494,6 @@
           },
           {
             "__resolveType": "site/sections/Content/Benefits.tsx",
-            "title": " ",
             "layout": {
               "iconColor": "text-blue-2",
               "variation": "Simple",
@@ -2571,6 +2576,7 @@
           },
           {
             "__resolveType": "site/sections/Product/ShelfWithImage.tsx",
+            "title": "Novidades",
             "section": {
               "__resolveType": "site/sections/Product/ProductCountDownShelf.tsx",
               "products": {
@@ -2614,8 +2620,7 @@
               "alt": "Novidades",
               "href": "/stitch",
               "hiddenMobile": false
-            },
-            "title": "Novidades"
+            }
           },
           {
             "__resolveType": "site/sections/Product/ProductShelf.tsx",
@@ -2757,8 +2762,7 @@
                 "imageWidth": 102,
                 "imageHeight": 137,
                 "href": "https://www.brandili.com.br/licenciados/flamengo"
-              },
-              {}
+              }
             ]
           },
           {

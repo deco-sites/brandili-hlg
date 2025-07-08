@@ -24,17 +24,17 @@ function Header(props: Props) {
               props.alignment === "left" ? "text-left" : "text-center"
             }`}
           >
-            {props.title &&
+            {props.title && props.title.trim() !== '' &&
               (
-                <h1 class="text-2xl full-phone:text-xl text-gray-0 font-semibold">
+                <h2 class="text-2xl full-phone:text-xl text-gray-0 font-semibold">
                   {props.title}
-                </h1>
+                </h2>
               )}
             {props.description &&
               (
-                <h2 class="text-sm full-phone:text-xs text-gray-0 font-normal">
+                <h3 class="text-sm full-phone:text-xs text-gray-0 font-normal">
                   {props.description}
-                </h2>
+                </h3>
               )}
           </div>
         )

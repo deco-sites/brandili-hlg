@@ -27,8 +27,8 @@ export default function Logo({ logo, logoFooter }: Props) {
               loading="lazy"
               src={logo?.image}
               alt={logo?.description}
-              width={logo?.width}
-              height={logo?.height}
+              width={logo?.width ?? 125}
+              height={logo?.height ?? 98}
             />
           </div>
           <div class="">{logo?.description}</div>

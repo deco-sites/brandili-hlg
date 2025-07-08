@@ -11,6 +11,7 @@ import { clx } from "../../sdk/clx.ts";
 import KitLookBuyButton from "site/islands/KitLookBuyButton/KitLookBuyButton.tsx";
 import { formatPrice } from "../../sdk/format.ts";
 import { useOffer } from "../../sdk/useOffer.ts";
+import Image from "apps/website/components/Image.tsx";
 
 export interface Pin {
   mobile: {
@@ -97,7 +98,7 @@ export default function KitLookShoppableBanner({
       <div class="card lg:card-side rounded grid grid-cols-2 sm-tablet:grid-cols-1">
         <div>
           <figure class="relative">
-            <Picture class="w-full" preload={true}>
+            <Picture class="w-full" preload={false}>
               <Source
                 media="(max-width: 767px)"
                 src={image?.mobile}
@@ -112,11 +113,11 @@ export default function KitLookShoppableBanner({
                 height={600}
                 fetchPriority="auto"
               />
-              <img
+              <Image
                 class="w-full h-full object-contain"
                 width={600}
                 height={600}
-                loading="eager"
+                loading="lazy"
                 src={image?.mobile}
                 alt={image?.altText}
               />
@@ -137,11 +138,12 @@ export default function KitLookShoppableBanner({
                     href={link}
                     class="rounded overflow-hidden border border-gray-16 p-1 max-w-[62px] h-fit"
                   >
-                    <img
+                    <Image
                       src={productImage}
                       alt="compre look"
                       width={300}
                       height={300}
+                      preload={false}
                       class="w-max h-max object-contain"
                     />
                   </a>

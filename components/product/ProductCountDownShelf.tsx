@@ -20,7 +20,7 @@ export interface Props {
    * @title Data de Expiração
    * @format datetime
    */
-  expiresAt: string;
+  expiresAt?: string;
   layout?: {
     numberOfSliders?: {
       mobile?: 1 | 2 | 3 | 4 | 5;

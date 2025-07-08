@@ -263,9 +263,23 @@
               {
                 "value": {
                   "jsonLD": {
-                    "__resolveType": "PLP Loader"
+                    "__resolveType": "commerce/loaders/product/extensions/listingPage.ts",
+                    "data": {
+                      "sort": "release:desc",
+                      "count": 20,
+                      "fuzzy": "automatic",
+                      "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+                      "selectedFacets": [],
+                      "useCollectionName": true
+                    },
+                    "extensions": [
+                      {
+                        "__resolveType": "vtex/loaders/product/extensions/listingPage.ts"
+                      }
+                    ]
                   },
-                  "__resolveType": "commerce/sections/Seo/SeoPLP.tsx"
+                  "__resolveType": "commerce/sections/Seo/SeoPLP.tsx",
+                  "titleTemplate": "%s"
                 },
                 "rule": {
                   "__resolveType": "website/matchers/always.ts"
