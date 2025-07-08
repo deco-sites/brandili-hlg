@@ -1,0 +1,8 @@
+{
+  "redirect": {
+    "to": "/to",
+    "from": "/from",
+    "type": "temporary"
+  },
+  "__resolveType": "website/loaders/redirect.ts"
+}

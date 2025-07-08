@@ -1,0 +1,29 @@
+{
+  "name": "Central de atendimento",
+  "path": "/central-de-atendimento",
+  "sections": {
+    "__resolveType": "website/flags/multivariate.ts",
+    "variants": [
+      {
+        "value": [
+          {
+            "__resolveType": "Header - 01"
+          },
+          {
+            "__resolveType": "site/sections/CustomerServiceCenter.tsx"
+          },
+          {
+            "__resolveType": "Footer - Brandili"
+          }
+        ],
+        "rule": {
+          "__resolveType": "website/matchers/always.ts"
+        }
+      }
+    ]
+  },
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

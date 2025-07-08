@@ -1,0 +1,101 @@
+{
+  "name": "Novidades Brandili",
+  "path": "/brandili/novidades",
+  "default": {
+    "possiblePaths": []
+  },
+  "sections": [
+    {
+      "jsonLD": {
+        "__resolveType": "PLP Loader"
+      },
+      "__resolveType": "commerce/sections/Seo/SeoPLP.tsx",
+      "description": "Confira as novidades na Brandili! Últimas tendências em moda infantil com novas coleções, cores e estilos pensados para o conforto dos pequenos. Acesse já!",
+      "descriptionTemplate": "Confira as novidades na Brandili! Últimas tendências em moda infantil com novas coleções, cores e estilos pensados para o conforto dos pequenos. Acesse já!",
+      "title": "Novidades | Brandili | Moda Infantil e Teen",
+      "titleTemplate": "Novidades | Brandili | Moda Infantil e Teen"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "links": [
+        {
+          "href": "/brandili/novidades",
+          "label": "Novidades"
+        }
+      ],
+      "__resolveType": "site/sections/Institucional/customizableBreadcrumb.tsx"
+    },
+    {
+      "list": [
+        {
+          "href": "/meninas/roupas/vestido",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/794d83c0-0b6c-4d5f-b7ea-11c3a24c4751/novidades_0004_vestidos.jpg"
+        },
+        {
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/2f1c3c2e-465d-40a0-a43d-40012e32f219/novidades_0003_conjuntos.jpg",
+          "href": "/novidades/conjuntos"
+        },
+        {
+          "href": "/novidades/pijamas",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/fd7b5316-a05c-4af4-93e5-e98c1e7afc96/novidades_0002_pijamas.jpg"
+        },
+        {
+          "href": "/novidades/blusas-e-camisetas",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/6bdda049-5133-44ba-a083-5b69827ce4e5/novidades_0001_blusascamisetas.jpg"
+        },
+        {
+          "href": "/novidades/shorts-e-bermudas",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/7e34624b-56ae-4fb6-97a5-1461b51426bd/novidades_0000_shortsbermudas.jpg"
+        }
+      ],
+      "header": {
+        "title": "Coleção de Inverno Outono",
+        "description": "Explore nossa Coleção Inverno Outono 2024. De tons quentes a estilos aconchegantes, cada peça é uma expressão de moda e conforto. Das festividades aos dias frios, oferecemos durabilidade, tendências e diversão para os pequenos brilharem. A moda encontra a magia das estações em cada detalhe."
+      },
+      "layout": {
+        "categoryCard": {
+          "textPosition": "top",
+          "textAlignment": "center"
+        },
+        "headerAlignment": "left"
+      },
+      "__resolveType": "site/sections/Category/CategoryList.tsx",
+      "textSeo": "<h1>Novidades moda infantil</h1><div><p>Aqui você encontra as últimas tendências em moda infantil da Brandili! Peças que combinam estilo, conforto e qualidade para os pequenos. Nossas novidades são cuidadosamente selecionadas para oferecer o que há de mais atual no universo infantil, sempre pensando no bem-estar das crianças. Com tecidos suaves, cortes modernos e estampas divertidas, a Brandili se destaca no mercado de roupas infantis. Navegue pela nossa seleção de novidades e encontre o look perfeito para seu filho ou filha brilhar em qualquer ocasião!</p><p><br data-mce-bogus=\"1\"></p></div>"
+    },
+    {
+      "page": {
+        "sort": "release:desc",
+        "count": 20,
+        "fuzzy": "automatic",
+        "similars": false,
+        "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+        "selectedFacets": [
+          {
+            "key": "productClusterIds",
+            "value": "879"
+          }
+        ]
+      },
+      "layout": {
+        "format": "Pagination",
+        "columns": {
+          "mobile": 2,
+          "desktop": 4
+        },
+        "variant": "aside",
+        "pagination": "show-more"
+      },
+      "cardLayout": {
+        "__resolveType": "Product Card Layout - 01"
+      },
+      "startingPage": 1,
+      "__resolveType": "site/sections/Product/SearchResult.tsx"
+    },
+    {
+      "__resolveType": "Footer - Brandili"
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx"
+}

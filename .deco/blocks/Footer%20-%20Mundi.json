@@ -1,0 +1,250 @@
+{
+  "icon": {
+    "image": "https://assets.decocache.com/brandili/7436ed7b-6f34-4ef6-a13c-00daa5038acb/1742493165801-220645d4-9d32-4488-bf7c-d3fd0b912053"
+  },
+  "logo": {
+    "image": "https://assets.decocache.com/brandili/af641d34-9572-4dd5-aa67-6f7c8a40fb2a/1742493166825-ab1ca18c-888d-4dea-8601-fd95a1d997ad"
+  },
+  "layout": {
+    "hide": {
+      "logo": false,
+      "mobileApps": false,
+      "newsletter": false,
+      "socialLinks": false,
+      "regionOptions": false
+    },
+    "variation": "Variation Mundi",
+    "backgroundColor": "Base 100"
+  },
+  "social": {
+    "items": [
+      {
+        "link": "https://www.facebook.com/brandilioficial",
+        "label": "Facebook"
+      },
+      {
+        "link": "https://www.instagram.com/mundioficial/",
+        "label": "Instagram"
+      },
+      {
+        "link": "https://www.youtube.com/user/brandili2010/featured",
+        "label": "YouTube"
+      }
+    ],
+    "title": "Redes Sociais"
+  },
+  "managed": {
+    "items": {
+      "label": "SocialSA",
+      "layout": "Variation Brandili"
+    },
+    "title": "Managed by:"
+  },
+  "payments": {
+    "items": [
+      {
+        "label": "Mastercard",
+        "layout": "Variation Brandili"
+      },
+      {
+        "label": "Diners",
+        "layout": "Variation Brandili"
+      },
+      {
+        "label": "Visa",
+        "layout": "Variation Brandili"
+      },
+      {
+        "label": "Amex",
+        "layout": "Variation Brandili"
+      },
+      {
+        "label": "Boleto",
+        "layout": "Variation Brandili"
+      }
+    ],
+    "title": "Formas de pagamento"
+  },
+  "platform": {
+    "items": {
+      "label": "Vtex",
+      "layout": "Variation Brandili"
+    },
+    "title": "Plataforma"
+  },
+  "sections": [
+    {
+      "items": [
+        {
+          "href": "mailto:support@brandili.zendesk.com",
+          "label": "E-mail: support@brandili.zendesk.com"
+        },
+        {
+          "label": "Telefone: (11) 5026-5849 ",
+          "description": "Horário de atendimento:  </br> de segunda a sexta das 08:00 às 18:00"
+        }
+      ],
+      "label": "Atendimento",
+      "children": [
+        {
+          "href": "/centraldeatendimento",
+          "label": "Central de atendimento"
+        },
+        {
+          "href": "/whatsapp",
+          "label": "Fale conosco pelo WhatsApp"
+        },
+        {
+          "href": "/trocaedevolucao",
+          "label": "Troca e devolução"
+        }
+      ],
+      "textColor": "text-gray-0"
+    },
+    {
+      "items": [
+        {
+          "href": "/institucional/politicas-de-pagamento",
+          "label": "Formas de Pagamento"
+        },
+        {
+          "href": "/account#/orders",
+          "label": "Meus Pedidos"
+        },
+        {
+          "href": "/account",
+          "label": "Minha Conta"
+        },
+        {
+          "href": "/institucional/politicas-de-entrega",
+          "label": "Prazos de Entrega"
+        },
+        {
+          "href": "/institucional/politicas-de-devolucao",
+          "label": "Trocas e Devoluções"
+        },
+        {
+          "href": "/institucional/politicas-de-privacidade",
+          "label": "Política de Privacidade"
+        },
+        {
+          "href": "/institucional/politicas-de-privacidade-e-tratamento-de-dados",
+          "label": "Política de Privacidade e Tratamento de Dados"
+        },
+        {
+          "href": "/institucional/politicas-de-promocao",
+          "label": "Regulamento de Promoções"
+        }
+      ],
+      "label": "Informações úteis",
+      "children": [
+        {
+          "href": "/quemsomos",
+          "label": "Quem somos"
+        },
+        {
+          "href": "/privacidadeeseguranca",
+          "label": "Privacidade e segurança"
+        },
+        {
+          "href": "/termosdeuso",
+          "label": "Termos de uso"
+        },
+        {
+          "href": "/trabalheconosco",
+          "label": "Trabalhe conosco"
+        }
+      ],
+      "textColor": "text-gray-0"
+    },
+    {
+      "items": [
+        {
+          "href": "/institucional/quem-somos",
+          "label": "Quem Somos"
+        },
+        {
+          "href": "https://www.grupobrandili.com.br/",
+          "label": "Grupo Brandili"
+        },
+        {
+          "href": "https://www.brandirect.com.br/",
+          "label": "Portal Lojista"
+        },
+        {
+          "href": "https://www.grupobrandili.com.br/empreenda-brandili/",
+          "label": "Nossas Lojas"
+        }
+      ],
+      "label": "Institucional",
+      "children": [
+        {
+          "href": "/loginecadastro",
+          "label": "Login e cadastro"
+        },
+        {
+          "href": "/meuspedidos",
+          "label": "Meus pedidos"
+        }
+      ],
+      "textColor": "text-gray-0"
+    }
+  ],
+  "extraLinks": [
+    {
+      "href": "http://www.google.com",
+      "link": "http://www.google.com/",
+      "label": "Política de privacidade"
+    },
+    {
+      "href": "http://www.google.com",
+      "link": "http://www.google.com",
+      "label": "Termos de serviço"
+    }
+  ],
+  "mobileApps": {
+    "apple": "http://www.google.com",
+    "android": "http://www.google.com"
+  },
+  "newsletter": {
+    "form": {
+      "helpText": "<p>Ao se inscrever, você está aceitando nossa <a href=\"../../../institucional/politicas-de-privacidade\" class=\"link\" data-mce-href=\"../../../institucional/politicas-de-privacidade\" data-mce-selected=\"inline-boundary\" title=\"Política de Privacidade\" target=\"_blank\" rel=\"noopener\">Política de Privacidade</a>.</p>",
+      "buttonColor": "bg-gold-0 text-white-0"
+    },
+    "icon": {
+      "image": "https://assets.decocache.com/brandili/0d94b0f1-b895-4c46-9b6f-9673bc529925/1742493172332-89019074-d793-4bda-b98f-ecc3ef53a19f"
+    },
+    "logo": {
+      "image": "https://assets.decocache.com/brandili/bf8b561e-4a9b-4466-8c33-fbb3a5c69ac8/1742493175386-11b1d0a4-6950-4108-be64-162a2be32acc"
+    },
+    "title": "Assine nossa newsletter",
+    "description": "Seja o primeiro a receber promoções, tendências e mais!"
+  },
+  "textFooter": "A loja <strong>Brandili</strong> é operada pela Social S.A. CNPJ: 28.511.223/0004-85 /Endereço Avenida Portugal, 46, Galpão 01 Setor C1 - Itapevi - SP, CEP: 06696-060.",
+  "backToTheTop": {
+    "text": "Voltar ao topo"
+  },
+  "__resolveType": "site/sections/Footer/Footer.tsx",
+  "regionOptions": {
+    "currency": [
+      {
+        "href": "/",
+        "label": "Brasil BRL"
+      },
+      {
+        "href": "/",
+        "label": "United Stated USD"
+      }
+    ],
+    "language": [
+      {
+        "href": "/",
+        "label": "PT"
+      },
+      {
+        "href": "/",
+        "label": "EN"
+      }
+    ]
+  }
+}

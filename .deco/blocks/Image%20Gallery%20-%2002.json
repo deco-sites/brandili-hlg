@@ -1,0 +1,31 @@
+{
+  "title": "New collections",
+  "layout": {
+    "desktop": "Asymmetric",
+    "headerAlignment": "left"
+  },
+  "banners": [
+    {
+      "alt": "Fashion",
+      "href": "/",
+      "srcMobile": "https://assets.decocache.com/brandili/c43aee3a-7dff-4deb-bfcd-b58e46e973b5/1742493243563-5703060b-d1f6-4dc2-898a-ccefeefd2eab"
+    },
+    {
+      "alt": "Fashion",
+      "href": "/",
+      "srcMobile": "https://assets.decocache.com/brandili/d074db1e-e96b-4db5-98f0-920720591bf7/1742493220043-3210eea1-5437-4f19-8327-8b8fa4edfc45"
+    },
+    {
+      "alt": "Fashion",
+      "href": "/",
+      "srcMobile": "https://assets.decocache.com/brandili/eb324149-9434-4158-89ed-00bec183a634/1742493221675-1e6250d4-f9d2-4185-b8a6-b0e8a8fed4a7"
+    },
+    {
+      "alt": "Fashion",
+      "href": "/",
+      "srcMobile": "https://assets.decocache.com/brandili/d98f7abd-3a69-48f5-a1a7-2f52384615df/1742493223280-a8d36df6-4b96-4421-bb6c-de0fe1478e06"
+    }
+  ],
+  "description": "Discover the collections of the season",
+  "__resolveType": "site/sections/Images/ImageGallery.tsx"
+}

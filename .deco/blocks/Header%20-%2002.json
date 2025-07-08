@@ -1,0 +1,506 @@
+{
+  "cart": {
+    "freeShippingObjectiveQuantity": 600
+  },
+  "logo": {
+    "alt": "Mundi logo",
+    "src": "https://assets.decocache.com/brandili/ce7064ba-6330-4f25-bee6-3ded0d7da588/1742493247460-bccf63ea-3254-4f6f-8d4c-16261e2ad66c",
+    "width": 170,
+    "height": 47
+  },
+  "alerts": [
+    "Use this template to create your store at deco.cx"
+  ],
+  "topBar": {
+    "bgColor": "bg-gold-1",
+    "logoMundi": {
+      "alt": "Mundi",
+      "src": "https://assets.decocache.com/brandili/0f0a9690-c74b-4d4e-9e1d-488e3b3a8401/1742493249899-177663bb-9b33-4ce1-9ea9-c23925a108a9",
+      "width": 78,
+      "height": 22
+    },
+    "logoBrandili": {
+      "alt": "Brandili",
+      "src": "https://assets.decocache.com/brandili/edd01dab-424f-4ac1-bce8-a32f4db8ca6e/1742493251318-983bac4f-689f-4c7d-9634-33ea15775f65",
+      "width": 99,
+      "height": 25
+    }
+  },
+  "buttons": {
+    "hideSearchButton": true,
+    "hideWishlistButton": true,
+    "hideHeaderCampaignTimer": true
+  },
+  "logoLink": "/mundi",
+  "navItems": {
+    "items": [
+      {
+        "name": "Novidades",
+        "@type": "SiteNavigationElement",
+        "image": [
+          {
+            "url": "https://data.decoassets.com/brandili/30360740-110d-428d-a138-6735549c0cda/8420873892_testeirasMouseOver_740x600px_novidades.jpg",
+            "@type": "ImageObject"
+          }
+        ],
+        "children": [
+          {
+            "name": "Faixa Etária",
+            "@type": "SiteNavigationElement",
+            "children": [
+              {
+                "name": "Baby",
+                "@type": "SiteNavigationElement",
+                "url": "https://www.brandili.com.br/novidades/mundi?sort=release%3Adesc&filter.category-1=novidades&filter.faixa-etaria=bebe&filter.brand=mundi",
+                "additionalType": "Baby",
+                "identifier": "RN à 12 meses",
+                "image": null
+              },
+              {
+                "url": "https://www.brandili.com.br/novidades/mundi?sort=release%3Adesc&filter.category-1=novidades&filter.faixa-etaria=primeiros-passos&filter.brand=mundi",
+                "name": "Primeiros Passos",
+                "@type": "SiteNavigationElement",
+                "additionalType": "Primeiros Passos ",
+                "identifier": "1 à 3 anos ",
+                "image": null
+              },
+              {
+                "url": "https://www.brandili.com.br/novidades/mundi?sort=release%3Adesc&filter.category-1=novidades&filter.faixa-etaria=infantil&filter.brand=mundi",
+                "name": "Infantil",
+                "image": [],
+                "children": [],
+                "additionalType": "Infantil",
+                "identifier": "4 à 10 anos "
+              },
+              {
+                "url": "https://www.brandili.com.br/novidades/mundi?sort=release%3Adesc&filter.category-1=novidades&filter.faixa-etaria=teen&filter.brand=mundi",
+                "image": [],
+                "children": [],
+                "name": "Teen",
+                "additionalType": "Teen",
+                "identifier": "10 à 18 anos "
+              },
+              {
+                "url": "https://www.brandili.com.br/novidades/mundi?sort=release%3Adesc&filter.category-1=novidades&filter.faixa-etaria=adulto&filter.brand=mundi",
+                "name": "Adulto",
+                "image": [],
+                "children": [],
+                "additionalType": "Adulto"
+              }
+            ],
+            "identifier": "Faixa Etária",
+            "additionalType": "Faixa Etária",
+            "image": null
+          },
+          {
+            "name": "Roupas",
+            "image": [],
+            "children": [
+              {
+                "url": "https://www.brandili.com.br/novidades/mundi?sort=release%3Adesc&filter.category-1=novidades&filter.categorias=shorts-e-bermudas&filter.brand=mundi",
+                "name": "Shorts e Bermudas",
+                "image": [],
+                "children": []
+              },
+              {
+                "url": "https://www.brandili.com.br/novidades/mundi?sort=release%3Adesc&filter.category-1=novidades&filter.categorias=blusas&filter.brand=mundi",
+                "name": "Blusas",
+                "image": [],
+                "children": []
+              },
+              {
+                "name": "Calças",
+                "image": [],
+                "children": [],
+                "url": "https://www.brandili.com.br/novidades/mundi?sort=release%3Adesc&filter.category-1=novidades&filter.categorias=calcas&filter.brand=mundi"
+              },
+              {
+                "url": "https://www.brandili.com.br/novidades/mundi?sort=release%3Adesc&filter.category-1=novidades&filter.categorias=camisas",
+                "name": "Camisas ",
+                "image": [],
+                "children": []
+              },
+              {
+                "url": "https://www.brandili.com.br/novidades/mundi?sort=release%3Adesc&filter.category-1=novidades&filter.categorias=camisetas&filter.brand=mundi",
+                "name": "Camisetas",
+                "image": [],
+                "children": []
+              },
+              {
+                "url": "https://www.brandili.com.br/novidades/mundi?sort=release%3Adesc&filter.category-1=novidades&filter.categorias=casacos&filter.brand=mundi",
+                "name": "Casacos",
+                "image": [],
+                "children": []
+              },
+              {
+                "image": [],
+                "children": [],
+                "name": "Conjuntos",
+                "url": "https://www.brandili.com.br/novidades/mundi?sort=release%3Adesc&filter.category-1=novidades&filter.categorias=conjuntos&filter.brand=mundi"
+              }
+            ],
+            "identifier": "Roupas",
+            "additionalType": "Roupas"
+          }
+        ],
+        "url": "https://www.brandili.com.br/novidades/mundi?sort=release%3Adesc&filter.category-1=novidades&filter.brand=mundi"
+      },
+      {
+        "url": "/mundi/menina?sort=release%3Adesc&filter.brand=mundi&filter.genero=menina",
+        "name": "Meninas",
+        "@type": "SiteNavigationElement",
+        "image": [
+          {
+            "url": "https://data.decoassets.com/brandili/9b1d31c4-bca0-46ce-b1cf-80fac8b9f387/8420873892_testeirasMouseOver_740x600px_meninas.jpg",
+            "@type": "ImageObject"
+          }
+        ],
+        "children": [
+          {
+            "name": "Categorias",
+            "@type": "SiteNavigationElement",
+            "image": [
+              {}
+            ],
+            "children": [
+              {
+                "url": "https://www.brandili.com.br/mundi/menina?sort=release%3Adesc&filter.brand=mundi&filter.genero=menina&filter.categorias=blusas",
+                "name": "Blusas",
+                "@type": "SiteNavigationElement",
+                "image": null
+              },
+              {
+                "url": "https://www.brandili.com.br/mundi/menina?sort=release%3Adesc&filter.brand=mundi&filter.genero=menina&filter.categorias=calcas",
+                "name": "Calças",
+                "@type": "SiteNavigationElement",
+                "image": null
+              },
+              {
+                "name": "Casacos e Jaquetas",
+                "image": [],
+                "children": [],
+                "url": "https://www.brandili.com.br/mundi/menina?sort=release%3Adesc&filter.brand=mundi&filter.genero=menina&filter.categorias=casacos"
+              },
+              {
+                "url": "https://www.brandili.com.br/mundi/menina?sort=release%3Adesc&filter.brand=mundi&filter.genero=menina&filter.categorias=conjuntos",
+                "name": "Conjuntos",
+                "image": [],
+                "children": []
+              },
+              {
+                "url": "https://www.brandili.com.br/mundi/menina?sort=release%3Adesc&filter.brand=mundi&filter.genero=menina&filter.categorias=macacao&filter.categorias=macaquinho",
+                "name": "Macacões",
+                "image": [],
+                "children": []
+              },
+              {
+                "url": "https://www.brandili.com.br/mundi/menina?sort=release%3Adesc&filter.brand=mundi&filter.genero=menina&filter.categorias=vestidos",
+                "name": "Vestidos",
+                "image": [],
+                "children": []
+              },
+              {
+                "url": "/meninas/roupas/active/mundi?sort=release%3Adesc",
+                "name": "Active",
+                "image": [],
+                "children": []
+              },
+              {
+                "image": [],
+                "children": [],
+                "url": "/meninas/acessorios/mundi?sort=release%3Adesc",
+                "name": "Acessórios"
+              }
+            ],
+            "identifier": "Categorias",
+            "additionalType": "Categorias"
+          }
+        ]
+      },
+      {
+        "url": "https://www.brandili.com.br/mundi/menino?sort=release%3Adesc&filter.brand=mundi&filter.genero=menino",
+        "name": "Meninos",
+        "@type": "SiteNavigationElement",
+        "image": [
+          {
+            "url": "https://data.decoassets.com/brandili/d8dc5273-6195-4b66-b43f-f33d7d23c43b/8420873892_testeirasMouseOver_740x600px_meninos.jpg",
+            "@type": "ImageObject"
+          }
+        ],
+        "children": [
+          {
+            "name": "Categorias",
+            "@type": "SiteNavigationElement",
+            "children": [
+              {
+                "url": "https://www.brandili.com.br/mundi/menino?sort=release%3Adesc&filter.brand=mundi&filter.genero=menino&filter.categorias=calcas",
+                "name": "Calças",
+                "@type": "SiteNavigationElement",
+                "image": null
+              },
+              {
+                "url": "https://www.brandili.com.br/mundi/menino?sort=release%3Adesc&filter.brand=mundi&filter.genero=menino&filter.categorias=camisas",
+                "name": "Camisas",
+                "@type": "SiteNavigationElement",
+                "image": null
+              },
+              {
+                "url": "https://www.brandili.com.br/mundi/menino?sort=release%3Adesc&filter.brand=mundi&filter.genero=menino&filter.categorias=camisetas",
+                "name": "Camisetas",
+                "image": [],
+                "children": []
+              },
+              {
+                "url": "https://www.brandili.com.br/mundi/menino?sort=release%3Adesc&filter.brand=mundi&filter.genero=menino&filter.categorias=conjuntos",
+                "name": "Conjuntos",
+                "image": [],
+                "children": []
+              },
+              {
+                "url": "https://www.brandili.com.br/mundi/menina?sort=release%3Adesc&filter.brand=mundi&filter.genero=menina&filter.categorias=polo",
+                "name": "Polos",
+                "image": [],
+                "children": []
+              },
+              {
+                "name": "Shorts e Bermudas",
+                "image": [],
+                "children": [],
+                "url": "https://www.brandili.com.br/mundi/menino?sort=release%3Adesc&filter.brand=mundi&filter.genero=menino&filter.categorias=shorts-e-bermudas"
+              },
+              {
+                "url": "/meninos/roupas/active/mundi?sort=release%3Adesc",
+                "name": "Active",
+                "image": [],
+                "children": []
+              }
+            ],
+            "identifier": "Categorias",
+            "additionalType": "Categorias",
+            "image": null
+          }
+        ]
+      },
+      {
+        "name": "Bebês",
+        "children": [
+          {
+            "image": null,
+            "children": [
+              {
+                "image": null,
+                "children": [],
+                "name": "Conjuntos",
+                "url": "https://www.brandili.com.br/mundi/bebe?sort=release%3Adesc&filter.brand=mundi&filter.faixa-etaria=bebe&filter.genero=menina&filter.categorias=conjuntos"
+              },
+              {
+                "image": null,
+                "children": [],
+                "name": "Macacões",
+                "url": "https://www.brandili.com.br/mundi/bebe?sort=release%3Adesc&filter.brand=mundi&filter.faixa-etaria=bebe&filter.genero=menina&filter.categorias=macacao"
+              },
+              {
+                "image": null,
+                "children": [],
+                "name": "Conjuntos",
+                "url": "https://www.brandili.com.br/mundi/bebe?sort=release%3Adesc&filter.brand=mundi&filter.faixa-etaria=bebe&filter.genero=menina&filter.categorias=conjuntos"
+              },
+              {
+                "image": null,
+                "children": [],
+                "name": "Vestidos",
+                "url": "https://www.brandili.com.br/mundi/bebe?sort=release%3Adesc&filter.brand=mundi&filter.faixa-etaria=bebe&filter.genero=menina&filter.categorias=vestidos"
+              },
+              {
+                "image": null,
+                "children": [],
+                "name": "Salopetes",
+                "url": "https://www.brandili.com.br/mundi/bebe?sort=release%3Adesc&filter.brand=mundi&filter.faixa-etaria=bebe&filter.genero=menina&filter.categorias=salopete"
+              }
+            ],
+            "name": "Meninas",
+            "additionalType": "Categorias",
+            "identifier": "Categorias",
+            "url": "https://www.brandili.com.br/mundi/bebe?sort=release%3Adesc&filter.brand=mundi&filter.faixa-etaria=bebe&filter.genero=menina"
+          },
+          {
+            "image": null,
+            "children": [
+              {
+                "image": null,
+                "children": [],
+                "name": "Bodies",
+                "url": "https://www.brandili.com.br/mundi/bebe?sort=release%3Adesc&filter.brand=mundi&filter.faixa-etaria=bebe&filter.categorias=body"
+              },
+              {
+                "image": null,
+                "children": [],
+                "name": "Conjuntos",
+                "url": "https://www.brandili.com.br/mundi/bebe?sort=release%3Adesc&filter.brand=mundi&filter.faixa-etaria=bebe&filter.genero=menino&filter.categorias=conjuntos"
+              },
+              {
+                "image": null,
+                "children": [],
+                "name": "Jardineiras",
+                "url": "https://www.brandili.com.br/mundi/bebe?sort=release%3Adesc&filter.brand=mundi&filter.faixa-etaria=bebe&filter.genero=menino&filter.categorias=jardineira"
+              }
+            ],
+            "name": "Meninos",
+            "additionalType": "Categorias",
+            "identifier": "Categorias",
+            "url": "https://www.brandili.com.br/mundi/bebe?sort=release%3Adesc&filter.brand=mundi&filter.faixa-etaria=bebe&filter.genero=menino"
+          }
+        ],
+        "url": "https://www.brandili.com.br/mundi/bebe?sort=release%3Adesc&filter.brand=mundi&filter.faixa-etaria=bebe",
+        "image": [
+          {
+            "url": "https://data.decoassets.com/brandili/7cd99d5e-8a74-40e8-b672-80096c3a4774/8420873892_testeirasMouseOver_740x600px_bebes.jpg",
+            "@type": "ImageObject"
+          }
+        ]
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [],
+                "image": [],
+                "name": "Meninas",
+                "url": "/mundi/menina?sort=release%3Adesc&filter.brand=mundi&filter.genero=menina&sort=release%3Adesc"
+              },
+              {
+                "children": [],
+                "image": [],
+                "name": "Blusas",
+                "url": "/mundi/menina?filter.brand=mundi&filter.genero=menina&filter.categorias=blusas&sort=release%3Adesc"
+              },
+              {
+                "children": [],
+                "image": [],
+                "name": "Calças",
+                "url": "/mundi/menina?filter.brand=mundi&filter.genero=menina&filter.categorias=calcas&sort=release%3Adesc"
+              },
+              {
+                "children": [],
+                "image": [],
+                "name": "Casacos e Jaquetas",
+                "url": "/mundi/menina?filter.brand=mundi&filter.genero=menina&filter.categorias=casacos&sort=release%3Adesc"
+              },
+              {
+                "children": [],
+                "image": [],
+                "name": "Conjuntos",
+                "url": "/mundi/menina?filter.brand=mundi&filter.genero=menina&filter.categorias=conjuntos&sort=release%3Adesc"
+              },
+              {
+                "children": [],
+                "image": [],
+                "name": "Macacões ",
+                "url": "/mundi/menina?filter.brand=mundi&filter.genero=menina&filter.categorias=macaquinho&sort=release%3Adesc"
+              },
+              {
+                "children": [],
+                "image": [],
+                "name": "Underwear",
+                "url": "/mundi/menina?filter.brand=mundi&filter.genero=menina&filter.categorias=underwear&sort=release%3Adesc"
+              },
+              {
+                "children": [],
+                "image": [],
+                "name": "Saias",
+                "url": "/mundi/menina?filter.brand=mundi&filter.genero=menina&filter.categorias=salopete&sort=release%3Adesc"
+              },
+              {
+                "image": [],
+                "children": [],
+                "name": "Vestidos",
+                "url": "/mundi/menina?filter.brand=mundi&filter.genero=menina&filter.categorias=vestidos&sort=release%3Adesc"
+              }
+            ],
+            "image": [],
+            "name": "Meninas"
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "image": [],
+                "name": "Meninos",
+                "url": "https://www.brandili.com.br/mundi/menino?sort=release%3Adesc&filter.brand=mundi&filter.genero=menino&sort=release%3Adesc"
+              },
+              {
+                "children": [],
+                "image": [],
+                "name": "Calças",
+                "url": "/mundi/menino?filter.brand=mundi&filter.genero=menino&filter.categorias=calcas&sort=release%3Adesc"
+              },
+              {
+                "children": [],
+                "image": [],
+                "name": "Camisas",
+                "url": "/mundi/menino?filter.brand=mundi&filter.genero=menino&filter.categorias=camisas&sort=release%3Adesc"
+              },
+              {
+                "children": [],
+                "image": [],
+                "name": "Camisetas",
+                "url": "/mundi/menino?filter.brand=mundi&filter.genero=menino&filter.categorias=camisetas&sort=release%3Adesc"
+              },
+              {
+                "children": [],
+                "image": [],
+                "name": "Casacos e Jaquetas",
+                "url": "/mundi/menino?filter.brand=mundi&filter.genero=menino&filter.categorias=casacos&sort=release%3Adesc"
+              },
+              {
+                "children": [],
+                "image": [],
+                "name": "Conjuntos ",
+                "url": "/mundi/menino?filter.brand=mundi&filter.genero=menino&filter.categorias=conjuntos&sort=release%3Adesc"
+              },
+              {
+                "image": [],
+                "children": [],
+                "name": "Shorts e Bermudas",
+                "url": "/mundi/menino?filter.brand=mundi&filter.genero=menino&filter.categorias=shorts-e-bermudas&sort=release%3Adesc"
+              }
+            ],
+            "image": [],
+            "name": "Meninos"
+          }
+        ],
+        "image": [
+          {}
+        ],
+        "name": "Promoção",
+        "url": "/promocao/mundi?sort=release%3Adesc",
+        "@type": "SiteNavigationElement"
+      }
+    ],
+    "__resolveType": "commerce/loaders/navbar.ts"
+  },
+  "products": [],
+  "searchbar": {
+    "name": "q",
+    "action": "/s",
+    "loader": {
+      "data": {
+        "count": 4,
+        "__resolveType": "vtex/loaders/intelligentSearch/suggestions.ts"
+      },
+      "__resolveType": "resolved"
+    },
+    "placeholder": "O que você procura ?"
+  },
+  "suggestions": {
+    "products": [],
+    "searches": []
+  },
+  "logoPosition": "left",
+  "__resolveType": "site/sections/Header/Header.tsx",
+  "headerCampaignTimer": {
+    "text": "<p><br data-mce-bogus=\"1\"></p>",
+    "labels": {}
+  }
+}

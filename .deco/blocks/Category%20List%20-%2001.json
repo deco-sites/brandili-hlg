@@ -1,0 +1,52 @@
+{
+  "list": [
+    {
+      "href": "/masculino",
+      "image": "https://assets.decocache.com/brandili/63e0d1bf-8366-4ae0-82ed-ae6c2223dc73/1742493180056-5a8edfec-400f-421f-b436-4ce23d2b13e7",
+      "label": "Dresses",
+      "description": "Amazing"
+    },
+    {
+      "href": "/feminino",
+      "image": "https://assets.decocache.com/brandili/e6728762-eab7-425a-b055-a5751d041f33/1742493182476-7363da7a-8530-4e19-8b76-6f92c4da3f1e",
+      "label": "Bags",
+      "description": "Bags"
+    },
+    {
+      "href": "/",
+      "image": "https://assets.decocache.com/brandili/190f4bf5-4a70-4247-8c9c-649fce450de6/1742493183761-33755494-9104-410e-9e48-256aef7fc113",
+      "label": "Shoes",
+      "description": "New deals"
+    },
+    {
+      "href": "/",
+      "image": "https://assets.decocache.com/brandili/a69fd440-e8ff-4fec-ae42-37325e25d9a6/1742493185107-2d507523-6f5a-4bb5-98d5-d9c944b35845",
+      "label": "Jackets",
+      "description": "New colors"
+    },
+    {
+      "href": "/",
+      "image": "https://assets.decocache.com/brandili/d5d18777-c356-44c0-9571-867b5e2ee090/1742493188221-907b5510-d4a0-4d75-b2bf-c0c9e9b0ba68",
+      "label": "Jeans",
+      "description": "Amazing"
+    },
+    {
+      "href": "/",
+      "image": "https://assets.decocache.com/brandili/75264079-14cc-42ed-b924-d1682dffd9b8/1742493189643-40eb7c93-59a7-4963-9917-32508c56e4cc",
+      "label": "Shorts",
+      "description": "Summer"
+    }
+  ],
+  "header": {
+    "title": "Categories",
+    "description": "Take a look at our categories"
+  },
+  "layout": {
+    "categoryCard": {
+      "textPosition": "top",
+      "textAlignment": "center"
+    },
+    "headerAlignment": "center"
+  },
+  "__resolveType": "site/sections/Category/CategoryList.tsx"
+}

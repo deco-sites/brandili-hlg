@@ -1,0 +1,30 @@
+{
+  "name": "Política de Pagamento",
+  "path": "/institucional/politicas-de-pagamento",
+  "sections": [
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "links": [
+        {
+          "href": "/institucional/politicas-de-pagamento",
+          "label": "Política de  Pagamento"
+        }
+      ],
+      "__resolveType": "site/sections/Institucional/customizableBreadcrumb.tsx"
+    },
+    {
+      "__resolveType": "MenuTabsInstitucional"
+    },
+    {
+      "text": "<div class=\"sections\"><p class=\"MsoNormal\"><strong>CARTÃO DE CRÉDITO:</strong></p><p class=\"MsoNormal\">Aceitamos pagamento nos cartões de crédito Amex, Visa, Mastercard, Elo e Diners, sendo que você pode parcelar suas compras em até 6X sem juros respeitando a parcela mínima no valor de R$29,00.</p><p class=\"MsoNormal\">A análise do pagamento com cartão de crédito realizada pela loja online Brandili leva de 1 a 3 dias uteis, mesmo que o pagamento seja autorizado pela administradora. Você receberá um e-mail de confirmação assim que seu pagamento for aprovado.</p><p class=\"MsoNormal\"><br data-mce-bogus=\"1\"></p><p class=\"MsoNormal\"><strong>BOLETO BANCÁRIO – VÁLIDO PARA TODOS OS BANCOS</strong></p><p class=\"MsoNormal\">Você poderá optar pela opção de pagamento por boleto bancário caso não possa imprimir o boleto, faça o pagamento do boleto pelo Home Banking de seu banco.</p><p class=\"MsoNormal\">Para isso, utilize a representação numérica/código de barras localizadas na parte superior da ficha de compensação do boleto.</p><p class=\"MsoNormal\">Você terá até 2 (dois) dias para efetuar o pagamento, após a emissão do boleto.</p><p class=\"MsoNormal\">Importante: Caso opte pelo pagamento por boleto bancário, o envio do produto escolhido em seu pedido será feito apenas após a confirmação do pagamento do boleto. O prazo de identificação dos pagamentos por boleto leva em média 3 dias úteis, pois pode variar dependendo do retorno do banco com a validação/compensação do pagamento do boleto.</p><p class=\"MsoNormal\"><br data-mce-bogus=\"1\"></p><p class=\"MsoNormal\"><strong>PIX: <span style=\"mso-tab-count: 1;\" data-mce-style=\"mso-tab-count: 1;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></strong></p><p class=\"MsoNormal\">É possível optar pelo pagamento via PIX, com um desconto adicional de 5%. Após a geração do QR Code, será concedido um prazo de 10 minutos para a conclusão do pagamento.</p><p class=\"MsoNormal\">Caso o pagamento não seja realizado dentro desse prazo, os produtos serão retornados ao carrinho.</p></div>",
+      "title": "Política de Pagamento",
+      "__resolveType": "site/sections/Institucional/InstitutionalRichText.tsx"
+    },
+    {
+      "__resolveType": "Footer - Brandili"
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx"
+}

@@ -1,0 +1,145 @@
+{
+  "name": "Compre o Look",
+  "path": "/compre-o-look",
+  "sections": {
+    "variants": [
+      {
+        "rule": {
+          "urlIncludes": "mundi",
+          "__resolveType": "site/matchers/UrlIncludes.ts"
+        },
+        "value": [
+          {
+            "jsonLD": {
+              "__resolveType": "PLP Loader"
+            },
+            "__resolveType": "commerce/sections/Seo/SeoPLP.tsx"
+          },
+          {
+            "__resolveType": "Header - 02"
+          },
+          {
+            "page": {
+              "__resolveType": "PLP Loader"
+            },
+            "__resolveType": "site/sections/Category/CategoryBreadcrumbs.tsx"
+          },
+          {
+            "list": [
+              {
+                "href": "/calcas",
+                "image": "https://assets.decocache.com/brandili/28e62477-6f39-44b5-ac07-80fe1e26db33/1742493156399-93d82cf4-7bfb-4fcb-b34e-bb4dedbed652"
+              },
+              {
+                "href": "/blusas",
+                "image": "https://assets.decocache.com/brandili/12b4ba46-0db7-48f4-b2e1-2d91168eb5d4/1742493158025-358788d7-1198-44b5-91f5-102b15d52118"
+              },
+              {
+                "href": "/",
+                "image": "https://assets.decocache.com/brandili/a419f835-f60c-4bbe-845a-42f43164f414/1742493159441-7ee91378-6b9a-45a6-a991-83154b793617"
+              },
+              {
+                "href": "/",
+                "image": "https://assets.decocache.com/brandili/aa8e1cef-fe7e-49f3-9337-f26a85a01b8c/1742493160719-3a47b412-ed11-4b40-b477-4543a2649543"
+              },
+              {
+                "href": "/",
+                "image": "https://assets.decocache.com/brandili/2dec6b00-c6f1-41db-bce7-b1602a5d1385/1742493162107-147df3e2-b362-4e36-ae77-8ce4537adb7f"
+              }
+            ],
+            "header": {
+              "title": "Coleção de Inverno Outono",
+              "description": "Explore nossa Coleção Inverno Outono 2024. De tons quentes a estilos aconchegantes, cada peça é uma expressão de moda e conforto. Das festividades aos dias frios, oferecemos durabilidade, tendências e diversão para os pequenos brilharem. A moda encontra a magia das estações em cada detalhe."
+            },
+            "layout": {
+              "categoryCard": {
+                "textPosition": "top",
+                "textAlignment": "center"
+              },
+              "headerAlignment": "left"
+            },
+            "__resolveType": "site/sections/Category/CategoryList.tsx"
+          },
+          {
+            "page": {
+              "__resolveType": "PLP Loader"
+            },
+            "layout": {
+              "format": "Pagination",
+              "columns": {
+                "mobile": 2,
+                "desktop": 4
+              },
+              "variant": "aside",
+              "pagination": "show-more"
+            },
+            "cardLayout": {
+              "__resolveType": "Product Card Layout - 01"
+            },
+            "startingPage": 1,
+            "__resolveType": "site/sections/Product/SearchResult.tsx"
+          },
+          {
+            "__resolveType": "Footer - Mundi"
+          }
+        ]
+      },
+      {
+        "rule": {
+          "__resolveType": "website/matchers/always.ts"
+        },
+        "value": [
+          {
+            "__resolveType": "Header - 01"
+          },
+          {
+            "__resolveType": "site/sections/Institucional/customizableBreadcrumb.tsx",
+            "links": [
+              {
+                "label": "Compre o Look",
+                "href": "/compre-o-look"
+              }
+            ]
+          },
+          {
+            "__resolveType": "site/sections/Product/SearchResult.tsx",
+            "page": {
+              "sort": "discount:desc",
+              "count": 20,
+              "fuzzy": "automatic",
+              "similars": false,
+              "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+              "selectedFacets": [
+                {
+                  "key": "productClusterIds",
+                  "value": "953"
+                }
+              ]
+            },
+            "layout": {
+              "format": "Pagination",
+              "columns": {
+                "mobile": 2,
+                "desktop": 4
+              },
+              "variant": "aside",
+              "pagination": "show-more"
+            },
+            "cardLayout": {
+              "__resolveType": "Product Card Layout - 01"
+            },
+            "startingPage": 1
+          },
+          {
+            "__resolveType": "Footer - Brandili"
+          }
+        ]
+      }
+    ],
+    "__resolveType": "website/flags/multivariate.ts"
+  },
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

@@ -1,0 +1,381 @@
+{
+  "name": "Sonic",
+  "path": "/licenciados/sonic",
+  "sections": {
+    "variants": [
+      {
+        "rule": {
+          "urlIncludes": "mundi",
+          "__resolveType": "site/matchers/UrlIncludes.ts"
+        },
+        "value": [
+          {
+            "jsonLD": {
+              "__resolveType": "PLP Loader"
+            },
+            "__resolveType": "commerce/sections/Seo/SeoPLP.tsx"
+          },
+          {
+            "__resolveType": "Header - 02"
+          },
+          {
+            "page": {
+              "__resolveType": "PLP Loader"
+            },
+            "__resolveType": "site/sections/Category/CategoryBreadcrumbs.tsx"
+          },
+          {
+            "list": [
+              {
+                "href": "/calcas",
+                "image": "https://assets.decocache.com/brandili/28e62477-6f39-44b5-ac07-80fe1e26db33/1742493156399-93d82cf4-7bfb-4fcb-b34e-bb4dedbed652"
+              },
+              {
+                "href": "/blusas",
+                "image": "https://assets.decocache.com/brandili/12b4ba46-0db7-48f4-b2e1-2d91168eb5d4/1742493158025-358788d7-1198-44b5-91f5-102b15d52118"
+              },
+              {
+                "href": "/",
+                "image": "https://assets.decocache.com/brandili/a419f835-f60c-4bbe-845a-42f43164f414/1742493159441-7ee91378-6b9a-45a6-a991-83154b793617"
+              },
+              {
+                "href": "/",
+                "image": "https://assets.decocache.com/brandili/aa8e1cef-fe7e-49f3-9337-f26a85a01b8c/1742493160719-3a47b412-ed11-4b40-b477-4543a2649543"
+              },
+              {
+                "href": "/",
+                "image": "https://assets.decocache.com/brandili/2dec6b00-c6f1-41db-bce7-b1602a5d1385/1742493162107-147df3e2-b362-4e36-ae77-8ce4537adb7f"
+              }
+            ],
+            "header": {
+              "title": "Coleção de Inverno Outono",
+              "description": "Explore nossa Coleção Inverno Outono 2024. De tons quentes a estilos aconchegantes, cada peça é uma expressão de moda e conforto. Das festividades aos dias frios, oferecemos durabilidade, tendências e diversão para os pequenos brilharem. A moda encontra a magia das estações em cada detalhe."
+            },
+            "layout": {
+              "categoryCard": {
+                "textPosition": "top",
+                "textAlignment": "center"
+              },
+              "headerAlignment": "left"
+            },
+            "__resolveType": "site/sections/Category/CategoryList.tsx"
+          },
+          {
+            "page": {
+              "__resolveType": "PLP Loader"
+            },
+            "layout": {
+              "format": "Pagination",
+              "columns": {
+                "mobile": 2,
+                "desktop": 4
+              },
+              "variant": "aside",
+              "pagination": "show-more"
+            },
+            "cardLayout": {
+              "__resolveType": "Product Card Layout - 01"
+            },
+            "startingPage": 1,
+            "__resolveType": "site/sections/Product/SearchResult.tsx"
+          },
+          {
+            "__resolveType": "Footer - Mundi"
+          }
+        ]
+      },
+      {
+        "rule": {
+          "__resolveType": "website/matchers/always.ts"
+        },
+        "value": [
+          {
+            "jsonLD": {
+              "__resolveType": "PLP Loader"
+            },
+            "canonical": "www.brandili.com.br/licenciados/turma-da-monica",
+            "noIndexing": false,
+            "__resolveType": "commerce/sections/Seo/SeoPLP.tsx",
+            "title": "Coleção Licenciados Sonic na Brandili | Moda Infantil ",
+            "titleTemplate": "Coleção Licenciados Sonic na Brandili | Moda Infantil ",
+            "description": "Na Brandili você encontra diversas opções de roupas licenciadas e exclusivas do Sonic! Vista seu pequeno com conforto e qualidade. Confira nossos modelo!",
+            "descriptionTemplate": "Na Brandili você encontra diversas opções de roupas licenciadas e exclusivas do Sonic! Vista seu pequeno com conforto e qualidade. Confira nossos modelo!"
+          },
+          {
+            "__resolveType": "Header - 01"
+          },
+          {
+            "links": [
+              {
+                "href": "/licenciados/sonic",
+                "label": "Sonic"
+              }
+            ],
+            "__resolveType": "site/sections/Institucional/customizableBreadcrumb.tsx"
+          },
+          {
+            "variants": [
+              {
+                "rule": {
+                  "urlIncludes": "/promocao",
+                  "__resolveType": "site/matchers/UrlIncludes.ts"
+                },
+                "value": {
+                  "list": [],
+                  "layout": {
+                    "categoryCard": {
+                      "textPosition": "top",
+                      "textAlignment": "center"
+                    },
+                    "headerAlignment": "center"
+                  },
+                  "textSeo": "<h1>Promoção em roupa infantil</h1><div><p>Não há nada como uma boa promoção de roupa infantil para enchermos o guarda-roupa dos nossos pequenos com peças novas e de qualidade para encarar as próximas estações, não é mesmo? Às vezes as crianças crescem tão rápido que só comprando roupa em promoção mesmo para economizarmos e garantir tudo o que elas precisam para seu dia a dia. Pensando nisso, a Brandili trouxe pra cá as diferentes linhas que estão com desconto no nosso site. Dos bebês aos adolescentes, todo mundo vai poder se vestir bem! Olha só:</p></div>",
+                  "__resolveType": "site/sections/Category/CategoryList.tsx"
+                }
+              },
+              {
+                "rule": {
+                  "urlIncludes": "/marcas",
+                  "__resolveType": "site/matchers/UrlIncludes.ts"
+                },
+                "value": {
+                  "list": [
+                    {
+                      "image": "https://assets.decocache.com/brandili/28e62477-6f39-44b5-ac07-80fe1e26db33/1742493156399-93d82cf4-7bfb-4fcb-b34e-bb4dedbed652"
+                    },
+                    {
+                      "image": "https://assets.decocache.com/brandili/12b4ba46-0db7-48f4-b2e1-2d91168eb5d4/1742493158025-358788d7-1198-44b5-91f5-102b15d52118"
+                    },
+                    {
+                      "image": "https://assets.decocache.com/brandili/a419f835-f60c-4bbe-845a-42f43164f414/1742493159441-7ee91378-6b9a-45a6-a991-83154b793617"
+                    },
+                    {
+                      "image": "https://assets.decocache.com/brandili/aa8e1cef-fe7e-49f3-9337-f26a85a01b8c/1742493160719-3a47b412-ed11-4b40-b477-4543a2649543"
+                    },
+                    {
+                      "image": "https://assets.decocache.com/brandili/2dec6b00-c6f1-41db-bce7-b1602a5d1385/1742493162107-147df3e2-b362-4e36-ae77-8ce4537adb7f"
+                    }
+                  ],
+                  "layout": {
+                    "categoryCard": {
+                      "textPosition": "top",
+                      "textAlignment": "center"
+                    },
+                    "headerAlignment": "center"
+                  },
+                  "textSeo": "<h1>Principais Marcas de roupas infantis</h1><p>Quer conhecer as melhores&nbsp;<strong>marcas de roupas</strong>&nbsp;que a Brandili tem a oferecer? Para os bebês, as roupinhas da Brandili Baby vão entregar o melhor em conforto, enquanto as crianças mais crescidinhas vão se apaixonar pela marca Mundi.&nbsp;</p><p>E para os teens? Os meninos ficam com a coleção mais estilosa de todas, a Extreme, e as meninas vão direto para a Young Class conferir todas as tendências fashion do momento. Explore esta seção e encontre a marca perfeita!</p>",
+                  "__resolveType": "site/sections/Category/CategoryList.tsx"
+                }
+              },
+              {
+                "rule": {
+                  "urlIncludes": "/baby",
+                  "__resolveType": "site/matchers/UrlIncludes.ts"
+                },
+                "value": {
+                  "list": [
+                    {
+                      "image": "https://assets.decocache.com/brandili/28e62477-6f39-44b5-ac07-80fe1e26db33/1742493156399-93d82cf4-7bfb-4fcb-b34e-bb4dedbed652"
+                    },
+                    {
+                      "image": "https://assets.decocache.com/brandili/12b4ba46-0db7-48f4-b2e1-2d91168eb5d4/1742493158025-358788d7-1198-44b5-91f5-102b15d52118"
+                    },
+                    {
+                      "image": "https://assets.decocache.com/brandili/a419f835-f60c-4bbe-845a-42f43164f414/1742493159441-7ee91378-6b9a-45a6-a991-83154b793617"
+                    },
+                    {
+                      "image": "https://assets.decocache.com/brandili/aa8e1cef-fe7e-49f3-9337-f26a85a01b8c/1742493160719-3a47b412-ed11-4b40-b477-4543a2649543"
+                    },
+                    {
+                      "image": "https://assets.decocache.com/brandili/2dec6b00-c6f1-41db-bce7-b1602a5d1385/1742493162107-147df3e2-b362-4e36-ae77-8ce4537adb7f"
+                    }
+                  ],
+                  "layout": {
+                    "categoryCard": {
+                      "textPosition": "top",
+                      "textAlignment": "center"
+                    },
+                    "headerAlignment": "center"
+                  },
+                  "textSeo": "<h1>Roupa para bebês</h1><div><p>Os&nbsp;<a href=\"../../../marcas/menina/brandili\" data-mce-href=\"../../../marcas/menina/brandili\">bebês</a>&nbsp;têm a pele sensível e por isso precisam de&nbsp;<a href=\"../../../meninas/roupas\" data-mce-href=\"../../../meninas/roupas\">roupas</a>&nbsp;confortáveis e que não causem alergias. Se você está em busca de roupinhas de&nbsp;<a href=\"../../../roupas/brandili-baby\" data-mce-href=\"../../../roupas/brandili-baby\">bebê</a>&nbsp;de qualidade e que sejam seguras para os seus primeiros meses de vida, a Brandili é o lugar certo.&nbsp;</p><p>Desenvolvemos nossas peças com tecidos que permitem o conforto e a mobilidade dos&nbsp;<a href=\"../../../roupas/brandili-baby\" data-mce-href=\"../../../roupas/brandili-baby\">bebês</a>, mas sem perder o estilo. Aqui em nosso site você encontra bodies,&nbsp;<a href=\"../../../roupas/calcas/menina\" data-mce-href=\"../../../roupas/calcas/menina\">calças</a>, camisetas, vestidinhos e muito mais. Confira as opções disponíveis e compre sem sair de casa, com muita segurança e praticidade. Aproveite!</p></div>",
+                  "__resolveType": "site/sections/Category/CategoryList.tsx"
+                }
+              },
+              {
+                "rule": {
+                  "urlIncludes": "/meninos",
+                  "__resolveType": "site/matchers/UrlIncludes.ts"
+                },
+                "value": {
+                  "list": [
+                    {
+                      "image": "https://assets.decocache.com/brandili/28e62477-6f39-44b5-ac07-80fe1e26db33/1742493156399-93d82cf4-7bfb-4fcb-b34e-bb4dedbed652"
+                    },
+                    {
+                      "image": "https://assets.decocache.com/brandili/12b4ba46-0db7-48f4-b2e1-2d91168eb5d4/1742493158025-358788d7-1198-44b5-91f5-102b15d52118"
+                    },
+                    {
+                      "image": "https://assets.decocache.com/brandili/a419f835-f60c-4bbe-845a-42f43164f414/1742493159441-7ee91378-6b9a-45a6-a991-83154b793617"
+                    },
+                    {
+                      "image": "https://assets.decocache.com/brandili/aa8e1cef-fe7e-49f3-9337-f26a85a01b8c/1742493160719-3a47b412-ed11-4b40-b477-4543a2649543"
+                    },
+                    {
+                      "image": "https://assets.decocache.com/brandili/2dec6b00-c6f1-41db-bce7-b1602a5d1385/1742493162107-147df3e2-b362-4e36-ae77-8ce4537adb7f"
+                    }
+                  ],
+                  "layout": {
+                    "categoryCard": {
+                      "textPosition": "top",
+                      "textAlignment": "center"
+                    },
+                    "headerAlignment": "left"
+                  },
+                  "textSeo": "<h1>Roupas infantis masculinas</h1><div><p>Os meninos são cheios de energia para gastar e por isso estão sempre correndo e pulando. Para que o momento da brincadeira seja muito mais divertido é necessário que as roupas infantis para meninos sejam bastante confortáveis, permitindo a sua mobilidade e flexibilidade.&nbsp;<br>Pensando nisso, aqui na Brandili você encontra uma grande variedade de roupas com conjuntos, shorts, camisetas e muito mais, para vestir a criança com muito estilo e conforto. Confira as opções disponíveis em nosso site e aproveite!</p></div>",
+                  "__resolveType": "site/sections/Category/CategoryList.tsx"
+                }
+              },
+              {
+                "rule": {
+                  "urlIncludes": "/meninas",
+                  "__resolveType": "site/matchers/UrlIncludes.ts"
+                },
+                "value": {
+                  "list": [
+                    {
+                      "href": "/meninas?filter.category-1=meninas&filter.category-3=calcas",
+                      "image": "https://assets.decocache.com/brandili/28e62477-6f39-44b5-ac07-80fe1e26db33/1742493156399-93d82cf4-7bfb-4fcb-b34e-bb4dedbed652"
+                    },
+                    {
+                      "href": "/meninas?filter.category-1=meninas&filter.category-3=blusas",
+                      "image": "https://assets.decocache.com/brandili/12b4ba46-0db7-48f4-b2e1-2d91168eb5d4/1742493158025-358788d7-1198-44b5-91f5-102b15d52118"
+                    },
+                    {
+                      "href": "/meninas?filter.category-1=meninas&filter.category-3=pijama",
+                      "image": "https://assets.decocache.com/brandili/a419f835-f60c-4bbe-845a-42f43164f414/1742493159441-7ee91378-6b9a-45a6-a991-83154b793617"
+                    },
+                    {
+                      "href": "/meninas?filter.category-1=meninas&filter.category-3=conjunto",
+                      "image": "https://assets.decocache.com/brandili/2dec6b00-c6f1-41db-bce7-b1602a5d1385/1742493162107-147df3e2-b362-4e36-ae77-8ce4537adb7f"
+                    }
+                  ],
+                  "layout": {
+                    "categoryCard": {
+                      "textPosition": "top",
+                      "textAlignment": "center"
+                    },
+                    "headerAlignment": "center"
+                  },
+                  "textSeo": "<h1>Roupas Infantis Femininas</h1><div><p>No dia a dia, toda menina precisa de peças de conforto e qualidade para poder pular, correr, brincar e dançar com muita energia. A&nbsp;<a href=\"../../../meninas/roupas\" data-mce-href=\"../../../meninas/roupas\">roupa infantil feminina</a>&nbsp;também pode ser divertida, você concorda? A Brandili acha que sim! Por isso, estamos sempre criando&nbsp;coleções cheias de&nbsp;<a href=\"../../../roupas\" data-mce-href=\"../../../roupas\">novidades</a>&nbsp;que consigam deixar a rotina delas muito melhor.&nbsp;<br>Nesta página reunimos todas as peças femininas disponíveis em nosso site. Compre agora sem sair de casa e garanta as&nbsp;<a href=\"../../../meninas/roupas\" data-mce-href=\"../../../meninas/roupas\">roupas</a>&nbsp;com a&nbsp;<strong>qualidade Brandili</strong> que você já conhece:</p></div>",
+                  "__resolveType": "site/sections/Category/CategoryList.tsx"
+                }
+              },
+              {
+                "rule": {
+                  "urlIncludes": "/novidades",
+                  "__resolveType": "site/matchers/UrlIncludes.ts"
+                },
+                "value": {
+                  "list": [
+                    {
+                      "href": "/calcas",
+                      "image": "https://assets.decocache.com/brandili/28e62477-6f39-44b5-ac07-80fe1e26db33/1742493156399-93d82cf4-7bfb-4fcb-b34e-bb4dedbed652"
+                    },
+                    {
+                      "href": "/blusas",
+                      "image": "https://assets.decocache.com/brandili/12b4ba46-0db7-48f4-b2e1-2d91168eb5d4/1742493158025-358788d7-1198-44b5-91f5-102b15d52118"
+                    },
+                    {
+                      "href": "/",
+                      "image": "https://assets.decocache.com/brandili/a419f835-f60c-4bbe-845a-42f43164f414/1742493159441-7ee91378-6b9a-45a6-a991-83154b793617"
+                    },
+                    {
+                      "href": "/",
+                      "image": "https://assets.decocache.com/brandili/aa8e1cef-fe7e-49f3-9337-f26a85a01b8c/1742493160719-3a47b412-ed11-4b40-b477-4543a2649543"
+                    },
+                    {
+                      "href": "/",
+                      "image": "https://assets.decocache.com/brandili/2dec6b00-c6f1-41db-bce7-b1602a5d1385/1742493162107-147df3e2-b362-4e36-ae77-8ce4537adb7f"
+                    }
+                  ],
+                  "header": {
+                    "title": "Novidades moda infantil",
+                    "description": "Se você está em busca de novidades da moda infantil, a Brandili é o lugar ideal para você! Aqui você encontra novidades em roupas do mundo infantil para surpreender os pequenos com cada uma das peças disponíveis em nosso site. São diversos modelos para que você possa escolher aqueles que combinam mais com o estilo do seu menino ou sua menina. Não deixe de conferir todas as opções disponíveis em nosso site, e garanta que os pequenos irão arrasar nos looks por onde forem!"
+                  },
+                  "layout": {
+                    "categoryCard": {
+                      "textPosition": "top",
+                      "textAlignment": "center"
+                    },
+                    "headerAlignment": "left"
+                  },
+                  "textSeo": "<h1>Novidades moda infantil</h1><div><p>Se você está em busca de&nbsp;<strong>novidades da moda infantil</strong>, a Brandili é o lugar ideal para você! Aqui você encontra novidades em roupas do mundo infantil para surpreender os pequenos com cada uma das peças disponíveis em nosso site. São diversos modelos para que você possa escolher aqueles que combinam mais com o estilo do seu menino ou sua menina. Não deixe de conferir todas as opções disponíveis em nosso site, e garanta que os pequenos irão arrasar nos looks por onde forem!</p></div>",
+                  "__resolveType": "site/sections/Category/CategoryList.tsx"
+                }
+              },
+              {
+                "rule": {
+                  "__resolveType": "website/matchers/always.ts"
+                },
+                "value": {
+                  "list": [],
+                  "header": {
+                    "title": "Coleção de Inverno Outono",
+                    "description": "Explore nossa Coleção Inverno Outono 2024. De tons quentes a estilos aconchegantes, cada peça é uma expressão de moda e conforto. Das festividades aos dias frios, oferecemos durabilidade, tendências e diversão para os pequenos brilharem. A moda encontra a magia das estações em cada detalhe."
+                  },
+                  "layout": {
+                    "categoryCard": {
+                      "textPosition": "top",
+                      "textAlignment": "center"
+                    },
+                    "headerAlignment": "left"
+                  },
+                  "__resolveType": "site/sections/Category/CategoryList.tsx"
+                }
+              }
+            ],
+            "__resolveType": "website/flags/multivariate/section.ts"
+          },
+          {
+            "page": {
+              "sort": "release:desc",
+              "count": 20,
+              "fuzzy": "automatic",
+              "query": "sonic",
+              "similars": false,
+              "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+              "selectedFacets": [
+                {
+                  "key": "productClusterIds",
+                  "value": "887"
+                }
+              ]
+            },
+            "layout": {
+              "format": "Pagination",
+              "columns": {
+                "mobile": 2,
+                "desktop": 4
+              },
+              "variant": "aside",
+              "pagination": "show-more"
+            },
+            "cardLayout": {
+              "__resolveType": "Product Card Layout - 01"
+            },
+            "startingPage": 1,
+            "__resolveType": "site/sections/Product/SearchResult.tsx"
+          },
+          {
+            "__resolveType": "Footer - Brandili"
+          }
+        ]
+      }
+    ],
+    "__resolveType": "website/flags/multivariate.ts"
+  },
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

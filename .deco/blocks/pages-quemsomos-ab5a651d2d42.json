@@ -1,0 +1,31 @@
+{
+  "name": "Quem Somos",
+  "path": "/institucional/quem-somos",
+  "sections": [
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "links": [
+        {
+          "href": "/institucional/quem-somos",
+          "label": "Quem Somos"
+        }
+      ],
+      "__resolveType": "site/sections/Institucional/customizableBreadcrumb.tsx"
+    },
+    {
+      "__resolveType": "MenuTabsInstitucional"
+    },
+    {
+      "text": "<p><img src=\"https://brandili.vtexassets.com/assets/vtex.file-manager-graphql/images/ed6445fd-513d-4c86-b2e4-c0e09c28602d___5de3619f3346b916e6eebd1eecf9736d.jpg\" data-mce-src=\"https://brandili.vtexassets.com/assets/vtex.file-manager-graphql/images/ed6445fd-513d-4c86-b2e4-c0e09c28602d___5de3619f3346b916e6eebd1eecf9736d.jpg\" style=\"display: block; margin-left: auto; margin-right: auto;\" data-mce-style=\"display: block; margin-left: auto; margin-right: auto;\"></p><p><br data-mce-bogus=\"1\"></p><p class=\"MsoNormal\">Há mais de 60 anos, a&nbsp;<strong>Brandili</strong>&nbsp;é movida por um único propósito: o&nbsp;<strong>amor pela criança</strong>. Esse sentimento é o que guia todas as ações, desde a criação das coleções até o jeito como nos conectamos com as famílias.&nbsp;<strong>Não é apenas sobre vestir</strong>,&nbsp;<strong>é sobre proporcionar a cada criança conforto&nbsp;</strong>e&nbsp;<strong>momentos cheios de diversão</strong>!</p><p class=\"MsoNormal\">Cada peça da&nbsp;<strong>Brandili</strong>&nbsp;é pensada para<strong>&nbsp;acompanhar os pequenos&nbsp;em suas aventuras diárias</strong>. Seja para correr, brincar, estudar ou para uma ocasião especial, queremos que cada roupa seja uma verdadeira&nbsp;<strong>companheira de histórias incríveis</strong>, com muito estilo e aquele toque de carinho que torna tudo mais especial.</p><p class=\"MsoNormal\"><strong><em>Nossa missão é simples: oferecer roupas que falem a linguagem das crianças</em></strong><em>. Com&nbsp;<strong>15 milhões de peças produzidas por ano</strong>, estamos presentes em mais de&nbsp;<strong>67% das cidades brasileiras</strong>&nbsp;e em&nbsp;<strong>25 países</strong>, levando o nosso amor pela infância para todos os cantos.</em></p><p class=\"MsoNormal\">Mas a&nbsp;<strong>Brandili</strong>&nbsp;é mais do que moda. Somos uma&nbsp;<strong>empresa que acredita no poder de um futuro melhor&nbsp;</strong>para as próximas gerações. Por isso, adotamos&nbsp;<strong>práticas sustentáveis</strong>, como o uso de&nbsp;<strong>energia renovável</strong>,&nbsp;<strong>reutilização de água</strong>&nbsp;e&nbsp;<strong>ações educativas</strong>&nbsp;para<strong>&nbsp;ensinar as novas gerações sobre a importância de cuidar&nbsp;do planeta</strong>. Tudo isso porque sabemos que o amor pela criança também inclui o cuidado com o nosso mundo.</p><p class=\"MsoNormal\">De&nbsp;<strong>looks para o dia a dia</strong>&nbsp;a&nbsp;<strong>peças especiais</strong>, a&nbsp;<strong>Brandili</strong>&nbsp;tem produtos para todos os momentos da infância. E, é claro, tudo sempre com o mesmo compromisso:&nbsp;<strong>qualidade, conforto e muito amor</strong>.</p><p class=\"MsoNormal\">Com nossas marcas&nbsp;<strong>Brandili</strong>,&nbsp;<strong>Mundi</strong>,&nbsp;<strong>Brandili Baby</strong>,<strong> Brandili Young</strong>, oferecemos uma moda que se adapta ao estilo e à personalidade de cada criança e adolescente, sem abrir mão do que é mais importante: que eles se sintam&nbsp;<strong>felizes, livres e cheios de vida</strong>.</p><p class=\"MsoNormal\"><strong>Brandili</strong>&nbsp;é a moda que faz sorrir, que cuida, que respeita e que, acima de tudo, celebra a infância com&nbsp;<strong>muito amor</strong>&nbsp;e&nbsp;<strong>diversão</strong>!</p>",
+      "title": "Quem Somos",
+      "content": "sdcfs",
+      "__resolveType": "site/sections/Institucional/InstitutionalRichText.tsx"
+    },
+    {
+      "__resolveType": "Footer - Brandili"
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx"
+}

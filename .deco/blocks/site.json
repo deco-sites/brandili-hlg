@@ -1,0 +1,98 @@
+{
+  "seo": {
+    "type": "website",
+    "image": "https://assets.decocache.com/brandili/a437087c-a256-4801-95d2-e60a0737bbfb/1742493163497-fcf024e4-b00a-4374-b9c8-b806a7b10954",
+    "favicon": "https://assets.decocache.com/brandili/642aea9d-9702-46f5-9b18-ed6610dc149e/1742493164485-cbada4dc-7940-4ace-973c-856a79f5cb2d",
+    "jsonLDs": [],
+    "noIndexing": false,
+    "titleTemplate": "%s",
+    "descriptionTemplate": "%s"
+  },
+  "theme": {
+    "__resolveType": "Fashion theme"
+  },
+  "flavor": {
+    "0": "{",
+    "1": "\"",
+    "2": "f",
+    "3": "r",
+    "4": "a",
+    "5": "m",
+    "6": "e",
+    "7": "w",
+    "8": "o",
+    "9": "r",
+    "10": "k",
+    "11": "\"",
+    "12": ":",
+    "13": "\"",
+    "14": "f",
+    "15": "r",
+    "16": "e",
+    "17": "s",
+    "18": "h",
+    "19": "\"",
+    "20": "}",
+    "framework": "htmx"
+  },
+  "global": [
+    {
+      "trackingIds": [],
+      "__resolveType": "website/sections/Analytics/Analytics.tsx",
+      "dangerouslyRunOnMainThread": true,
+      "googleAnalyticsIds": []
+    },
+    {
+      "__resolveType": "algolia/sections/Analytics/Algolia.tsx"
+    },
+    {
+      "__resolveType": "analytics/sections/Analytics/DecoAnalytics.tsx"
+    },
+    {
+      "__resolveType": "htmx/sections/htmx.tsx"
+    }
+  ],
+  "routes": [
+    {
+      "__resolveType": "vtex/loaders/proxy.ts",
+      "includeSiteMap": [],
+      "extraPathsToProxy": [
+        "/sitemap.xml",
+        "/sitemap/*"
+      ],
+      "generateDecoSiteMap": false,
+      "includeScriptsToHead": {
+        "includes": [
+          {
+            "__resolveType": "analytics/loaders/DecoAnalyticsScript.ts"
+          }
+        ],
+        "includePlausible": true
+      }
+    },
+    {
+      "__resolveType": "website/loaders/pages.ts"
+    },
+    {
+      "__resolveType": "website/loaders/redirects.ts"
+    }
+  ],
+  "caching": {
+    "directives": []
+  },
+  "commerce": {
+    "platform": "other"
+  },
+  "platform": "vtex",
+  "abTesting": {
+    "replaces": [],
+    "includeScriptsToHead": {
+      "includes": []
+    },
+    "includeScriptsToBody": {
+      "includes": []
+    }
+  },
+  "__resolveType": "site/apps/site.ts",
+  "firstByteThresholdMS": false
+}

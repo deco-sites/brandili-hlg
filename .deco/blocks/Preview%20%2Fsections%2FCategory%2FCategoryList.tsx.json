@@ -1,0 +1,12 @@
+{
+  "__resolveType": "site/sections/Category/CategoryList.tsx",
+  "textSeo": 0,
+  "list": [],
+  "layout": {
+    "headerAlignment": "center",
+    "categoryCard": {
+      "textPosition": "top",
+      "textAlignment": "center"
+    }
+  }
+}

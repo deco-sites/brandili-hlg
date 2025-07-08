@@ -1,0 +1,773 @@
+{
+  "items": [
+    {
+      "url": "/novidades?sort=release%3Adesc",
+      "name": "Novidades",
+      "@type": "SiteNavigationElement",
+      "image": [
+        {
+          "url": "https://assets.decocache.com/brandili/d67e41ef-63fd-4a8b-87a3-7a2484938d24/55991_0044_3081_0001.jpg",
+          "video": null,
+          "image": null
+        },
+        {
+          "url": "https://assets.decocache.com/brandili/fc81e1c5-478e-4d06-858d-e5f6a6f3b5a6/55949_0044_1751_0001.jpg"
+        },
+        {
+          "url": "https://data.decoassets.com/brandili/005428d9-4461-4caf-988e-f8e3763b75e0/8420864429_testeirasMouseOver_740x600px_novidades.jpg"
+        }
+      ],
+      "children": [
+        {
+          "name": "Faixa etária",
+          "image": [],
+          "children": [
+            {
+              "url": "/novidades/por-idade/baby?sort=release%3Adesc",
+              "name": "Baby",
+              "image": [],
+              "children": [],
+              "identifier": "RN à 12 meses"
+            },
+            {
+              "url": "/novidades/por-idade/primeiros-passos?sort=release%3Adesc",
+              "name": "Primeiros passos",
+              "image": [],
+              "children": [],
+              "identifier": "1 à 3 anos"
+            },
+            {
+              "url": "/novidades/por-idade/infantil?sort=release%3Adesc",
+              "name": "Infantil",
+              "image": [],
+              "children": [],
+              "identifier": "4 à 10 anos"
+            },
+            {
+              "url": "/novidades/por-idade/teen?sort=release%3Adesc",
+              "name": "Teen",
+              "image": [],
+              "children": [],
+              "identifier": "10 à 18 anos"
+            },
+            {
+              "url": "/novidades/por-idade/adulto",
+              "name": "Adulto",
+              "image": [],
+              "children": []
+            }
+          ],
+          "identifier": "Faixa etária",
+          "additionalType": "Faixa etária"
+        },
+        {
+          "name": "Roupas",
+          "image": [],
+          "children": [
+            {
+              "url": "/novidades/roupas/bermudas?sort=release%3Adesc",
+              "name": "Bermudas",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/novidades/roupas/blusas?sort=release%3Adesc",
+              "name": "Blusas",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/novidades/roupas/bodies?sort=release%3Adesc",
+              "name": "Bodies",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/novidades/roupas/calcas?sort=release%3Adesc",
+              "name": "Calças",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/novidades/roupas/camisas?sort=release%3Adesc",
+              "name": "Camisas",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/novidades/roupas/camisetas?sort=release%3Adesc",
+              "name": "Camisetas",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/novidades/roupas/casaco?sort=release%3Adesc",
+              "name": "Casacos",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/novidades/roupas/conjuntos?sort=release%3Adesc",
+              "name": "Conjuntos",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/novidades/roupas?sort=release%3Adesc",
+              "name": "Ver Todas",
+              "image": [],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "/meninas",
+      "name": "Meninas",
+      "@type": "SiteNavigationElement",
+      "image": [
+        {
+          "url": "https://assets.decocache.com/brandili/7dc4dfc5-f174-4a2b-8d6f-3a1daa334d34/55961_0044_2008_0001.jpg",
+          "video": null,
+          "image": null,
+          "embedUrl": "https://www.brandili.com.br/calca-flare-infantil-menina-esportiva-brandili-559612008/p",
+          "contentUrl": "https://www.brandili.com.br/calca-flare-infantil-menina-esportiva-brandili-559612008/p",
+          "thumbnailUrl": "https://www.brandili.com.br/calca-flare-infantil-menina-esportiva-brandili-559612008/p"
+        },
+        {
+          "url": "https://assets.decocache.com/brandili/a8d7bbf3-4f63-4a89-bca5-9d2675637e82/56131_0044_3865_0001.jpg",
+          "embedUrl": "https://www.brandili.com.br/conjunto-infantil-menina-em-moletom-brandili-561313865/p",
+          "contentUrl": "https://www.brandili.com.br/conjunto-infantil-menina-em-moletom-brandili-561313865/p",
+          "thumbnailUrl": "https://www.brandili.com.br/conjunto-infantil-menina-em-moletom-brandili-561313865/p"
+        },
+        {
+          "url": "https://data.decoassets.com/brandili/2e84760f-49df-49a2-9608-b01260062a05/8420864429_testeirasMouseOver_740x600px_meninas.jpg"
+        }
+      ],
+      "children": [
+        {
+          "name": "Categorias",
+          "@type": "SiteNavigationElement",
+          "children": [
+            {
+              "url": "/meninas/roupas/camiseta",
+              "name": "Camisetas",
+              "@type": "SiteNavigationElement",
+              "image": null
+            },
+            {
+              "url": "/meninas/roupas/jardineira",
+              "name": "Jardineiras",
+              "@type": "SiteNavigationElement"
+            },
+            {
+              "url": "/meninas/roupas/body",
+              "name": "Bodies",
+              "@type": "SiteNavigationElement"
+            },
+            {
+              "url": "/meninas/roupas/blusa",
+              "name": "Blusas",
+              "@type": "SiteNavigationElement"
+            },
+            {
+              "url": "/meninas/roupas/calca",
+              "name": "Calças",
+              "@type": "SiteNavigationElement"
+            },
+            {
+              "url": "/meninas/roupas/casaco",
+              "name": "Casacos e Jaquetas",
+              "@type": "SiteNavigationElement"
+            },
+            {
+              "url": "/meninas/roupas/conjunto",
+              "name": "Conjuntos",
+              "@type": "SiteNavigationElement"
+            },
+            {
+              "url": "/meninas/roupas/underwear",
+              "name": "Underwear",
+              "@type": "SiteNavigationElement"
+            },
+            {
+              "url": "/meninas/roupas/kits",
+              "name": "Kits",
+              "@type": "SiteNavigationElement"
+            },
+            {
+              "url": "/meninas/roupas/macacao",
+              "name": "Macacões",
+              "@type": "SiteNavigationElement"
+            },
+            {
+              "url": "/meninas/roupas/pijama",
+              "name": "Pijamas",
+              "@type": "SiteNavigationElement"
+            },
+            {
+              "url": "/meninas/roupas/short",
+              "name": "Shorts e Bermudas",
+              "@type": "SiteNavigationElement"
+            },
+            {
+              "url": "/meninas/roupas/vestido",
+              "name": "Vestidos",
+              "@type": "SiteNavigationElement"
+            },
+            {
+              "url": "/meninas/roupas/basicos",
+              "name": "Básicos",
+              "@type": "SiteNavigationElement"
+            },
+            {
+              "url": "/meninas/roupas/hora-do-mergulho",
+              "name": "Hora do Mergulho",
+              "@type": "SiteNavigationElement"
+            },
+            {
+              "image": [],
+              "children": [],
+              "name": "Acessórios",
+              "url": "/meninas?filter.category-1=meninas&filter.categorias=acessorio-de-cabelo"
+            },
+            {
+              "image": [],
+              "children": [],
+              "name": "Active",
+              "url": "/meninas/roupas/active"
+            }
+          ],
+          "identifier": "Categorias",
+          "additionalType": "Categorias",
+          "image": null
+        }
+      ]
+    },
+    {
+      "url": "/meninos",
+      "name": "Meninos",
+      "@type": "SiteNavigationElement",
+      "image": [
+        {
+          "url": "https://assets.decocache.com/brandili/496c3e2d-ea07-4212-9925-9ac845d54379/56025_0044_3865_0001.jpg",
+          "embedUrl": "https://www.brandili.com.br/conjunto-infantil-menino-gamer-em-puff-brandili-560253865/p",
+          "contentUrl": "https://www.brandili.com.br/conjunto-infantil-menino-gamer-em-puff-brandili-560253865/p"
+        },
+        {
+          "url": "https://assets.decocache.com/brandili/1fb7e7fd-a938-4ff3-8b91-994aab0b995e/55954_0044_1669_0001.jpg",
+          "embedUrl": "https://www.brandili.com.br/conjunto-infantil-menino-bordado-brandili-559541669/p",
+          "contentUrl": "https://www.brandili.com.br/conjunto-infantil-menino-bordado-brandili-559541669/p",
+          "thumbnailUrl": "https://www.brandili.com.br/conjunto-infantil-menino-bordado-brandili-559541669/p"
+        },
+        {
+          "url": "https://data.decoassets.com/brandili/9266cc37-f739-4ad9-9343-572c5227bff6/8420864429_testeirasMouseOver_740x600px_meninos.jpg"
+        }
+      ],
+      "children": [
+        {
+          "name": "Categorias",
+          "@type": "SiteNavigationElement",
+          "children": [
+            {
+              "url": "/meninos/roupas/body",
+              "name": "Bodies",
+              "@type": "SiteNavigationElement"
+            },
+            {
+              "url": "/meninos/roupas/calca",
+              "name": "Calças",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/meninos/roupas/camisa",
+              "name": "Camisas",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/meninos/roupas/camiseta",
+              "name": "Camisetas",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/meninos/roupas/casaco",
+              "name": "Casacos e Jaquetas",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/meninos/roupas/conjunto",
+              "name": "Conjuntos",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/meninos/roupas/underwear",
+              "name": "Underwear",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/meninos/roupas/kits",
+              "name": "Kits",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/meninos/roupas/macacao",
+              "name": "Macacões",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/meninos/roupas/pijama",
+              "name": "Pijamas",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/meninos/roupas/polo",
+              "name": "Polos",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/meninos/roupas/regata",
+              "name": "Regatas",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/meninos/roupas/shorts",
+              "name": "Shorts e Bermudas",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/meninos/roupas/basicos",
+              "name": "Básicos",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/meninos/roupas/hora-do-mergulho",
+              "name": "Hora do Mergulho",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/meninos/roupas/jardineira",
+              "name": "Jardineiras",
+              "image": [],
+              "children": []
+            },
+            {
+              "image": [],
+              "children": [],
+              "name": "Active",
+              "url": "/meninos/roupas/active"
+            }
+          ],
+          "identifier": "Categorias",
+          "additionalType": "Categorias"
+        }
+      ]
+    },
+    {
+      "url": "/baby",
+      "name": "Bebês",
+      "@type": "SiteNavigationElement",
+      "image": [
+        {
+          "url": "https://assets.decocache.com/brandili/b5fe0340-cf95-4578-86dd-3cc1fa0bced1/55740_0009_3308_0001.jpg",
+          "embedUrl": "https://www.brandili.com.br/conjunto-bebe-menino-de-cachorrinho-brandili-baby-557403308/p",
+          "contentUrl": "https://www.brandili.com.br/conjunto-bebe-menino-de-cachorrinho-brandili-baby-557403308/p",
+          "thumbnailUrl": "https://www.brandili.com.br/conjunto-bebe-menino-de-cachorrinho-brandili-baby-557403308/p"
+        },
+        {
+          "url": "https://assets.decocache.com/brandili/e1e25945-9a93-4e70-9117-f3b38159bc8d/55749_0009_1531_0001.jpg",
+          "embedUrl": "https://www.brandili.com.br/blusa-bebe-menina-gatinho-com-glitter-brandili-baby-557491531/p",
+          "contentUrl": "https://www.brandili.com.br/blusa-bebe-menina-gatinho-com-glitter-brandili-baby-557491531/p"
+        },
+        {
+          "url": "https://data.decoassets.com/brandili/71c683a5-dfcf-4bfe-b393-ae37b75c6f2a/8420864429_testeirasMouseOver_740x600px_bebes.jpg"
+        }
+      ],
+      "children": [
+        {
+          "image": [],
+          "children": [
+            {
+              "image": [],
+              "children": [],
+              "url": "/baby/menina/body",
+              "name": "Bodies"
+            },
+            {
+              "image": [],
+              "children": [],
+              "url": "/baby/menina/calca",
+              "name": "Calças"
+            },
+            {
+              "image": [],
+              "children": [],
+              "url": "/baby/menina/conjunto",
+              "name": "Conjuntos"
+            },
+            {
+              "image": [],
+              "children": [],
+              "url": "/baby/menina/vestido",
+              "name": "Vestidos"
+            },
+            {
+              "image": [],
+              "children": [],
+              "url": "/baby/menina/kits",
+              "name": "Kits"
+            },
+            {
+              "image": [],
+              "children": [],
+              "url": "/baby/menina/macacao",
+              "name": "Macacões"
+            },
+            {
+              "image": [],
+              "children": [],
+              "url": "/baby/menina/jardineiras",
+              "name": "Jardineira"
+            },
+            {
+              "image": [],
+              "children": [],
+              "url": "/baby/menina/short",
+              "name": "Shorts"
+            },
+            {
+              "image": [],
+              "children": [],
+              "name": "Acessórios",
+              "url": "/meninas?filter.category-1=meninas&filter.categorias=acessorio-de-cabelo"
+            }
+          ],
+          "name": "Bebês Meninas",
+          "url": "/baby/menina"
+        },
+        {
+          "image": [],
+          "children": [
+            {
+              "image": [],
+              "children": [],
+              "url": "/baby/menino/body",
+              "name": "Bodies"
+            },
+            {
+              "image": [],
+              "children": [],
+              "url": "/baby/menino/calca",
+              "name": "Calças"
+            },
+            {
+              "image": [],
+              "children": [],
+              "url": "/baby/menino/macacao",
+              "name": "Macacões"
+            },
+            {
+              "image": [],
+              "children": [],
+              "url": "/baby/menino/kits",
+              "name": "Kits"
+            },
+            {
+              "image": [],
+              "children": [],
+              "url": "/baby/menino/conjunto",
+              "name": "Conjuntos"
+            },
+            {
+              "image": [],
+              "children": [],
+              "url": "/baby/menino/jardineiras",
+              "name": "Jardineira"
+            },
+            {
+              "image": [],
+              "children": [],
+              "url": "/baby/menino/shorts",
+              "name": "Shorts"
+            }
+          ],
+          "url": "/baby/menino",
+          "name": "Bebês Meninos"
+        }
+      ]
+    },
+    {
+      "url": "/marcas",
+      "name": "Marcas",
+      "image": [
+        {
+          "url": "https://assets.decocache.com/brandili/85cdb03d-391f-437e-9443-b0eecc81f966/56141_0219_0001.jpg",
+          "embedUrl": "https://www.brandili.com.br/blusa-infantil-menina-cropped-do-stitch-brandili-561410219/p",
+          "contentUrl": "https://www.brandili.com.br/blusa-infantil-menina-cropped-do-stitch-brandili-561410219/p",
+          "thumbnailUrl": "https://www.brandili.com.br/blusa-infantil-menina-cropped-do-stitch-brandili-561410219/p"
+        },
+        {
+          "url": "https://assets.decocache.com/brandili/fd1a706b-83b9-4769-8b04-56c7d8646d19/56114_0044_0742_0001.jpg",
+          "embedUrl": "https://www.brandili.com.br/camiseta-infantil-menino-homem-aranha-metalizada-brandili-561140742/p",
+          "contentUrl": "https://www.brandili.com.br/camiseta-infantil-menino-homem-aranha-metalizada-brandili-561140742/p",
+          "thumbnailUrl": "https://www.brandili.com.br/camiseta-infantil-menino-homem-aranha-metalizada-brandili-561140742/p"
+        },
+        {
+          "url": "https://data.decoassets.com/brandili/cdef1668-1387-4ae7-953d-9cab3fa8cf57/8420864429_testeirasMouseOver_740x600px_marcas.jpg"
+        }
+      ],
+      "children": [
+        {
+          "name": "Meninas",
+          "image": [],
+          "children": [
+            {
+              "url": "/marcas?sort=price%3Adesc&filter.category-1=marcas&filter.category-2=menina&page=1",
+              "name": "Meninas",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/marcas?sort=price%3Adesc&filter.category-1=marcas&filter.category-2=menina&filter.brand=brandili",
+              "name": "Brandili",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/marcas?sort=price%3Adesc&filter.category-1=marcas&filter.category-2=menina&filter.brand=brandili-baby",
+              "name": "Brandili Baby",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/marcas?sort=price%3Adesc&filter.category-1=marcas&filter.category-2=menina&filter.genero=menina&filter.category-3=disney",
+              "name": "Disney",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/marcas?sort=price%3Adesc&filter.category-1=marcas&filter.category-2=menina&filter.genero=menina&filter.brand=mundi",
+              "name": "Mundi",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/marcas/menina/young-class",
+              "name": "Young Class",
+              "image": [],
+              "children": []
+            },
+            {
+              "name": "Turma da Mônica",
+              "image": [],
+              "children": [],
+              "url": "/marcas/menina/turma-da-monica"
+            }
+          ],
+          "identifier": "Meninas",
+          "additionalType": "Meninas"
+        },
+        {
+          "name": "Meninos",
+          "image": [],
+          "children": [
+            {
+              "url": "/marcas?sort=price%3Adesc&filter.category-1=marcas&filter.category-2=menino",
+              "name": "Meninos",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/marcas?sort=price%3Adesc&filter.category-1=marcas&filter.category-2=menino&filter.brand=brandili",
+              "name": "Brandili",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/marcas?sort=price%3Adesc&filter.category-1=marcas&filter.category-2=menino&filter.brand=brandili-baby",
+              "name": "Brandili Baby",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/marcas?sort=price%3Adesc&filter.category-1=marcas&filter.category-2=menino&filter.category-3=disney",
+              "name": "Disney",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/marcas?sort=price%3Adesc&filter.category-1=marcas&filter.category-2=menino&filter.brand=extreme",
+              "name": "Extreme",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/marcas?sort=price%3Adesc&filter.category-1=marcas&filter.category-2=menino&filter.category-3=marvel",
+              "name": "Marvel",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/marcas?sort=price%3Adesc&filter.category-1=marcas&filter.category-2=menino&filter.brand=mundi",
+              "name": "Mundi",
+              "image": [],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "/promocao",
+      "name": "Promoção",
+      "image": [
+        {
+          "url": "https://data.decoassets.com/brandili/87dd13c8-e004-4bb2-867a-e2a4bd303114/8420864429_testeirasMouseOver_740x600px_promocao.jpg"
+        }
+      ],
+      "children": [
+        {
+          "name": "Meninas",
+          "image": [],
+          "children": [
+            {
+              "url": "/promocao-menina",
+              "name": "Meninas",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/promocao-menina-blusas",
+              "name": "Blusas",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/promocao-menina-calcas",
+              "name": "Calças",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/promocao-menina-casacos-e-jaquetas",
+              "name": "Casacos e Jaquetas",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/promocao-menina-conjuntos",
+              "name": "Conjuntos",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/promocao-menina-macacoes",
+              "name": "Macacões",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/promocao-menina-pijamas",
+              "name": "Pijamas",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/promocao-menina-saias",
+              "name": "Saias",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/promocao-menina-shorts-e-bermudas",
+              "name": "Shorts e Bermudas",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/promocao-menina-vestidos",
+              "name": "Vestidos",
+              "image": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Meninos",
+          "image": [],
+          "children": [
+            {
+              "url": "/promocao-menino",
+              "name": "Meninos",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/promocao-menino-calcas",
+              "name": "Calças",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/promocao-menino-camisas",
+              "name": "Camisas",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/promocao-menino-camisetas",
+              "name": "Camisetas",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/promocao-menino-casacos-e-jaquetas",
+              "name": "Casacos e Jaquetas",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/promocao-menino-conjuntos",
+              "name": "Conjuntos",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/promocao-menino-pijamas",
+              "name": "Pijamas",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/promocao-menino-regatas",
+              "name": "Regatas",
+              "image": [],
+              "children": []
+            },
+            {
+              "url": "/promocao-menino-shorts-e-bermudas",
+              "name": "Shorts e Bermudas",
+              "image": [],
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "__resolveType": "commerce/loaders/navbar.ts"
+}

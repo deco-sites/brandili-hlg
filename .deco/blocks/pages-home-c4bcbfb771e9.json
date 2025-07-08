@@ -1,0 +1,2907 @@
+{
+  "name": "Home",
+  "path": "/",
+  "sections": {
+    "__resolveType": "website/flags/multivariate.ts",
+    "variants": [
+      {
+        "value": [
+          {
+            "__resolveType": "Header - 01"
+          },
+          {
+            "__resolveType": "website/flags/multivariate/section.ts",
+            "variants": [
+              {
+                "value": {
+                  "dots": true,
+                  "arrows": true,
+                  "images": [
+                    {
+                      "desktop": "https://assets.decocache.com/brandili/d9c0803d-97c5-431b-aedd-58e29ba4d9fd/9005640756_banner_1920x600px.jpg",
+                      "mobile": "https://assets.decocache.com/brandili/b06fe6f3-7637-4b61-934f-8121656fe5cc/9005640756_banner_375x480px.jpg",
+                      "action": {
+                        "href": "/inverno"
+                      },
+                      "alt": "Os Mais Quentinhos"
+                    }
+                  ],
+                  "preload": true,
+                  "interval": 5,
+                  "__resolveType": "site/sections/Images/Carousel.tsx"
+                },
+                "rule": {
+                  "__resolveType": "website/matchers/always.ts"
+                }
+              }
+            ]
+          },
+          {
+            "__resolveType": "site/sections/Content/Benefits.tsx",
+            "title": " ",
+            "layout": {
+              "iconColor": "text-blue-2",
+              "variation": "Simple",
+              "headerAlignment": "center"
+            },
+            "benefits": [
+              {
+                "icon": "Truck",
+                "label": "Frete Grátis",
+                "description": "Frete grátis a partir de R$199"
+              },
+              {
+                "icon": "Wallet",
+                "label": "Facilitado",
+                "description": "parcele em até 6x"
+              },
+              {
+                "icon": "Security",
+                "label": "Seguro",
+                "description": "Site protegido com SSL"
+              },
+              {
+                "icon": "Percentage",
+                "label": "10% Cashback",
+                "description": "Para uma próxima compra"
+              }
+            ]
+          },
+          {
+            "__resolveType": "site/sections/Images/MiniBanners.tsx",
+            "header": {
+              "title": "Compre por categoria",
+              "seeMore": {}
+            },
+            "images": [
+              {
+                "image": "https://assets.decocache.com/brandili/9dd7317d-5a21-47d0-b22f-78b0895eaa7e/8910320933_tamanhos_280x350px_bebes.jpg",
+                "imageHeight": 350,
+                "imageWidth": 280,
+                "alt": "Bebês",
+                "href": "https://www.brandili.com.br/baby"
+              },
+              {
+                "image": "https://assets.decocache.com/brandili/ae871fcc-bdde-46e3-8049-fe46f90557c2/8910320933_tamanhos_280x350px_meninos.jpg",
+                "imageWidth": 280,
+                "imageHeight": 350,
+                "alt": "Meninos",
+                "href": "https://www.brandili.com.br/meninos"
+              },
+              {
+                "image": "https://assets.decocache.com/brandili/cf4c839a-ce9b-496b-a43f-d258a617c507/8910320933_tamanhos_280x350px_meninas.jpg",
+                "imageWidth": 280,
+                "imageHeight": 350,
+                "alt": "Meninas",
+                "href": "https://www.brandili.com.br/meninas"
+              },
+              {
+                "image": "https://assets.decocache.com/brandili/1fa696ea-c049-4891-a73c-5efee5756ab7/8910320933_tamanhos_280x350px_unissex.jpg",
+                "imageWidth": 280,
+                "imageHeight": 350,
+                "alt": "Unissex",
+                "href": "/unissex"
+              },
+              {
+                "image": "https://assets.decocache.com/brandili/001c62c0-0054-4591-85d7-101eaa7eae3b/8910320933_tamanhos_280x350px_young.jpg",
+                "imageWidth": 280,
+                "imageHeight": 350,
+                "alt": "Youg Class",
+                "href": "Youg Class"
+              }
+            ],
+            "slider": {
+              "mobile": {
+                "dots": true
+              },
+              "desktop": {
+                "dots": false
+              }
+            }
+          },
+          {
+            "__resolveType": "site/sections/Product/ShelfWithImage.tsx",
+            "section": {
+              "__resolveType": "site/sections/Product/ProductCountDownShelf.tsx",
+              "products": {
+                "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+                "props": {
+                  "sort": "release:desc",
+                  "count": 5,
+                  "fuzzy": "automatic",
+                  "query": "stitch"
+                }
+              },
+              "layout": {
+                "numberOfSliders": {
+                  "mobile": 1,
+                  "desktop": 1
+                },
+                "headerAlignment": "left",
+                "headerfontSize": "Normal"
+              },
+              "cardLayout": {
+                "basics": {
+                  "contentAlignment": "Left",
+                  "oldPriceSize": "Small"
+                },
+                "elementsPositions": {
+                  "skuSelector": "Top",
+                  "favoriteIcon": "Top right"
+                },
+                "onMouseOver": {
+                  "image": "Change image",
+                  "card": "None"
+                },
+                "hide": {}
+              }
+            },
+            "titleLayout": {
+              "headerAlignment": "left"
+            },
+            "image": {
+              "src": "https://assets.decocache.com/brandili/55da1da6-6038-4656-b904-15b804b38ce6/B2C_LancamentoStitch_620x480px.jpg",
+              "alt": "Novidades",
+              "href": "/stitch",
+              "hiddenMobile": false
+            },
+            "title": "Novidades"
+          },
+          {
+            "__resolveType": "site/sections/Product/ProductShelf.tsx",
+            "title": "Ofertas especiais",
+            "products": {
+              "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+              "props": {
+                "sort": "discount:desc",
+                "collection": "825",
+                "count": 8
+              }
+            },
+            "layout": {
+              "numberOfSliders": {
+                "desktop": 4,
+                "mobile": 2
+              },
+              "showArrows": true,
+              "headerAlignment": "left",
+              "dots": true
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/Images/MiniBanners.tsx",
+              "header": {
+                "title": "Monte seu look"
+              },
+              "images": [
+                {
+                  "image": "https://assets.decocache.com/brandili/291c80aa-87ec-43b0-8c48-b3ef7eb87087/8910320933_categoria_350x450px_01.jpg",
+                  "imageWidth": 350,
+                  "imageHeight": 450,
+                  "alt": "Blusas",
+                  "href": "/monte-seu-look-1"
+                },
+                {
+                  "image": "https://assets.decocache.com/brandili/c1ee8ca3-34aa-48bf-98d7-e70fa1901986/8910320933_categoria_350x450px_02.jpg",
+                  "imageWidth": 350,
+                  "imageHeight": 450,
+                  "alt": "Calças",
+                  "href": "/monte-seu-look-2"
+                },
+                {
+                  "image": "https://assets.decocache.com/brandili/fd28cb0e-ff16-408c-a1d5-3e54033b6073/8910320933_categoria_350x450px_03.jpg",
+                  "imageWidth": 350,
+                  "imageHeight": 450,
+                  "alt": "Conjuntos",
+                  "href": "/monte-seu-look-3"
+                },
+                {
+                  "image": "https://assets.decocache.com/brandili/f57414fa-457c-4d7a-a897-4d8c481f6411/8910320933_categoria_350x450px_04.jpg",
+                  "imageWidth": 350,
+                  "imageHeight": 450,
+                  "href": "/monte-seu-look-4",
+                  "alt": "Jaquetas"
+                }
+              ],
+              "slider": {
+                "mobile": {
+                  "dots": true
+                },
+                "desktop": {
+                  "dots": true
+                }
+              }
+            }
+          },
+          {
+            "__resolveType": "site/sections/Images/MiniBanners.tsx",
+            "header": {
+              "title": "Escolha sua licença",
+              "seeMore": {
+                "href": "/licenciados",
+                "label": "Ver todos"
+              }
+            },
+            "images": [
+              {
+                "alt": "Stitch",
+                "image": "https://assets.decocache.com/brandili/81e8b4d7-f216-4ebe-883a-0db203b19bcb/stitch-(1).png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "href": "/stitch"
+              },
+              {
+                "alt": "Mickey e Minnie Mouse ",
+                "href": "https://www.brandili.com.br/licenciados/mickey-minnie-mouse",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/977b24bd-6515-4f61-8770-bb3bafd37985/mickey-20241206-133502.png",
+                "imageWidth": 103,
+                "imageHeight": 137
+              },
+              {
+                "alt": "Minecraft",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/cd2b1f18-2977-4a3f-8e06-a0979ca9a911/minecraft-20241206-133510.png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "href": "https://www.brandili.com.br/licenciados/minecraft"
+              },
+              {
+                "alt": "Moana",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/22cac5aa-b387-4a94-94ee-61edc11987cf/moana-20241206-133644.png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "href": "https://www.brandili.com.br/licenciados/moana"
+              },
+              {
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/9b9de402-5b13-48d1-917b-3e284d73622a/sonic-20241206-133615.png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "alt": "Sonic",
+                "href": "https://www.brandili.com.br/licenciados/sonic"
+              },
+              {
+                "alt": "Wandinha",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/35dd751d-8026-4a28-b598-4ce508bb43a3/wandinha-20241206-133440.png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "href": "https://www.brandili.com.br/licenciados/wandinha"
+              },
+              {
+                "alt": "Avengers",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/2b563356-7915-4ce1-852b-abfd9c0912f2/vingadores-20241206-133451.png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "href": "https://www.brandili.com.br/licenciados/vingadores"
+              },
+              {
+                "alt": "Turma da Mônica",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/5aee0d93-0084-4244-9b4f-de9f59a1bcb1/monica-20241206-133519.png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "href": "https://www.brandili.com.br/licenciados/turma-da-monica"
+              },
+              {
+                "alt": "Homem Aranha",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/b80ad806-a4bb-40a8-84f4-f50b1336ff66/homemaranha-20241206-133527.png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "href": "https://www.brandili.com.br/licenciados/homem-aranha"
+              },
+              {
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/a0572dd9-9044-4228-ba86-11bfd3ea7e69/flamengo-20241206-133557.png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "alt": "Flamengo",
+                "href": "https://www.brandili.com.br/licenciados/flamengo"
+              },
+              {
+                "image": "https://assets.decocache.com/brandili/e94e12a6-46b3-4a8c-a016-c1ec65f2f657/onepiece-(1).png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "alt": "One Piece",
+                "href": "/licenciados/one-piece"
+              },
+              {
+                "image": "https://assets.decocache.com/brandili/05bee753-cfb5-4a37-80ae-7378a80909bb/naruto-(1).png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "alt": "Naruto",
+                "href": "/licenciados/naruto"
+              }
+            ]
+          },
+          {
+            "__resolveType": "site/sections/Product/ProductShelf.tsx",
+            "products": {
+              "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+              "props": {
+                "ids": [
+                  "108908",
+                  "108915",
+                  "105634",
+                  "105642",
+                  "86403",
+                  "104650"
+                ]
+              }
+            },
+            "layout": {
+              "numberOfSliders": {
+                "desktop": 4,
+                "mobile": 2
+              },
+              "showArrows": true,
+              "headerAlignment": "left",
+              "dots": true
+            },
+            "title": "Licenciados"
+          },
+          {
+            "__resolveType": "site/sections/Images/BannerGrid.tsx",
+            "banners": [
+              {
+                "srcMobile": "https://data.decoassets.com/brandili/2cdf9baf-19fa-48ff-9ff4-cedc54ecd37f/8420864429_bannerMeioMundi_350x300px.jpg",
+                "srcDesktop": "https://data.decoassets.com/brandili/1d5ff45d-d68e-43dd-be3c-deec7da450dc/8420864429_bannerMeioMundi_1440x445px.jpg",
+                "alt": "Mundi na Brandili",
+                "href": "https://www.brandili.com.br/novidades/mundi?sort=release%3Adesc&filter.category-1=novidades&filter.brand=mundi"
+              }
+            ],
+            "borderRadius": {
+              "mobile": "none",
+              "desktop": "none"
+            },
+            "itemsPerLine": {
+              "mobile": 1,
+              "desktop": 1
+            }
+          },
+          {
+            "__resolveType": "site/sections/Product/ProductShelf.tsx",
+            "layout": {
+              "numberOfSliders": {
+                "mobile": 2,
+                "desktop": 4
+              },
+              "showArrows": true,
+              "headerAlignment": "left",
+              "dots": true
+            },
+            "products": {
+              "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+              "props": {
+                "count": 8,
+                "sort": "discount:desc",
+                "collection": "890"
+              }
+            },
+            "title": "Acabou de chegar"
+          },
+          {
+            "__resolveType": "site/sections/Product/KitLookShoppableBanner.tsx",
+            "layout": {
+              "numberOfSliders": {
+                "mobile": 2,
+                "desktop": 2
+              }
+            },
+            "products": {
+              "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+              "props": {
+                "count": 2,
+                "query": "id:85492;108901",
+                "hideUnavailableItems": false,
+                "sort": "name:asc"
+              }
+            },
+            "title": "Compre o Look",
+            "pins": [
+              {
+                "link": "https://www.brandili.com.br/blusao-infantil-menina-do-stitch-brandili-561431403/p",
+                "label": "Blusão infantil menina do Stitch Brandili",
+                "mobile": {
+                  "x": 52,
+                  "y": 54
+                },
+                "desktop": {
+                  "x": 45,
+                  "y": 28
+                }
+              },
+              {
+                "link": "https://www.brandili.com.br/calca-jeans-comfort-infantil-menina-brandili-azul-18-801633320/p",
+                "label": "Calça jeans skinny infantil menina Brandili",
+                "mobile": {
+                  "x": 40,
+                  "y": 28
+                },
+                "desktop": {
+                  "x": 53,
+                  "y": 52
+                }
+              }
+            ],
+            "image": {
+              "mobile": "https://assets.decocache.com/brandili/9d6ba187-3795-4093-817c-394e0d86ff4b/8420864429_compreOLook_708x700px.jpg",
+              "altText": "Compre Look",
+              "desktop": "https://assets.decocache.com/brandili/9d6ba187-3795-4093-817c-394e0d86ff4b/8420864429_compreOLook_708x700px.jpg"
+            },
+            "cardLayout": {
+              "onMouseOver": {
+                "card": "None",
+                "image": "Change image"
+              }
+            },
+            "link": {
+              "href": "/compre-o-look",
+              "text": "Compre o Look"
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "Blog Posts"
+            }
+          },
+          {
+            "__resolveType": "site/sections/Social/InstagramElfsigth.tsx",
+            "link": "https://www.instagram.com/brandili_oficial/",
+            "elfsightid": "elfsight-app-b6a6d5a9-e2c7-4fd2-82e8-54b848b20e10"
+          },
+          {
+            "__resolveType": "Footer - Brandili"
+          }
+        ],
+        "rule": {
+          "__resolveType": "website/matchers/date.ts",
+          "start": "2025-05-14T03:00:00.000Z",
+          "end": "2025-05-21T02:59:00.000Z"
+        }
+      },
+      {
+        "value": [
+          {
+            "__resolveType": "Header - 01"
+          },
+          {
+            "__resolveType": "website/flags/multivariate/section.ts",
+            "variants": [
+              {
+                "value": {
+                  "dots": true,
+                  "arrows": true,
+                  "images": [
+                    {
+                      "alt": "60% OFF",
+                      "mobile": "https://assets.decocache.com/brandili/8c0d7bc0-2916-4fb6-b753-5f18276a14fa/9005647891_375x480px.jpg",
+                      "desktop": "https://assets.decocache.com/brandili/56d66570-ece8-4af6-ba83-bf56a61f7612/9005647891_1920x600px.jpg",
+                      "action": {
+                        "href": "/promocao"
+                      }
+                    },
+                    {
+                      "desktop": "https://assets.decocache.com/brandili/d9c0803d-97c5-431b-aedd-58e29ba4d9fd/9005640756_banner_1920x600px.jpg",
+                      "mobile": "https://assets.decocache.com/brandili/b06fe6f3-7637-4b61-934f-8121656fe5cc/9005640756_banner_375x480px.jpg",
+                      "action": {
+                        "href": "/inverno"
+                      },
+                      "alt": "Os Mais Quentinhos"
+                    }
+                  ],
+                  "preload": true,
+                  "interval": 5,
+                  "__resolveType": "site/sections/Images/Carousel.tsx"
+                },
+                "rule": {
+                  "__resolveType": "website/matchers/always.ts"
+                }
+              }
+            ]
+          },
+          {
+            "__resolveType": "site/sections/Content/Benefits.tsx",
+            "title": " ",
+            "layout": {
+              "iconColor": "text-blue-2",
+              "variation": "Simple",
+              "headerAlignment": "center"
+            },
+            "benefits": [
+              {
+                "icon": "Truck",
+                "label": "Frete Grátis",
+                "description": "Frete grátis a partir de R$199"
+              },
+              {
+                "icon": "Wallet",
+                "label": "Facilitado",
+                "description": "parcele em até 6x"
+              },
+              {
+                "icon": "Security",
+                "label": "Seguro",
+                "description": "Site protegido com SSL"
+              },
+              {
+                "icon": "Percentage",
+                "label": "10% Cashback",
+                "description": "Para uma próxima compra"
+              }
+            ]
+          },
+          {
+            "__resolveType": "site/sections/Images/MiniBanners.tsx",
+            "header": {
+              "title": "Compre por categoria",
+              "seeMore": {}
+            },
+            "images": [
+              {
+                "image": "https://assets.decocache.com/brandili/9dd7317d-5a21-47d0-b22f-78b0895eaa7e/8910320933_tamanhos_280x350px_bebes.jpg",
+                "imageHeight": 350,
+                "imageWidth": 280,
+                "alt": "Bebês",
+                "href": "https://www.brandili.com.br/baby"
+              },
+              {
+                "alt": "Meninos",
+                "image": "https://assets.decocache.com/brandili/ae871fcc-bdde-46e3-8049-fe46f90557c2/8910320933_tamanhos_280x350px_meninos.jpg",
+                "imageWidth": 280,
+                "imageHeight": 350,
+                "href": "https://www.brandili.com.br/meninos"
+              },
+              {
+                "image": "https://assets.decocache.com/brandili/cf4c839a-ce9b-496b-a43f-d258a617c507/8910320933_tamanhos_280x350px_meninas.jpg",
+                "imageWidth": 280,
+                "imageHeight": 350,
+                "alt": "Meninas",
+                "href": "https://www.brandili.com.br/meninas"
+              },
+              {
+                "image": "https://assets.decocache.com/brandili/1fa696ea-c049-4891-a73c-5efee5756ab7/8910320933_tamanhos_280x350px_unissex.jpg",
+                "imageWidth": 280,
+                "imageHeight": 350,
+                "alt": "Unissex",
+                "href": "/unissex"
+              },
+              {
+                "image": "https://assets.decocache.com/brandili/001c62c0-0054-4591-85d7-101eaa7eae3b/8910320933_tamanhos_280x350px_young.jpg",
+                "imageWidth": 280,
+                "imageHeight": 350,
+                "alt": "Youg Class",
+                "href": "Youg Class"
+              }
+            ],
+            "slider": {
+              "mobile": {
+                "dots": true
+              },
+              "desktop": {
+                "dots": false
+              }
+            }
+          },
+          {
+            "__resolveType": "site/sections/Product/ShelfWithImage.tsx",
+            "section": {
+              "__resolveType": "site/sections/Product/ProductCountDownShelf.tsx",
+              "products": {
+                "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+                "props": {
+                  "sort": "release:desc",
+                  "count": 5,
+                  "fuzzy": "automatic",
+                  "query": "stitch"
+                }
+              },
+              "layout": {
+                "numberOfSliders": {
+                  "mobile": 1,
+                  "desktop": 1
+                },
+                "headerAlignment": "left",
+                "headerfontSize": "Normal"
+              },
+              "cardLayout": {
+                "basics": {
+                  "contentAlignment": "Left",
+                  "oldPriceSize": "Small"
+                },
+                "elementsPositions": {
+                  "skuSelector": "Top",
+                  "favoriteIcon": "Top right"
+                },
+                "onMouseOver": {
+                  "image": "Change image",
+                  "card": "None"
+                },
+                "hide": {}
+              }
+            },
+            "titleLayout": {
+              "headerAlignment": "left"
+            },
+            "image": {
+              "src": "https://assets.decocache.com/brandili/55da1da6-6038-4656-b904-15b804b38ce6/B2C_LancamentoStitch_620x480px.jpg",
+              "alt": "Novidades",
+              "href": "/stitch",
+              "hiddenMobile": false
+            },
+            "title": "Novidades"
+          },
+          {
+            "__resolveType": "site/sections/Product/ProductShelf.tsx",
+            "title": "Ofertas especiais",
+            "products": {
+              "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+              "props": {
+                "sort": "discount:desc",
+                "collection": "825",
+                "count": 8
+              }
+            },
+            "layout": {
+              "numberOfSliders": {
+                "desktop": 4,
+                "mobile": 2
+              },
+              "showArrows": true,
+              "headerAlignment": "left",
+              "dots": true
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/Images/MiniBanners.tsx",
+              "header": {
+                "title": "Monte seu look"
+              },
+              "images": [
+                {
+                  "image": "https://assets.decocache.com/brandili/291c80aa-87ec-43b0-8c48-b3ef7eb87087/8910320933_categoria_350x450px_01.jpg",
+                  "imageWidth": 350,
+                  "imageHeight": 450,
+                  "alt": "Blusas",
+                  "href": "/monte-seu-look-1"
+                },
+                {
+                  "image": "https://assets.decocache.com/brandili/c1ee8ca3-34aa-48bf-98d7-e70fa1901986/8910320933_categoria_350x450px_02.jpg",
+                  "imageWidth": 350,
+                  "imageHeight": 450,
+                  "alt": "Calças",
+                  "href": "/monte-seu-look-2"
+                },
+                {
+                  "image": "https://assets.decocache.com/brandili/fd28cb0e-ff16-408c-a1d5-3e54033b6073/8910320933_categoria_350x450px_03.jpg",
+                  "imageWidth": 350,
+                  "imageHeight": 450,
+                  "alt": "Conjuntos",
+                  "href": "/monte-seu-look-3"
+                },
+                {
+                  "image": "https://assets.decocache.com/brandili/f57414fa-457c-4d7a-a897-4d8c481f6411/8910320933_categoria_350x450px_04.jpg",
+                  "imageWidth": 350,
+                  "imageHeight": 450,
+                  "alt": "Jaquetas",
+                  "href": "/monte-seu-look-4"
+                }
+              ],
+              "slider": {
+                "mobile": {
+                  "dots": true
+                },
+                "desktop": {
+                  "dots": true
+                }
+              }
+            }
+          },
+          {
+            "__resolveType": "site/sections/Images/MiniBanners.tsx",
+            "header": {
+              "title": "Escolha sua licença",
+              "seeMore": {
+                "href": "/licenciados",
+                "label": "Ver todos"
+              }
+            },
+            "images": [
+              {
+                "alt": "Stitch",
+                "image": "https://assets.decocache.com/brandili/81e8b4d7-f216-4ebe-883a-0db203b19bcb/stitch-(1).png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "href": "/stitch"
+              },
+              {
+                "alt": "Mickey e Minnie Mouse ",
+                "href": "https://www.brandili.com.br/licenciados/mickey-minnie-mouse",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/977b24bd-6515-4f61-8770-bb3bafd37985/mickey-20241206-133502.png",
+                "imageWidth": 103,
+                "imageHeight": 137
+              },
+              {
+                "alt": "Minecraft",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/cd2b1f18-2977-4a3f-8e06-a0979ca9a911/minecraft-20241206-133510.png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "href": "https://www.brandili.com.br/licenciados/minecraft"
+              },
+              {
+                "alt": "Moana",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/22cac5aa-b387-4a94-94ee-61edc11987cf/moana-20241206-133644.png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "href": "https://www.brandili.com.br/licenciados/moana"
+              },
+              {
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/9b9de402-5b13-48d1-917b-3e284d73622a/sonic-20241206-133615.png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "alt": "Sonic",
+                "href": "https://www.brandili.com.br/licenciados/sonic"
+              },
+              {
+                "alt": "Wandinha",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/35dd751d-8026-4a28-b598-4ce508bb43a3/wandinha-20241206-133440.png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "href": "https://www.brandili.com.br/licenciados/wandinha"
+              },
+              {
+                "alt": "Avengers",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/2b563356-7915-4ce1-852b-abfd9c0912f2/vingadores-20241206-133451.png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "href": "https://www.brandili.com.br/licenciados/vingadores"
+              },
+              {
+                "alt": "Turma da Mônica",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/5aee0d93-0084-4244-9b4f-de9f59a1bcb1/monica-20241206-133519.png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "href": "https://www.brandili.com.br/licenciados/turma-da-monica"
+              },
+              {
+                "alt": "Homem Aranha",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/b80ad806-a4bb-40a8-84f4-f50b1336ff66/homemaranha-20241206-133527.png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "href": "https://www.brandili.com.br/licenciados/homem-aranha"
+              },
+              {
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/a0572dd9-9044-4228-ba86-11bfd3ea7e69/flamengo-20241206-133557.png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "alt": "Flamengo",
+                "href": "https://www.brandili.com.br/licenciados/flamengo"
+              },
+              {
+                "image": "https://assets.decocache.com/brandili/e94e12a6-46b3-4a8c-a016-c1ec65f2f657/onepiece-(1).png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "alt": "One Piece",
+                "href": "/licenciados/one-piece"
+              },
+              {
+                "image": "https://assets.decocache.com/brandili/05bee753-cfb5-4a37-80ae-7378a80909bb/naruto-(1).png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "alt": "Naruto",
+                "href": "/licenciados/naruto"
+              }
+            ]
+          },
+          {
+            "__resolveType": "site/sections/Product/ProductShelf.tsx",
+            "products": {
+              "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+              "props": {
+                "ids": [
+                  "108908",
+                  "108915",
+                  "105634",
+                  "105642",
+                  "86403",
+                  "104650"
+                ]
+              }
+            },
+            "layout": {
+              "numberOfSliders": {
+                "desktop": 4,
+                "mobile": 2
+              },
+              "showArrows": true,
+              "headerAlignment": "left",
+              "dots": true
+            },
+            "title": "Licenciados"
+          },
+          {
+            "__resolveType": "site/sections/Images/BannerGrid.tsx",
+            "banners": [
+              {
+                "srcMobile": "https://data.decoassets.com/brandili/2cdf9baf-19fa-48ff-9ff4-cedc54ecd37f/8420864429_bannerMeioMundi_350x300px.jpg",
+                "srcDesktop": "https://data.decoassets.com/brandili/1d5ff45d-d68e-43dd-be3c-deec7da450dc/8420864429_bannerMeioMundi_1440x445px.jpg",
+                "alt": "Mundi na Brandili",
+                "href": "https://www.brandili.com.br/novidades/mundi?sort=release%3Adesc&filter.category-1=novidades&filter.brand=mundi"
+              }
+            ],
+            "borderRadius": {
+              "mobile": "none",
+              "desktop": "none"
+            },
+            "itemsPerLine": {
+              "mobile": 1,
+              "desktop": 1
+            }
+          },
+          {
+            "__resolveType": "site/sections/Product/ProductShelf.tsx",
+            "layout": {
+              "numberOfSliders": {
+                "mobile": 2,
+                "desktop": 4
+              },
+              "showArrows": true,
+              "headerAlignment": "left",
+              "dots": true
+            },
+            "products": {
+              "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+              "props": {
+                "count": 8,
+                "sort": "discount:desc",
+                "collection": "890"
+              }
+            },
+            "title": "Acabou de chegar"
+          },
+          {
+            "__resolveType": "site/sections/Product/KitLookShoppableBanner.tsx",
+            "layout": {
+              "numberOfSliders": {
+                "mobile": 2,
+                "desktop": 2
+              }
+            },
+            "products": {
+              "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+              "props": {
+                "count": 2,
+                "query": "id:85492;108901",
+                "hideUnavailableItems": false,
+                "sort": "name:asc"
+              }
+            },
+            "title": "Compre o Look",
+            "pins": [
+              {
+                "link": "https://www.brandili.com.br/blusao-infantil-menina-do-stitch-brandili-561431403/p",
+                "label": "Blusão infantil menina do Stitch Brandili",
+                "mobile": {
+                  "x": 52,
+                  "y": 54
+                },
+                "desktop": {
+                  "x": 45,
+                  "y": 28
+                }
+              },
+              {
+                "link": "https://www.brandili.com.br/calca-jeans-comfort-infantil-menina-brandili-azul-18-801633320/p",
+                "label": "Calça jeans skinny infantil menina Brandili",
+                "mobile": {
+                  "x": 40,
+                  "y": 28
+                },
+                "desktop": {
+                  "x": 53,
+                  "y": 52
+                }
+              }
+            ],
+            "image": {
+              "mobile": "https://assets.decocache.com/brandili/9d6ba187-3795-4093-817c-394e0d86ff4b/8420864429_compreOLook_708x700px.jpg",
+              "altText": "Compre Look",
+              "desktop": "https://assets.decocache.com/brandili/9d6ba187-3795-4093-817c-394e0d86ff4b/8420864429_compreOLook_708x700px.jpg"
+            },
+            "cardLayout": {
+              "onMouseOver": {
+                "card": "None",
+                "image": "Change image"
+              }
+            },
+            "link": {
+              "href": "/compre-o-look",
+              "text": "Compre o Look"
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "Blog Posts"
+            }
+          },
+          {
+            "__resolveType": "site/sections/Social/InstagramElfsigth.tsx",
+            "link": "https://www.instagram.com/brandili_oficial/",
+            "elfsightid": "elfsight-app-b6a6d5a9-e2c7-4fd2-82e8-54b848b20e10"
+          },
+          {
+            "__resolveType": "Footer - Brandili"
+          }
+        ],
+        "rule": {
+          "__resolveType": "website/matchers/date.ts",
+          "start": "2025-05-12T03:00:00.000Z",
+          "end": "2025-05-14T02:59:00.000Z"
+        }
+      },
+      {
+        "value": [
+          {
+            "__resolveType": "Header - 01"
+          },
+          {
+            "__resolveType": "website/flags/multivariate/section.ts",
+            "variants": [
+              {
+                "value": {
+                  "dots": true,
+                  "arrows": true,
+                  "images": [
+                    {
+                      "alt": "Dia das mães",
+                      "mobile": "https://assets.decocache.com/brandili/2714265b-7ce8-470b-b2eb-95505bc197c6/8807523038---Canais-Digitais---Banner-Dia-das-Maes-EC---Brandili---Mobile.jpg",
+                      "desktop": "https://assets.decocache.com/brandili/187dc1e3-ebf6-4a95-a680-a37776b4cb7c/8807523038---Canais-Digitais---Banner-Dia-das-Maes-EC---Brandili---Desktop-(1).jpg",
+                      "action": {
+                        "href": "/dia-das-maes"
+                      }
+                    },
+                    {
+                      "desktop": "https://assets.decocache.com/brandili/56d66570-ece8-4af6-ba83-bf56a61f7612/9005647891_1920x600px.jpg",
+                      "mobile": "https://assets.decocache.com/brandili/8c0d7bc0-2916-4fb6-b753-5f18276a14fa/9005647891_375x480px.jpg",
+                      "alt": "60% OFF",
+                      "action": {
+                        "href": "/promocao"
+                      }
+                    },
+                    {
+                      "desktop": "https://assets.decocache.com/brandili/d9c0803d-97c5-431b-aedd-58e29ba4d9fd/9005640756_banner_1920x600px.jpg",
+                      "mobile": "https://assets.decocache.com/brandili/b06fe6f3-7637-4b61-934f-8121656fe5cc/9005640756_banner_375x480px.jpg",
+                      "action": {
+                        "href": "/inverno"
+                      },
+                      "alt": "Os Mais Quentinhos"
+                    }
+                  ],
+                  "preload": true,
+                  "interval": 5,
+                  "__resolveType": "site/sections/Images/Carousel.tsx"
+                },
+                "rule": {
+                  "__resolveType": "website/matchers/always.ts"
+                }
+              }
+            ]
+          },
+          {
+            "__resolveType": "site/sections/Content/Benefits.tsx",
+            "title": " ",
+            "layout": {
+              "iconColor": "text-blue-2",
+              "variation": "Simple",
+              "headerAlignment": "center"
+            },
+            "benefits": [
+              {
+                "icon": "Truck",
+                "label": "Frete Grátis",
+                "description": "Frete grátis a partir de R$199"
+              },
+              {
+                "icon": "Wallet",
+                "label": "Facilitado",
+                "description": "parcele em até 6x"
+              },
+              {
+                "icon": "Security",
+                "label": "Seguro",
+                "description": "Site protegido com SSL"
+              },
+              {
+                "icon": "Percentage",
+                "label": "10% Cashback",
+                "description": "Para uma próxima compra"
+              }
+            ]
+          },
+          {
+            "__resolveType": "site/sections/Images/MiniBanners.tsx",
+            "header": {
+              "title": "Compre por categoria",
+              "seeMore": {}
+            },
+            "images": [
+              {
+                "image": "https://assets.decocache.com/brandili/9dd7317d-5a21-47d0-b22f-78b0895eaa7e/8910320933_tamanhos_280x350px_bebes.jpg",
+                "imageHeight": 350,
+                "imageWidth": 280,
+                "alt": "Bebês",
+                "href": "https://www.brandili.com.br/baby"
+              },
+              {
+                "alt": "Meninos",
+                "image": "https://assets.decocache.com/brandili/ae871fcc-bdde-46e3-8049-fe46f90557c2/8910320933_tamanhos_280x350px_meninos.jpg",
+                "imageWidth": 280,
+                "imageHeight": 350,
+                "href": "https://www.brandili.com.br/meninos"
+              },
+              {
+                "image": "https://assets.decocache.com/brandili/cf4c839a-ce9b-496b-a43f-d258a617c507/8910320933_tamanhos_280x350px_meninas.jpg",
+                "imageWidth": 280,
+                "imageHeight": 350,
+                "alt": "Meninas",
+                "href": "https://www.brandili.com.br/meninas"
+              },
+              {
+                "image": "https://assets.decocache.com/brandili/1fa696ea-c049-4891-a73c-5efee5756ab7/8910320933_tamanhos_280x350px_unissex.jpg",
+                "imageWidth": 280,
+                "imageHeight": 350,
+                "alt": "Unissex",
+                "href": "/unissex"
+              },
+              {
+                "image": "https://assets.decocache.com/brandili/001c62c0-0054-4591-85d7-101eaa7eae3b/8910320933_tamanhos_280x350px_young.jpg",
+                "imageWidth": 280,
+                "imageHeight": 350,
+                "alt": "Youg Class",
+                "href": "Youg Class"
+              }
+            ],
+            "slider": {
+              "mobile": {
+                "dots": true
+              },
+              "desktop": {
+                "dots": false
+              }
+            }
+          },
+          {
+            "__resolveType": "site/sections/Product/ShelfWithImage.tsx",
+            "section": {
+              "__resolveType": "site/sections/Product/ProductCountDownShelf.tsx",
+              "products": {
+                "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+                "props": {
+                  "sort": "release:desc",
+                  "count": 5,
+                  "fuzzy": "automatic",
+                  "query": "stitch"
+                }
+              },
+              "layout": {
+                "numberOfSliders": {
+                  "mobile": 1,
+                  "desktop": 1
+                },
+                "headerAlignment": "left",
+                "headerfontSize": "Normal"
+              },
+              "cardLayout": {
+                "basics": {
+                  "contentAlignment": "Left",
+                  "oldPriceSize": "Small"
+                },
+                "elementsPositions": {
+                  "skuSelector": "Top",
+                  "favoriteIcon": "Top right"
+                },
+                "onMouseOver": {
+                  "image": "Change image",
+                  "card": "None"
+                },
+                "hide": {}
+              }
+            },
+            "titleLayout": {
+              "headerAlignment": "left"
+            },
+            "image": {
+              "src": "https://assets.decocache.com/brandili/55da1da6-6038-4656-b904-15b804b38ce6/B2C_LancamentoStitch_620x480px.jpg",
+              "alt": "Novidades",
+              "href": "/stitch",
+              "hiddenMobile": false
+            },
+            "title": "Novidades"
+          },
+          {
+            "__resolveType": "site/sections/Product/ProductShelf.tsx",
+            "title": "Ofertas especiais",
+            "products": {
+              "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+              "props": {
+                "sort": "discount:desc",
+                "collection": "825",
+                "count": 8
+              }
+            },
+            "layout": {
+              "numberOfSliders": {
+                "desktop": 4,
+                "mobile": 2
+              },
+              "showArrows": true,
+              "headerAlignment": "left",
+              "dots": true
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/Images/MiniBanners.tsx",
+              "header": {
+                "title": "Monte seu look"
+              },
+              "images": [
+                {
+                  "image": "https://assets.decocache.com/brandili/291c80aa-87ec-43b0-8c48-b3ef7eb87087/8910320933_categoria_350x450px_01.jpg",
+                  "imageWidth": 350,
+                  "imageHeight": 450,
+                  "alt": "Blusas",
+                  "href": "/monte-seu-look-1"
+                },
+                {
+                  "image": "https://assets.decocache.com/brandili/c1ee8ca3-34aa-48bf-98d7-e70fa1901986/8910320933_categoria_350x450px_02.jpg",
+                  "imageWidth": 350,
+                  "imageHeight": 450,
+                  "alt": "Calças",
+                  "href": "/monte-seu-look-2"
+                },
+                {
+                  "image": "https://assets.decocache.com/brandili/fd28cb0e-ff16-408c-a1d5-3e54033b6073/8910320933_categoria_350x450px_03.jpg",
+                  "imageWidth": 350,
+                  "imageHeight": 450,
+                  "alt": "Conjuntos",
+                  "href": "/monte-seu-look-3"
+                },
+                {
+                  "image": "https://assets.decocache.com/brandili/f57414fa-457c-4d7a-a897-4d8c481f6411/8910320933_categoria_350x450px_04.jpg",
+                  "imageWidth": 350,
+                  "imageHeight": 450,
+                  "alt": "Jaquetas",
+                  "href": "/monte-seu-look-4"
+                }
+              ],
+              "slider": {
+                "mobile": {
+                  "dots": true
+                },
+                "desktop": {
+                  "dots": true
+                }
+              }
+            }
+          },
+          {
+            "__resolveType": "site/sections/Images/MiniBanners.tsx",
+            "header": {
+              "title": "Escolha sua licença",
+              "seeMore": {
+                "href": "/licenciados",
+                "label": "Ver todos"
+              }
+            },
+            "images": [
+              {
+                "alt": "Stitch",
+                "image": "https://assets.decocache.com/brandili/81e8b4d7-f216-4ebe-883a-0db203b19bcb/stitch-(1).png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "href": "/stitch"
+              },
+              {
+                "alt": "Mickey e Minnie Mouse ",
+                "href": "https://www.brandili.com.br/licenciados/mickey-minnie-mouse",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/977b24bd-6515-4f61-8770-bb3bafd37985/mickey-20241206-133502.png",
+                "imageWidth": 103,
+                "imageHeight": 137
+              },
+              {
+                "alt": "Minecraft",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/cd2b1f18-2977-4a3f-8e06-a0979ca9a911/minecraft-20241206-133510.png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "href": "https://www.brandili.com.br/licenciados/minecraft"
+              },
+              {
+                "alt": "Moana",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/22cac5aa-b387-4a94-94ee-61edc11987cf/moana-20241206-133644.png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "href": "https://www.brandili.com.br/licenciados/moana"
+              },
+              {
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/9b9de402-5b13-48d1-917b-3e284d73622a/sonic-20241206-133615.png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "alt": "Sonic",
+                "href": "https://www.brandili.com.br/licenciados/sonic"
+              },
+              {
+                "alt": "Wandinha",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/35dd751d-8026-4a28-b598-4ce508bb43a3/wandinha-20241206-133440.png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "href": "https://www.brandili.com.br/licenciados/wandinha"
+              },
+              {
+                "alt": "Avengers",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/2b563356-7915-4ce1-852b-abfd9c0912f2/vingadores-20241206-133451.png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "href": "https://www.brandili.com.br/licenciados/vingadores"
+              },
+              {
+                "alt": "Turma da Mônica",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/5aee0d93-0084-4244-9b4f-de9f59a1bcb1/monica-20241206-133519.png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "href": "https://www.brandili.com.br/licenciados/turma-da-monica"
+              },
+              {
+                "alt": "Homem Aranha",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/b80ad806-a4bb-40a8-84f4-f50b1336ff66/homemaranha-20241206-133527.png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "href": "https://www.brandili.com.br/licenciados/homem-aranha"
+              },
+              {
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/a0572dd9-9044-4228-ba86-11bfd3ea7e69/flamengo-20241206-133557.png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "alt": "Flamengo",
+                "href": "https://www.brandili.com.br/licenciados/flamengo"
+              },
+              {
+                "image": "https://assets.decocache.com/brandili/e94e12a6-46b3-4a8c-a016-c1ec65f2f657/onepiece-(1).png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "alt": "One Piece",
+                "href": "/licenciados/one-piece"
+              },
+              {
+                "image": "https://assets.decocache.com/brandili/05bee753-cfb5-4a37-80ae-7378a80909bb/naruto-(1).png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "alt": "Naruto",
+                "href": "/licenciados/naruto"
+              }
+            ]
+          },
+          {
+            "__resolveType": "site/sections/Product/ProductShelf.tsx",
+            "products": {
+              "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+              "props": {
+                "ids": [
+                  "108908",
+                  "108915",
+                  "105634",
+                  "105642",
+                  "86403",
+                  "104650"
+                ]
+              }
+            },
+            "layout": {
+              "numberOfSliders": {
+                "desktop": 4,
+                "mobile": 2
+              },
+              "showArrows": true,
+              "headerAlignment": "left",
+              "dots": true
+            },
+            "title": "Licenciados"
+          },
+          {
+            "__resolveType": "site/sections/Images/BannerGrid.tsx",
+            "banners": [
+              {
+                "srcMobile": "https://data.decoassets.com/brandili/2cdf9baf-19fa-48ff-9ff4-cedc54ecd37f/8420864429_bannerMeioMundi_350x300px.jpg",
+                "srcDesktop": "https://data.decoassets.com/brandili/1d5ff45d-d68e-43dd-be3c-deec7da450dc/8420864429_bannerMeioMundi_1440x445px.jpg",
+                "alt": "Mundi na Brandili",
+                "href": "https://www.brandili.com.br/novidades/mundi?sort=release%3Adesc&filter.category-1=novidades&filter.brand=mundi"
+              }
+            ],
+            "borderRadius": {
+              "mobile": "none",
+              "desktop": "none"
+            },
+            "itemsPerLine": {
+              "mobile": 1,
+              "desktop": 1
+            }
+          },
+          {
+            "__resolveType": "site/sections/Product/ProductShelf.tsx",
+            "layout": {
+              "numberOfSliders": {
+                "mobile": 2,
+                "desktop": 4
+              },
+              "showArrows": true,
+              "headerAlignment": "left",
+              "dots": true
+            },
+            "products": {
+              "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+              "props": {
+                "count": 8,
+                "sort": "discount:desc",
+                "collection": "890"
+              }
+            },
+            "title": "Acabou de chegar"
+          },
+          {
+            "__resolveType": "site/sections/Product/KitLookShoppableBanner.tsx",
+            "layout": {
+              "numberOfSliders": {
+                "mobile": 2,
+                "desktop": 2
+              }
+            },
+            "products": {
+              "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+              "props": {
+                "count": 2,
+                "query": "id:85492;108901",
+                "hideUnavailableItems": false,
+                "sort": "name:asc"
+              }
+            },
+            "title": "Compre o Look",
+            "pins": [
+              {
+                "link": "https://www.brandili.com.br/blusao-infantil-menina-do-stitch-brandili-561431403/p",
+                "label": "Blusão infantil menina do Stitch Brandili",
+                "mobile": {
+                  "x": 52,
+                  "y": 54
+                },
+                "desktop": {
+                  "x": 45,
+                  "y": 28
+                }
+              },
+              {
+                "link": "https://www.brandili.com.br/calca-jeans-comfort-infantil-menina-brandili-azul-18-801633320/p",
+                "label": "Calça jeans skinny infantil menina Brandili",
+                "mobile": {
+                  "x": 40,
+                  "y": 28
+                },
+                "desktop": {
+                  "x": 53,
+                  "y": 52
+                }
+              }
+            ],
+            "image": {
+              "mobile": "https://assets.decocache.com/brandili/9d6ba187-3795-4093-817c-394e0d86ff4b/8420864429_compreOLook_708x700px.jpg",
+              "altText": "Compre Look",
+              "desktop": "https://assets.decocache.com/brandili/9d6ba187-3795-4093-817c-394e0d86ff4b/8420864429_compreOLook_708x700px.jpg"
+            },
+            "cardLayout": {
+              "onMouseOver": {
+                "card": "None",
+                "image": "Change image"
+              }
+            },
+            "link": {
+              "href": "/compre-o-look",
+              "text": "Compre o Look"
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "Blog Posts"
+            }
+          },
+          {
+            "__resolveType": "site/sections/Social/InstagramElfsigth.tsx",
+            "link": "https://www.instagram.com/brandili_oficial/",
+            "elfsightid": "elfsight-app-b6a6d5a9-e2c7-4fd2-82e8-54b848b20e10"
+          },
+          {
+            "__resolveType": "Footer - Brandili"
+          }
+        ],
+        "rule": {
+          "__resolveType": "website/matchers/date.ts",
+          "start": "2025-05-10T03:00:00.000Z",
+          "end": "2025-05-12T02:59:00.000Z"
+        }
+      },
+      {
+        "value": [
+          {
+            "__resolveType": "Header - 01"
+          },
+          {
+            "__resolveType": "website/flags/multivariate/section.ts",
+            "variants": [
+              {
+                "value": {
+                  "dots": true,
+                  "arrows": true,
+                  "images": [
+                    {
+                      "alt": "24 Horas com 24% OFF",
+                      "mobile": "https://assets.decocache.com/brandili/29611e0a-d2a5-42e7-8bf1-c8c41b7ca4bd/9080324033_B2C-Banner-24hCom24Off_Banner_375x480px.gif",
+                      "desktop": "https://assets.decocache.com/brandili/d760204b-2536-4158-80ac-50a9d1820f3d/9080324033_B2C-Banner-24hCom24Off_Banner_1920x600px.gif",
+                      "action": {
+                        "href": "/24horas"
+                      }
+                    },
+                    {
+                      "desktop": "https://assets.decocache.com/brandili/187dc1e3-ebf6-4a95-a680-a37776b4cb7c/8807523038---Canais-Digitais---Banner-Dia-das-Maes-EC---Brandili---Desktop-(1).jpg",
+                      "mobile": "https://assets.decocache.com/brandili/2714265b-7ce8-470b-b2eb-95505bc197c6/8807523038---Canais-Digitais---Banner-Dia-das-Maes-EC---Brandili---Mobile.jpg",
+                      "alt": "Dia das mães",
+                      "action": {
+                        "href": "/dia-das-maes"
+                      }
+                    },
+                    {
+                      "desktop": "https://assets.decocache.com/brandili/56d66570-ece8-4af6-ba83-bf56a61f7612/9005647891_1920x600px.jpg",
+                      "mobile": "https://assets.decocache.com/brandili/8c0d7bc0-2916-4fb6-b753-5f18276a14fa/9005647891_375x480px.jpg",
+                      "action": {
+                        "href": "/promocao"
+                      },
+                      "alt": "60% OFF"
+                    },
+                    {
+                      "desktop": "https://assets.decocache.com/brandili/d9c0803d-97c5-431b-aedd-58e29ba4d9fd/9005640756_banner_1920x600px.jpg",
+                      "mobile": "https://assets.decocache.com/brandili/b06fe6f3-7637-4b61-934f-8121656fe5cc/9005640756_banner_375x480px.jpg",
+                      "action": {
+                        "href": "/inverno"
+                      },
+                      "alt": "Os Mais Quentinhos"
+                    }
+                  ],
+                  "preload": true,
+                  "interval": 5,
+                  "__resolveType": "site/sections/Images/Carousel.tsx"
+                },
+                "rule": {
+                  "__resolveType": "website/matchers/always.ts"
+                }
+              }
+            ]
+          },
+          {
+            "__resolveType": "site/sections/Content/Benefits.tsx",
+            "title": " ",
+            "layout": {
+              "iconColor": "text-blue-2",
+              "variation": "Simple",
+              "headerAlignment": "center"
+            },
+            "benefits": [
+              {
+                "icon": "Truck",
+                "label": "Frete Grátis",
+                "description": "Frete grátis a partir de R$199"
+              },
+              {
+                "icon": "Wallet",
+                "label": "Facilitado",
+                "description": "parcele em até 6x"
+              },
+              {
+                "icon": "Security",
+                "label": "Seguro",
+                "description": "Site protegido com SSL"
+              },
+              {
+                "icon": "Percentage",
+                "label": "10% Cashback",
+                "description": "Para uma próxima compra"
+              }
+            ]
+          },
+          {
+            "__resolveType": "site/sections/Images/MiniBanners.tsx",
+            "header": {
+              "title": "Compre por categoria",
+              "seeMore": {}
+            },
+            "images": [
+              {
+                "image": "https://assets.decocache.com/brandili/9dd7317d-5a21-47d0-b22f-78b0895eaa7e/8910320933_tamanhos_280x350px_bebes.jpg",
+                "imageHeight": 350,
+                "imageWidth": 280,
+                "alt": "Bebês",
+                "href": "https://www.brandili.com.br/baby"
+              },
+              {
+                "alt": "Meninos",
+                "image": "https://assets.decocache.com/brandili/ae871fcc-bdde-46e3-8049-fe46f90557c2/8910320933_tamanhos_280x350px_meninos.jpg",
+                "imageWidth": 280,
+                "imageHeight": 350,
+                "href": "https://www.brandili.com.br/meninos"
+              },
+              {
+                "image": "https://assets.decocache.com/brandili/cf4c839a-ce9b-496b-a43f-d258a617c507/8910320933_tamanhos_280x350px_meninas.jpg",
+                "imageWidth": 280,
+                "imageHeight": 350,
+                "alt": "Meninas",
+                "href": "https://www.brandili.com.br/meninas"
+              },
+              {
+                "image": "https://assets.decocache.com/brandili/1fa696ea-c049-4891-a73c-5efee5756ab7/8910320933_tamanhos_280x350px_unissex.jpg",
+                "imageWidth": 280,
+                "imageHeight": 350,
+                "alt": "Unissex",
+                "href": "/unissex"
+              },
+              {
+                "image": "https://assets.decocache.com/brandili/001c62c0-0054-4591-85d7-101eaa7eae3b/8910320933_tamanhos_280x350px_young.jpg",
+                "imageWidth": 280,
+                "imageHeight": 350,
+                "alt": "Youg Class",
+                "href": "Youg Class"
+              }
+            ],
+            "slider": {
+              "mobile": {
+                "dots": true
+              },
+              "desktop": {
+                "dots": false
+              }
+            }
+          },
+          {
+            "__resolveType": "site/sections/Product/ShelfWithImage.tsx",
+            "section": {
+              "__resolveType": "site/sections/Product/ProductCountDownShelf.tsx",
+              "products": {
+                "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+                "props": {
+                  "sort": "release:desc",
+                  "count": 5,
+                  "fuzzy": "automatic",
+                  "query": "stitch"
+                }
+              },
+              "layout": {
+                "numberOfSliders": {
+                  "mobile": 1,
+                  "desktop": 1
+                },
+                "headerAlignment": "left",
+                "headerfontSize": "Normal"
+              },
+              "cardLayout": {
+                "basics": {
+                  "contentAlignment": "Left",
+                  "oldPriceSize": "Small"
+                },
+                "elementsPositions": {
+                  "skuSelector": "Top",
+                  "favoriteIcon": "Top right"
+                },
+                "onMouseOver": {
+                  "image": "Change image",
+                  "card": "None"
+                },
+                "hide": {}
+              }
+            },
+            "titleLayout": {
+              "headerAlignment": "left"
+            },
+            "image": {
+              "src": "https://assets.decocache.com/brandili/55da1da6-6038-4656-b904-15b804b38ce6/B2C_LancamentoStitch_620x480px.jpg",
+              "alt": "Novidades",
+              "href": "/stitch",
+              "hiddenMobile": false
+            },
+            "title": "Novidades"
+          },
+          {
+            "__resolveType": "site/sections/Product/ProductShelf.tsx",
+            "title": "Ofertas especiais",
+            "products": {
+              "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+              "props": {
+                "sort": "discount:desc",
+                "collection": "825",
+                "count": 8
+              }
+            },
+            "layout": {
+              "numberOfSliders": {
+                "desktop": 4,
+                "mobile": 2
+              },
+              "showArrows": true,
+              "headerAlignment": "left",
+              "dots": true
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/Images/MiniBanners.tsx",
+              "header": {
+                "title": "Monte seu look"
+              },
+              "images": [
+                {
+                  "image": "https://assets.decocache.com/brandili/291c80aa-87ec-43b0-8c48-b3ef7eb87087/8910320933_categoria_350x450px_01.jpg",
+                  "imageWidth": 350,
+                  "imageHeight": 450,
+                  "alt": "Blusas",
+                  "href": "/monte-seu-look-1"
+                },
+                {
+                  "image": "https://assets.decocache.com/brandili/c1ee8ca3-34aa-48bf-98d7-e70fa1901986/8910320933_categoria_350x450px_02.jpg",
+                  "imageWidth": 350,
+                  "imageHeight": 450,
+                  "alt": "Calças",
+                  "href": "/monte-seu-look-2"
+                },
+                {
+                  "image": "https://assets.decocache.com/brandili/fd28cb0e-ff16-408c-a1d5-3e54033b6073/8910320933_categoria_350x450px_03.jpg",
+                  "imageWidth": 350,
+                  "imageHeight": 450,
+                  "alt": "Conjuntos",
+                  "href": "/monte-seu-look-3"
+                },
+                {
+                  "image": "https://assets.decocache.com/brandili/f57414fa-457c-4d7a-a897-4d8c481f6411/8910320933_categoria_350x450px_04.jpg",
+                  "imageWidth": 350,
+                  "imageHeight": 450,
+                  "alt": "Jaquetas",
+                  "href": "/monte-seu-look-4"
+                }
+              ],
+              "slider": {
+                "mobile": {
+                  "dots": true
+                },
+                "desktop": {
+                  "dots": true
+                }
+              }
+            }
+          },
+          {
+            "__resolveType": "site/sections/Images/MiniBanners.tsx",
+            "header": {
+              "title": "Escolha sua licença",
+              "seeMore": {
+                "href": "/licenciados",
+                "label": "Ver todos"
+              }
+            },
+            "images": [
+              {
+                "alt": "Stitch",
+                "image": "https://assets.decocache.com/brandili/81e8b4d7-f216-4ebe-883a-0db203b19bcb/stitch-(1).png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "href": "/stitch"
+              },
+              {
+                "alt": "Mickey e Minnie Mouse ",
+                "href": "https://www.brandili.com.br/licenciados/mickey-minnie-mouse",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/977b24bd-6515-4f61-8770-bb3bafd37985/mickey-20241206-133502.png",
+                "imageWidth": 103,
+                "imageHeight": 137
+              },
+              {
+                "alt": "Minecraft",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/cd2b1f18-2977-4a3f-8e06-a0979ca9a911/minecraft-20241206-133510.png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "href": "https://www.brandili.com.br/licenciados/minecraft"
+              },
+              {
+                "alt": "Moana",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/22cac5aa-b387-4a94-94ee-61edc11987cf/moana-20241206-133644.png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "href": "https://www.brandili.com.br/licenciados/moana"
+              },
+              {
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/9b9de402-5b13-48d1-917b-3e284d73622a/sonic-20241206-133615.png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "alt": "Sonic",
+                "href": "https://www.brandili.com.br/licenciados/sonic"
+              },
+              {
+                "alt": "Wandinha",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/35dd751d-8026-4a28-b598-4ce508bb43a3/wandinha-20241206-133440.png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "href": "https://www.brandili.com.br/licenciados/wandinha"
+              },
+              {
+                "alt": "Avengers",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/2b563356-7915-4ce1-852b-abfd9c0912f2/vingadores-20241206-133451.png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "href": "https://www.brandili.com.br/licenciados/vingadores"
+              },
+              {
+                "alt": "Turma da Mônica",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/5aee0d93-0084-4244-9b4f-de9f59a1bcb1/monica-20241206-133519.png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "href": "https://www.brandili.com.br/licenciados/turma-da-monica"
+              },
+              {
+                "alt": "Homem Aranha",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/b80ad806-a4bb-40a8-84f4-f50b1336ff66/homemaranha-20241206-133527.png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "href": "https://www.brandili.com.br/licenciados/homem-aranha"
+              },
+              {
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/a0572dd9-9044-4228-ba86-11bfd3ea7e69/flamengo-20241206-133557.png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "alt": "Flamengo",
+                "href": "https://www.brandili.com.br/licenciados/flamengo"
+              },
+              {
+                "image": "https://assets.decocache.com/brandili/e94e12a6-46b3-4a8c-a016-c1ec65f2f657/onepiece-(1).png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "alt": "One Piece",
+                "href": "/licenciados/one-piece"
+              },
+              {
+                "image": "https://assets.decocache.com/brandili/05bee753-cfb5-4a37-80ae-7378a80909bb/naruto-(1).png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "alt": "Naruto",
+                "href": "/licenciados/naruto"
+              }
+            ]
+          },
+          {
+            "__resolveType": "site/sections/Product/ProductShelf.tsx",
+            "products": {
+              "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+              "props": {
+                "ids": [
+                  "108908",
+                  "108915",
+                  "105634",
+                  "105642",
+                  "86403",
+                  "104650"
+                ]
+              }
+            },
+            "layout": {
+              "numberOfSliders": {
+                "desktop": 4,
+                "mobile": 2
+              },
+              "showArrows": true,
+              "headerAlignment": "left",
+              "dots": true
+            },
+            "title": "Licenciados"
+          },
+          {
+            "__resolveType": "site/sections/Images/BannerGrid.tsx",
+            "banners": [
+              {
+                "srcMobile": "https://data.decoassets.com/brandili/2cdf9baf-19fa-48ff-9ff4-cedc54ecd37f/8420864429_bannerMeioMundi_350x300px.jpg",
+                "srcDesktop": "https://data.decoassets.com/brandili/1d5ff45d-d68e-43dd-be3c-deec7da450dc/8420864429_bannerMeioMundi_1440x445px.jpg",
+                "alt": "Mundi na Brandili",
+                "href": "https://www.brandili.com.br/novidades/mundi?sort=release%3Adesc&filter.category-1=novidades&filter.brand=mundi"
+              }
+            ],
+            "borderRadius": {
+              "mobile": "none",
+              "desktop": "none"
+            },
+            "itemsPerLine": {
+              "mobile": 1,
+              "desktop": 1
+            }
+          },
+          {
+            "__resolveType": "site/sections/Product/ProductShelf.tsx",
+            "layout": {
+              "numberOfSliders": {
+                "mobile": 2,
+                "desktop": 4
+              },
+              "showArrows": true,
+              "headerAlignment": "left",
+              "dots": true
+            },
+            "products": {
+              "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+              "props": {
+                "count": 8,
+                "sort": "discount:desc",
+                "collection": "890"
+              }
+            },
+            "title": "Acabou de chegar"
+          },
+          {
+            "__resolveType": "site/sections/Product/KitLookShoppableBanner.tsx",
+            "layout": {
+              "numberOfSliders": {
+                "mobile": 2,
+                "desktop": 2
+              }
+            },
+            "products": {
+              "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+              "props": {
+                "count": 2,
+                "query": "id:85492;108901",
+                "hideUnavailableItems": false,
+                "sort": "name:asc"
+              }
+            },
+            "title": "Compre o Look",
+            "pins": [
+              {
+                "link": "https://www.brandili.com.br/blusao-infantil-menina-do-stitch-brandili-561431403/p",
+                "label": "Blusão infantil menina do Stitch Brandili",
+                "mobile": {
+                  "x": 52,
+                  "y": 54
+                },
+                "desktop": {
+                  "x": 45,
+                  "y": 28
+                }
+              },
+              {
+                "link": "https://www.brandili.com.br/calca-jeans-comfort-infantil-menina-brandili-azul-18-801633320/p",
+                "label": "Calça jeans skinny infantil menina Brandili",
+                "mobile": {
+                  "x": 40,
+                  "y": 28
+                },
+                "desktop": {
+                  "x": 53,
+                  "y": 52
+                }
+              }
+            ],
+            "image": {
+              "mobile": "https://assets.decocache.com/brandili/9d6ba187-3795-4093-817c-394e0d86ff4b/8420864429_compreOLook_708x700px.jpg",
+              "altText": "Compre Look",
+              "desktop": "https://assets.decocache.com/brandili/9d6ba187-3795-4093-817c-394e0d86ff4b/8420864429_compreOLook_708x700px.jpg"
+            },
+            "cardLayout": {
+              "onMouseOver": {
+                "card": "None",
+                "image": "Change image"
+              }
+            },
+            "link": {
+              "href": "/compre-o-look",
+              "text": "Compre o Look"
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "Blog Posts"
+            }
+          },
+          {
+            "__resolveType": "site/sections/Social/InstagramElfsigth.tsx",
+            "link": "https://www.instagram.com/brandili_oficial/",
+            "elfsightid": "elfsight-app-b6a6d5a9-e2c7-4fd2-82e8-54b848b20e10"
+          },
+          {
+            "__resolveType": "Footer - Brandili"
+          }
+        ],
+        "rule": {
+          "__resolveType": "website/matchers/date.ts",
+          "start": "2025-05-09T03:00:00.000Z",
+          "end": "2025-05-10T02:59:00.000Z"
+        }
+      },
+      {
+        "value": [
+          {
+            "__resolveType": "Header - 01"
+          },
+          {
+            "__resolveType": "website/flags/multivariate/section.ts",
+            "variants": [
+              {
+                "value": {
+                  "dots": true,
+                  "arrows": true,
+                  "images": [
+                    {
+                      "alt": "Dia das mães",
+                      "mobile": "https://assets.decocache.com/brandili/2714265b-7ce8-470b-b2eb-95505bc197c6/8807523038---Canais-Digitais---Banner-Dia-das-Maes-EC---Brandili---Mobile.jpg",
+                      "desktop": "https://assets.decocache.com/brandili/187dc1e3-ebf6-4a95-a680-a37776b4cb7c/8807523038---Canais-Digitais---Banner-Dia-das-Maes-EC---Brandili---Desktop-(1).jpg",
+                      "action": {
+                        "href": "/dia-das-maes"
+                      }
+                    },
+                    {
+                      "desktop": "https://assets.decocache.com/brandili/56d66570-ece8-4af6-ba83-bf56a61f7612/9005647891_1920x600px.jpg",
+                      "mobile": "https://assets.decocache.com/brandili/8c0d7bc0-2916-4fb6-b753-5f18276a14fa/9005647891_375x480px.jpg",
+                      "alt": "60% OFF",
+                      "action": {
+                        "href": "/promocao"
+                      }
+                    },
+                    {
+                      "desktop": "https://assets.decocache.com/brandili/d9c0803d-97c5-431b-aedd-58e29ba4d9fd/9005640756_banner_1920x600px.jpg",
+                      "mobile": "https://assets.decocache.com/brandili/b06fe6f3-7637-4b61-934f-8121656fe5cc/9005640756_banner_375x480px.jpg",
+                      "action": {
+                        "href": "/inverno"
+                      },
+                      "alt": "Os Mais Quentinhos"
+                    }
+                  ],
+                  "preload": true,
+                  "interval": 5,
+                  "__resolveType": "site/sections/Images/Carousel.tsx"
+                },
+                "rule": {
+                  "__resolveType": "website/matchers/always.ts"
+                }
+              }
+            ]
+          },
+          {
+            "__resolveType": "site/sections/Content/Benefits.tsx",
+            "title": " ",
+            "layout": {
+              "iconColor": "text-blue-2",
+              "variation": "Simple",
+              "headerAlignment": "center"
+            },
+            "benefits": [
+              {
+                "icon": "Truck",
+                "label": "Frete Grátis",
+                "description": "Frete grátis a partir de R$199"
+              },
+              {
+                "icon": "Wallet",
+                "label": "Facilitado",
+                "description": "parcele em até 6x"
+              },
+              {
+                "icon": "Security",
+                "label": "Seguro",
+                "description": "Site protegido com SSL"
+              },
+              {
+                "icon": "Percentage",
+                "label": "10% Cashback",
+                "description": "Para uma próxima compra"
+              }
+            ]
+          },
+          {
+            "__resolveType": "site/sections/Images/MiniBanners.tsx",
+            "header": {
+              "title": "Compre por categoria",
+              "seeMore": {}
+            },
+            "images": [
+              {
+                "image": "https://assets.decocache.com/brandili/9dd7317d-5a21-47d0-b22f-78b0895eaa7e/8910320933_tamanhos_280x350px_bebes.jpg",
+                "imageHeight": 350,
+                "imageWidth": 280,
+                "alt": "Bebês",
+                "href": "https://www.brandili.com.br/baby"
+              },
+              {
+                "alt": "Meninos",
+                "image": "https://assets.decocache.com/brandili/ae871fcc-bdde-46e3-8049-fe46f90557c2/8910320933_tamanhos_280x350px_meninos.jpg",
+                "imageWidth": 280,
+                "imageHeight": 350,
+                "href": "https://www.brandili.com.br/meninos"
+              },
+              {
+                "image": "https://assets.decocache.com/brandili/cf4c839a-ce9b-496b-a43f-d258a617c507/8910320933_tamanhos_280x350px_meninas.jpg",
+                "imageWidth": 280,
+                "imageHeight": 350,
+                "alt": "Meninas",
+                "href": "https://www.brandili.com.br/meninas"
+              },
+              {
+                "image": "https://assets.decocache.com/brandili/1fa696ea-c049-4891-a73c-5efee5756ab7/8910320933_tamanhos_280x350px_unissex.jpg",
+                "imageWidth": 280,
+                "imageHeight": 350,
+                "alt": "Unissex",
+                "href": "/unissex"
+              },
+              {
+                "image": "https://assets.decocache.com/brandili/001c62c0-0054-4591-85d7-101eaa7eae3b/8910320933_tamanhos_280x350px_young.jpg",
+                "imageWidth": 280,
+                "imageHeight": 350,
+                "alt": "Youg Class",
+                "href": "Youg Class"
+              }
+            ],
+            "slider": {
+              "mobile": {
+                "dots": true
+              },
+              "desktop": {
+                "dots": false
+              }
+            }
+          },
+          {
+            "__resolveType": "site/sections/Product/ShelfWithImage.tsx",
+            "section": {
+              "__resolveType": "site/sections/Product/ProductCountDownShelf.tsx",
+              "products": {
+                "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+                "props": {
+                  "sort": "release:desc",
+                  "count": 5,
+                  "fuzzy": "automatic",
+                  "query": "stitch"
+                }
+              },
+              "layout": {
+                "numberOfSliders": {
+                  "mobile": 1,
+                  "desktop": 1
+                },
+                "headerAlignment": "left",
+                "headerfontSize": "Normal"
+              },
+              "cardLayout": {
+                "basics": {
+                  "contentAlignment": "Left",
+                  "oldPriceSize": "Small"
+                },
+                "elementsPositions": {
+                  "skuSelector": "Top",
+                  "favoriteIcon": "Top right"
+                },
+                "onMouseOver": {
+                  "image": "Change image",
+                  "card": "None"
+                },
+                "hide": {}
+              }
+            },
+            "titleLayout": {
+              "headerAlignment": "left"
+            },
+            "image": {
+              "src": "https://assets.decocache.com/brandili/55da1da6-6038-4656-b904-15b804b38ce6/B2C_LancamentoStitch_620x480px.jpg",
+              "alt": "Novidades",
+              "href": "/stitch",
+              "hiddenMobile": false
+            },
+            "title": "Novidades"
+          },
+          {
+            "__resolveType": "site/sections/Product/ProductShelf.tsx",
+            "title": "Ofertas especiais",
+            "products": {
+              "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+              "props": {
+                "sort": "discount:desc",
+                "collection": "825",
+                "count": 8
+              }
+            },
+            "layout": {
+              "numberOfSliders": {
+                "desktop": 4,
+                "mobile": 2
+              },
+              "showArrows": true,
+              "headerAlignment": "left",
+              "dots": true
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/Images/MiniBanners.tsx",
+              "header": {
+                "title": "Monte seu look"
+              },
+              "images": [
+                {
+                  "image": "https://assets.decocache.com/brandili/291c80aa-87ec-43b0-8c48-b3ef7eb87087/8910320933_categoria_350x450px_01.jpg",
+                  "imageWidth": 350,
+                  "imageHeight": 450,
+                  "alt": "Blusas",
+                  "href": "/monte-seu-look-1"
+                },
+                {
+                  "image": "https://assets.decocache.com/brandili/c1ee8ca3-34aa-48bf-98d7-e70fa1901986/8910320933_categoria_350x450px_02.jpg",
+                  "imageWidth": 350,
+                  "imageHeight": 450,
+                  "alt": "Calças",
+                  "href": "/monte-seu-look-2"
+                },
+                {
+                  "image": "https://assets.decocache.com/brandili/fd28cb0e-ff16-408c-a1d5-3e54033b6073/8910320933_categoria_350x450px_03.jpg",
+                  "imageWidth": 350,
+                  "imageHeight": 450,
+                  "alt": "Conjuntos",
+                  "href": "/monte-seu-look-3"
+                },
+                {
+                  "image": "https://assets.decocache.com/brandili/f57414fa-457c-4d7a-a897-4d8c481f6411/8910320933_categoria_350x450px_04.jpg",
+                  "imageWidth": 350,
+                  "imageHeight": 450,
+                  "alt": "Jaquetas",
+                  "href": "/monte-seu-look-4"
+                }
+              ],
+              "slider": {
+                "mobile": {
+                  "dots": true
+                },
+                "desktop": {
+                  "dots": true
+                }
+              }
+            }
+          },
+          {
+            "__resolveType": "site/sections/Images/MiniBanners.tsx",
+            "header": {
+              "title": "Escolha sua licença",
+              "seeMore": {
+                "href": "/licenciados",
+                "label": "Ver todos"
+              }
+            },
+            "images": [
+              {
+                "alt": "Stitch",
+                "image": "https://assets.decocache.com/brandili/81e8b4d7-f216-4ebe-883a-0db203b19bcb/stitch-(1).png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "href": "/stitch"
+              },
+              {
+                "alt": "Mickey e Minnie Mouse ",
+                "href": "https://www.brandili.com.br/licenciados/mickey-minnie-mouse",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/977b24bd-6515-4f61-8770-bb3bafd37985/mickey-20241206-133502.png",
+                "imageWidth": 103,
+                "imageHeight": 137
+              },
+              {
+                "alt": "Minecraft",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/cd2b1f18-2977-4a3f-8e06-a0979ca9a911/minecraft-20241206-133510.png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "href": "https://www.brandili.com.br/licenciados/minecraft"
+              },
+              {
+                "alt": "Moana",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/22cac5aa-b387-4a94-94ee-61edc11987cf/moana-20241206-133644.png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "href": "https://www.brandili.com.br/licenciados/moana"
+              },
+              {
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/9b9de402-5b13-48d1-917b-3e284d73622a/sonic-20241206-133615.png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "alt": "Sonic",
+                "href": "https://www.brandili.com.br/licenciados/sonic"
+              },
+              {
+                "alt": "Wandinha",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/35dd751d-8026-4a28-b598-4ce508bb43a3/wandinha-20241206-133440.png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "href": "https://www.brandili.com.br/licenciados/wandinha"
+              },
+              {
+                "alt": "Avengers",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/2b563356-7915-4ce1-852b-abfd9c0912f2/vingadores-20241206-133451.png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "href": "https://www.brandili.com.br/licenciados/vingadores"
+              },
+              {
+                "alt": "Turma da Mônica",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/5aee0d93-0084-4244-9b4f-de9f59a1bcb1/monica-20241206-133519.png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "href": "https://www.brandili.com.br/licenciados/turma-da-monica"
+              },
+              {
+                "alt": "Homem Aranha",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/b80ad806-a4bb-40a8-84f4-f50b1336ff66/homemaranha-20241206-133527.png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "href": "https://www.brandili.com.br/licenciados/homem-aranha"
+              },
+              {
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/a0572dd9-9044-4228-ba86-11bfd3ea7e69/flamengo-20241206-133557.png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "alt": "Flamengo",
+                "href": "https://www.brandili.com.br/licenciados/flamengo"
+              },
+              {
+                "image": "https://assets.decocache.com/brandili/e94e12a6-46b3-4a8c-a016-c1ec65f2f657/onepiece-(1).png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "alt": "One Piece",
+                "href": "/licenciados/one-piece"
+              },
+              {
+                "image": "https://assets.decocache.com/brandili/05bee753-cfb5-4a37-80ae-7378a80909bb/naruto-(1).png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "alt": "Naruto",
+                "href": "/licenciados/naruto"
+              }
+            ]
+          },
+          {
+            "__resolveType": "site/sections/Product/ProductShelf.tsx",
+            "products": {
+              "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+              "props": {
+                "ids": [
+                  "108908",
+                  "108915",
+                  "105634",
+                  "105642",
+                  "86403",
+                  "104650"
+                ]
+              }
+            },
+            "layout": {
+              "numberOfSliders": {
+                "desktop": 4,
+                "mobile": 2
+              },
+              "showArrows": true,
+              "headerAlignment": "left",
+              "dots": true
+            },
+            "title": "Licenciados"
+          },
+          {
+            "__resolveType": "site/sections/Images/BannerGrid.tsx",
+            "banners": [
+              {
+                "srcMobile": "https://data.decoassets.com/brandili/2cdf9baf-19fa-48ff-9ff4-cedc54ecd37f/8420864429_bannerMeioMundi_350x300px.jpg",
+                "srcDesktop": "https://data.decoassets.com/brandili/1d5ff45d-d68e-43dd-be3c-deec7da450dc/8420864429_bannerMeioMundi_1440x445px.jpg",
+                "alt": "Mundi na Brandili",
+                "href": "https://www.brandili.com.br/novidades/mundi?sort=release%3Adesc&filter.category-1=novidades&filter.brand=mundi"
+              }
+            ],
+            "borderRadius": {
+              "mobile": "none",
+              "desktop": "none"
+            },
+            "itemsPerLine": {
+              "mobile": 1,
+              "desktop": 1
+            }
+          },
+          {
+            "__resolveType": "site/sections/Product/ProductShelf.tsx",
+            "layout": {
+              "numberOfSliders": {
+                "mobile": 2,
+                "desktop": 4
+              },
+              "showArrows": true,
+              "headerAlignment": "left",
+              "dots": true
+            },
+            "products": {
+              "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+              "props": {
+                "count": 8,
+                "sort": "discount:desc",
+                "collection": "890"
+              }
+            },
+            "title": "Acabou de chegar"
+          },
+          {
+            "__resolveType": "site/sections/Product/KitLookShoppableBanner.tsx",
+            "layout": {
+              "numberOfSliders": {
+                "mobile": 2,
+                "desktop": 2
+              }
+            },
+            "products": {
+              "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+              "props": {
+                "count": 2,
+                "query": "id:85492;108901",
+                "hideUnavailableItems": false,
+                "sort": "name:asc"
+              }
+            },
+            "title": "Compre o Look",
+            "pins": [
+              {
+                "link": "https://www.brandili.com.br/blusao-infantil-menina-do-stitch-brandili-561431403/p",
+                "label": "Blusão infantil menina do Stitch Brandili",
+                "mobile": {
+                  "x": 52,
+                  "y": 54
+                },
+                "desktop": {
+                  "x": 45,
+                  "y": 28
+                }
+              },
+              {
+                "link": "https://www.brandili.com.br/calca-jeans-comfort-infantil-menina-brandili-azul-18-801633320/p",
+                "label": "Calça jeans skinny infantil menina Brandili",
+                "mobile": {
+                  "x": 40,
+                  "y": 28
+                },
+                "desktop": {
+                  "x": 53,
+                  "y": 52
+                }
+              }
+            ],
+            "image": {
+              "mobile": "https://assets.decocache.com/brandili/9d6ba187-3795-4093-817c-394e0d86ff4b/8420864429_compreOLook_708x700px.jpg",
+              "altText": "Compre Look",
+              "desktop": "https://assets.decocache.com/brandili/9d6ba187-3795-4093-817c-394e0d86ff4b/8420864429_compreOLook_708x700px.jpg"
+            },
+            "cardLayout": {
+              "onMouseOver": {
+                "card": "None",
+                "image": "Change image"
+              }
+            },
+            "link": {
+              "href": "/compre-o-look",
+              "text": "Compre o Look"
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "Blog Posts"
+            }
+          },
+          {
+            "__resolveType": "site/sections/Social/InstagramElfsigth.tsx",
+            "link": "https://www.instagram.com/brandili_oficial/",
+            "elfsightid": "elfsight-app-b6a6d5a9-e2c7-4fd2-82e8-54b848b20e10"
+          },
+          {
+            "__resolveType": "Footer - Brandili"
+          }
+        ],
+        "rule": {
+          "__resolveType": "website/matchers/date.ts",
+          "start": "2025-05-07T03:00:00.000Z",
+          "end": "2025-05-09T02:59:00.000Z"
+        }
+      },
+      {
+        "value": [
+          {
+            "__resolveType": "Header - 01"
+          },
+          {
+            "__resolveType": "website/flags/multivariate/section.ts",
+            "variants": [
+              {
+                "value": {
+                  "dots": true,
+                  "arrows": true,
+                  "images": [
+                    {
+                      "alt": "Descontos Monstros 2",
+                      "mobile": "https://data.decoassets.com/brandili/7a67cd04-2d36-4a06-a564-51b56ee64953/FASE-2_375x480px.jpg",
+                      "desktop": "https://data.decoassets.com/brandili/1f36848c-f583-411a-9bc7-45a1f9bb5120/FASE-2.jpg",
+                      "action": {
+                        "href": "/descontos-monstros"
+                      }
+                    },
+                    {
+                      "desktop": "https://data.decoassets.com/brandili/5cf365b3-6e2d-4021-b35d-2b9e90a8958f/apres_8258261976_B2C-Banner-CompreGanhe-toalhas_1920x600px.gif",
+                      "mobile": "https://data.decoassets.com/brandili/987c6167-3fb0-4a7a-920e-fdc8ec365f66/apres_8258261976_B2C-Banner-CompreGanhe-toalhas_375x480px-(1).gif",
+                      "alt": "Comprou Ganhou Toalha",
+                      "action": {
+                        "href": "/brandili/novidades"
+                      }
+                    },
+                    {
+                      "desktop": "https://data.decoassets.com/brandili/85957ec1-f821-4581-8cd9-65447aef2744/8258288765_1920x600px.jpg",
+                      "mobile": "https://data.decoassets.com/brandili/344b01b2-9028-4474-86bf-3c8c8e1893df/8258288765_375x480px.jpg",
+                      "action": {
+                        "href": "/pijamas"
+                      },
+                      "alt": "Campanha Pijamas "
+                    }
+                  ],
+                  "preload": true,
+                  "interval": 5,
+                  "__resolveType": "site/sections/Images/Carousel.tsx"
+                },
+                "rule": {
+                  "__resolveType": "website/matchers/always.ts"
+                }
+              }
+            ]
+          },
+          {
+            "__resolveType": "site/sections/Content/Benefits.tsx",
+            "title": " ",
+            "layout": {
+              "iconColor": "text-blue-2",
+              "variation": "Simple",
+              "headerAlignment": "center"
+            },
+            "benefits": [
+              {
+                "icon": "Truck",
+                "label": "Frete Grátis",
+                "description": "Frete grátis a partir de R$199"
+              },
+              {
+                "icon": "Wallet",
+                "label": "Facilitado",
+                "description": "parcele em até 6x"
+              },
+              {
+                "icon": "Security",
+                "label": "Seguro",
+                "description": "Site protegido com SSL"
+              },
+              {
+                "icon": "Percentage",
+                "label": "10% Cashback",
+                "description": "Para uma próxima compra"
+              }
+            ]
+          },
+          {
+            "__resolveType": "site/sections/Images/MiniBanners.tsx",
+            "header": {
+              "title": "Compre por categoria",
+              "seeMore": {}
+            },
+            "images": [
+              {
+                "image": "https://assets.decocache.com/brandili/9dd7317d-5a21-47d0-b22f-78b0895eaa7e/8910320933_tamanhos_280x350px_bebes.jpg",
+                "imageHeight": 350,
+                "imageWidth": 280,
+                "alt": "Bebês",
+                "href": "https://www.brandili.com.br/baby"
+              },
+              {
+                "alt": "Meninos",
+                "image": "https://assets.decocache.com/brandili/ae871fcc-bdde-46e3-8049-fe46f90557c2/8910320933_tamanhos_280x350px_meninos.jpg",
+                "imageWidth": 280,
+                "imageHeight": 350,
+                "href": "https://www.brandili.com.br/meninos"
+              },
+              {
+                "image": "https://assets.decocache.com/brandili/cf4c839a-ce9b-496b-a43f-d258a617c507/8910320933_tamanhos_280x350px_meninas.jpg",
+                "imageWidth": 280,
+                "imageHeight": 350,
+                "alt": "Meninas",
+                "href": "https://www.brandili.com.br/meninas"
+              },
+              {
+                "image": "https://assets.decocache.com/brandili/1fa696ea-c049-4891-a73c-5efee5756ab7/8910320933_tamanhos_280x350px_unissex.jpg",
+                "imageWidth": 280,
+                "imageHeight": 350,
+                "alt": "Unissex",
+                "href": "/unissex"
+              },
+              {
+                "image": "https://assets.decocache.com/brandili/001c62c0-0054-4591-85d7-101eaa7eae3b/8910320933_tamanhos_280x350px_young.jpg",
+                "imageWidth": 280,
+                "imageHeight": 350,
+                "alt": "Youg Class",
+                "href": "/youg-class"
+              }
+            ],
+            "slider": {
+              "mobile": {
+                "dots": true
+              },
+              "desktop": {
+                "dots": false
+              }
+            }
+          },
+          {
+            "__resolveType": "site/sections/Product/ShelfWithImage.tsx",
+            "section": {
+              "__resolveType": "site/sections/Product/ProductCountDownShelf.tsx",
+              "products": {
+                "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+                "props": {
+                  "sort": "release:desc",
+                  "count": 5,
+                  "fuzzy": "automatic",
+                  "query": "sticth"
+                }
+              },
+              "layout": {
+                "numberOfSliders": {
+                  "mobile": 1,
+                  "desktop": 1
+                },
+                "headerAlignment": "left",
+                "headerfontSize": "Normal"
+              },
+              "cardLayout": {
+                "basics": {
+                  "contentAlignment": "Left",
+                  "oldPriceSize": "Small"
+                },
+                "elementsPositions": {
+                  "skuSelector": "Top",
+                  "favoriteIcon": "Top right"
+                },
+                "onMouseOver": {
+                  "image": "Change image",
+                  "card": "None"
+                },
+                "hide": {}
+              }
+            },
+            "titleLayout": {
+              "headerAlignment": "left"
+            },
+            "image": {
+              "src": "https://assets.decocache.com/brandili/55da1da6-6038-4656-b904-15b804b38ce6/B2C_LancamentoStitch_620x480px.jpg",
+              "alt": "Novidades",
+              "href": "/stitch",
+              "hiddenMobile": false
+            },
+            "title": "Novidades"
+          },
+          {
+            "__resolveType": "site/sections/Product/ProductShelf.tsx",
+            "title": "Ofertas especiais",
+            "products": {
+              "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+              "props": {
+                "sort": "discount:desc",
+                "collection": "825",
+                "count": 8
+              }
+            },
+            "layout": {
+              "numberOfSliders": {
+                "desktop": 4,
+                "mobile": 2
+              },
+              "showArrows": true,
+              "headerAlignment": "left",
+              "dots": true
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/Images/MiniBanners.tsx",
+              "header": {
+                "title": "Compre por categoria"
+              },
+              "images": [
+                {
+                  "image": "https://assets.decocache.com/brandili/526eb347-638a-4f0e-9857-ade79e2d6625/8679320442_categoria_350x450px_blusas.jpg",
+                  "imageWidth": 350,
+                  "imageHeight": 450,
+                  "alt": "Blusas",
+                  "href": "https://www.brandili.com.br/novidades?sort=release%3Adesc&filter.category-1=novidades&filter.categorias=blusas"
+                },
+                {
+                  "image": "https://assets.decocache.com/brandili/29654b99-d546-4af4-9153-c61f5ad441f3/8679320442_categoria_350x450px_calcas.jpg",
+                  "imageWidth": 350,
+                  "imageHeight": 450,
+                  "alt": "Calças",
+                  "href": "https://www.brandili.com.br/novidades?sort=release%3Adesc&filter.category-1=novidades&filter.categorias=calcas"
+                },
+                {
+                  "image": "https://assets.decocache.com/brandili/35dca0ae-5433-45ba-aee8-f54da47956f9/8679320442_categoria_350x450px_conjuntos.jpg",
+                  "imageWidth": 350,
+                  "imageHeight": 450,
+                  "alt": "Conjuntos",
+                  "href": "https://www.brandili.com.br/novidades?sort=release%3Adesc&filter.category-1=novidades&filter.categorias=conjuntos"
+                },
+                {
+                  "image": "https://data.decoassets.com/brandili/08534954-b0d3-4a4b-8d8e-66e92ff369c8/B2C_Banner_CompreporCor_OI25_Verde_280x350px.jpg",
+                  "imageWidth": 350,
+                  "imageHeight": 450,
+                  "alt": "59,90",
+                  "href": "https://www.brandili.com.br/novidades?sort=release%3Adesc&filter.category-1=novidades&filter.cor=verde"
+                }
+              ],
+              "slider": {
+                "mobile": {
+                  "dots": true
+                },
+                "desktop": {
+                  "dots": true
+                }
+              }
+            }
+          },
+          {
+            "__resolveType": "site/sections/Images/MiniBanners.tsx",
+            "header": {
+              "title": "Escolha sua licença",
+              "seeMore": {
+                "href": "/licenciados",
+                "label": "Ver todos"
+              }
+            },
+            "images": [
+              {
+                "alt": "Mickey e Minnie Mouse ",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/977b24bd-6515-4f61-8770-bb3bafd37985/mickey-20241206-133502.png",
+                "imageWidth": 103,
+                "imageHeight": 137,
+                "href": "https://www.brandili.com.br/licenciados/mickey-minnie-mouse"
+              },
+              {
+                "alt": "Minecraft",
+                "href": "https://www.brandili.com.br/licenciados/minecraft",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/cd2b1f18-2977-4a3f-8e06-a0979ca9a911/minecraft-20241206-133510.png",
+                "imageWidth": 102,
+                "imageHeight": 137
+              },
+              {
+                "alt": "Moana",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/22cac5aa-b387-4a94-94ee-61edc11987cf/moana-20241206-133644.png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "href": "https://www.brandili.com.br/licenciados/moana"
+              },
+              {
+                "alt": "Sonic",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/9b9de402-5b13-48d1-917b-3e284d73622a/sonic-20241206-133615.png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "href": "https://www.brandili.com.br/licenciados/sonic"
+              },
+              {
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/35dd751d-8026-4a28-b598-4ce508bb43a3/wandinha-20241206-133440.png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "alt": "Wandinha",
+                "href": "https://www.brandili.com.br/licenciados/wandinha"
+              },
+              {
+                "alt": "Avengers",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/2b563356-7915-4ce1-852b-abfd9c0912f2/vingadores-20241206-133451.png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "href": "https://www.brandili.com.br/licenciados/vingadores"
+              },
+              {
+                "alt": "Turma da Mônica",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/5aee0d93-0084-4244-9b4f-de9f59a1bcb1/monica-20241206-133519.png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "href": "https://www.brandili.com.br/licenciados/turma-da-monica"
+              },
+              {
+                "alt": "Homem Aranha",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/b80ad806-a4bb-40a8-84f4-f50b1336ff66/homemaranha-20241206-133527.png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "href": "https://www.brandili.com.br/licenciados/homem-aranha"
+              },
+              {
+                "alt": "Flamengo",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/a0572dd9-9044-4228-ba86-11bfd3ea7e69/flamengo-20241206-133557.png",
+                "imageWidth": 102,
+                "imageHeight": 137,
+                "href": "https://www.brandili.com.br/licenciados/flamengo"
+              },
+              {}
+            ]
+          },
+          {
+            "__resolveType": "site/sections/Product/ProductShelf.tsx",
+            "products": {
+              "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+              "props": {
+                "sort": "discount:desc",
+                "collection": "727",
+                "count": 8
+              }
+            },
+            "layout": {
+              "numberOfSliders": {
+                "desktop": 4,
+                "mobile": 2
+              },
+              "showArrows": true,
+              "headerAlignment": "left",
+              "dots": true
+            },
+            "title": "Licenciados"
+          },
+          {
+            "__resolveType": "site/sections/Images/BannerGrid.tsx",
+            "banners": [
+              {
+                "srcMobile": "https://data.decoassets.com/brandili/2cdf9baf-19fa-48ff-9ff4-cedc54ecd37f/8420864429_bannerMeioMundi_350x300px.jpg",
+                "srcDesktop": "https://data.decoassets.com/brandili/1d5ff45d-d68e-43dd-be3c-deec7da450dc/8420864429_bannerMeioMundi_1440x445px.jpg",
+                "alt": "Mundi na Brandili",
+                "href": "https://www.brandili.com.br/novidades/mundi?sort=release%3Adesc&filter.category-1=novidades&filter.brand=mundi"
+              }
+            ],
+            "borderRadius": {
+              "mobile": "none",
+              "desktop": "none"
+            },
+            "itemsPerLine": {
+              "mobile": 1,
+              "desktop": 1
+            }
+          },
+          {
+            "__resolveType": "site/sections/Product/ProductShelf.tsx",
+            "layout": {
+              "numberOfSliders": {
+                "mobile": 2,
+                "desktop": 4
+              },
+              "showArrows": true,
+              "headerAlignment": "left",
+              "dots": true
+            },
+            "products": {
+              "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+              "props": {
+                "count": 8,
+                "sort": "discount:desc",
+                "collection": "890"
+              }
+            },
+            "title": "Acabou de chegar"
+          },
+          {
+            "__resolveType": "site/sections/Product/KitLookShoppableBanner.tsx",
+            "layout": {
+              "numberOfSliders": {
+                "mobile": 2,
+                "desktop": 2
+              }
+            },
+            "products": {
+              "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+              "props": {
+                "count": 2,
+                "query": "id:93530;94748",
+                "hideUnavailableItems": false
+              }
+            },
+            "title": "Compre o Look",
+            "pins": [
+              {
+                "link": "https://www.brandili.com.br/camiseta-infantil-menino-em-malha-com-bordado-brandili-259923017/p",
+                "label": "Camiseta Infantil Menino Em Malha Com Bordado Brandili",
+                "mobile": {
+                  "x": 52,
+                  "y": 54
+                },
+                "desktop": {
+                  "x": 53,
+                  "y": 52
+                }
+              },
+              {
+                "link": "https://www.brandili.com.br/bermuda-jeans-infantil-menino-brandili-262063279/p",
+                "label": "Bermuda Jeans Infantil Menino Brandili",
+                "mobile": {
+                  "x": 40,
+                  "y": 28
+                },
+                "desktop": {
+                  "x": 45,
+                  "y": 28
+                }
+              }
+            ],
+            "image": {
+              "mobile": "https://data.decoassets.com/brandili/30c1a637-3583-4bd7-86a8-e7deae7b90dd/8302062396_compreolook2_708x700px.jpg",
+              "altText": "Compre Look",
+              "desktop": "https://data.decoassets.com/brandili/30c1a637-3583-4bd7-86a8-e7deae7b90dd/8302062396_compreolook2_708x700px.jpg"
+            },
+            "cardLayout": {
+              "onMouseOver": {
+                "card": "None",
+                "image": "Change image"
+              }
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "Blog Posts"
+            }
+          },
+          {
+            "__resolveType": "site/sections/Social/InstagramElfsigth.tsx",
+            "link": "https://www.instagram.com/brandili_oficial/",
+            "elfsightid": "elfsight-app-b6a6d5a9-e2c7-4fd2-82e8-54b848b20e10"
+          },
+          {
+            "__resolveType": "Footer - Brandili"
+          }
+        ],
+        "rule": {
+          "__resolveType": "website/matchers/always.ts"
+        }
+      }
+    ]
+  },
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "jsonLD": null,
+    "noIndexing": false
+  }
+}

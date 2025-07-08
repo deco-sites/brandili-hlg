@@ -1,0 +1,45 @@
+{
+  "name": "Monte Seu Look 2",
+  "path": "/monte-seu-look-2",
+  "sections": [
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "page": {
+        "sort": "discount:desc",
+        "count": 20,
+        "fuzzy": "automatic",
+        "similars": false,
+        "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+        "selectedFacets": [
+          {
+            "key": "productClusterIds",
+            "value": "967"
+          }
+        ]
+      },
+      "layout": {
+        "format": "Pagination",
+        "columns": {
+          "mobile": 2,
+          "desktop": 4
+        },
+        "variant": "aside",
+        "pagination": "show-more"
+      },
+      "cardLayout": {
+        "__resolveType": "Product Card Layout - 01"
+      },
+      "startingPage": 1,
+      "__resolveType": "site/sections/Product/SearchResult.tsx"
+    },
+    {
+      "__resolveType": "Footer - Brandili"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

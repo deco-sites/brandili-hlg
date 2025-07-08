@@ -1,0 +1,10 @@
+{
+  "adminApiKey": {
+    "name": "ALGOLIA_ADMIN_API_KEY",
+    "encrypted": "062d41e3d301603679e542b39929031430f69f5268a2f229bd973a0eeb1cece46592978402d97a69afefa850565a294d",
+    "__resolveType": "website/loaders/secret.ts"
+  },
+  "__resolveType": "decohub/apps/algolia.ts",
+  "applicationId": "03IAV3UHR9",
+  "searchApiKey": "566f816723effc270e179e4e97aa4c29"
+}

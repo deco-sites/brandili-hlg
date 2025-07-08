@@ -1,0 +1,10 @@
+{
+  "id": "vtex-trigger",
+  "stream": true,
+  "__resolveType": "vtex/workflows/events.ts",
+  "product": [
+    {
+      "__resolveType": "algolia/workflows/index/product.ts"
+    }
+  ]
+}

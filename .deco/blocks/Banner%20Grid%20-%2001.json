@@ -1,0 +1,26 @@
+{
+  "title": "Summer bags",
+  "banners": [
+    {
+      "alt": "a",
+      "href": "a",
+      "srcMobile": "https://assets.decocache.com/brandili/de2ca73d-eec9-48bb-80ba-1c3cc1db7960/1742493225454-82727553-f670-4e7c-b9c2-9452aed1955f",
+      "srcDesktop": "https://assets.decocache.com/brandili/c04e694d-4863-4fb2-aa05-436a9ee3b318/1742493229774-7b3a9d75-57a5-43cf-a3c5-f689a997f24e"
+    },
+    {
+      "alt": "a",
+      "href": "a",
+      "srcMobile": "https://assets.decocache.com/brandili/9b3479d5-a9ee-49a1-bda8-b4ab3082fd9d/1742493231805-c5c6bdf6-5555-488c-8b14-719e4158dea6",
+      "srcDesktop": "https://assets.decocache.com/brandili/36f73ac6-f11e-4ed3-8133-02fb49da672f/1742493233255-3e2b7824-d75c-4704-8d32-621bfc9b20cf"
+    }
+  ],
+  "borderRadius": {
+    "mobile": "3xl",
+    "desktop": "3xl"
+  },
+  "itemsPerLine": {
+    "mobile": 2,
+    "desktop": 2
+  },
+  "__resolveType": "site/sections/Images/BannerGrid.tsx"
+}

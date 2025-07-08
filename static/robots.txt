@@ -1,0 +1,21 @@
+User-agent: *
+Disallow: /
+
+User-agent: Googlebot
+Allow: /
+Disallow: /img/* 
+Disallow: /account/* 
+Disallow: /login/* 
+Disallow: /checkout/* 
+Disallow: /busca/* 
+Disallow: /quick-view/* 
+Disallow: /espiar/* 
+Disallow: /buscapagina/* 
+Disallow: *map=*
+Disallow: /*map=*
+Disallow: *fq=*
+Disallow: /frete/*
+Disallow: /no-cache/*
+Disallow: /*s?q=*
+
+Sitemap: https://www.brandili.com.br/sitemap.xml

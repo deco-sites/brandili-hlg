@@ -1,0 +1,30 @@
+{
+  "name": "Política de Promoção",
+  "path": "/institucional/politicas-de-promocao",
+  "sections": [
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "links": [
+        {
+          "href": "/politicas-de-promocao",
+          "label": "Política de Promoção"
+        }
+      ],
+      "__resolveType": "site/sections/Institucional/customizableBreadcrumb.tsx"
+    },
+    {
+      "__resolveType": "MenuTabsInstitucional"
+    },
+    {
+      "text": "<p class=\"MsoNormal\"><strong>1 – Frete Grátis</strong></p><p class=\"MsoNormal\">1.1. <strong>Como funciona o frete grátis</strong><br>Aproveite o frete grátis em compras acima de R$ 199,00! O valor do frete será calculado e inserido automaticamente no seu carrinho de compras.</p><p class=\"MsoNormal\"><br><strong>2 – Promoção de Cashback</strong></p><p class=\"MsoNormal\">2.1. <strong>Como funciona</strong><br>A promoção de Cashback é realizada em parceria com a CRM Bônus, empresa parceira do grupo Brandili.</p><p class=\"MsoNormal\">2.2. <strong>Regras da Promoção:</strong></p><ul style=\"margin-top: 0cm;\" type=\"disc\" data-mce-style=\"margin-top: 0cm;\"><li class=\"MsoNormal\" style=\"mso-list: l0 level1 lfo1; tab-stops: list 36.0pt;\" data-mce-style=\"mso-list: l0 level1 lfo1; tab-stops: list 36.0pt;\"><strong>Cashback de 10%:</strong> Em todas as compras realizadas, você recebe 10% de cashback do valor pago.</li><li class=\"MsoNormal\" style=\"mso-list: l0 level1 lfo1; tab-stops: list 36.0pt;\" data-mce-style=\"mso-list: l0 level1 lfo1; tab-stops: list 36.0pt;\"><strong>Recebimento do bônus:</strong> O cashback será liberado no seu perfil 1 dia após o faturamento do pedido, e será válido por 30 dias.</li><li class=\"MsoNormal\" style=\"mso-list: l0 level1 lfo1; tab-stops: list 36.0pt;\" data-mce-style=\"mso-list: l0 level1 lfo1; tab-stops: list 36.0pt;\"><strong>Valor máximo de bônus:</strong> O valor total do cashback acumulado não poderá ultrapassar R$ 690,00.</li><li class=\"MsoNormal\" style=\"mso-list: l0 level1 lfo1; tab-stops: list 36.0pt;\" data-mce-style=\"mso-list: l0 level1 lfo1; tab-stops: list 36.0pt;\"><strong>Para usar seu cashback:</strong> Para resgatar o bônus, você precisará realizar compras no valor de 4 vezes o valor do bônus recebido.</li><li class=\"MsoNormal\" style=\"mso-list: l0 level1 lfo1; tab-stops: list 36.0pt;\" data-mce-style=\"mso-list: l0 level1 lfo1; tab-stops: list 36.0pt;\"><strong>Como utilizar:</strong> O cashback será liberado através de um cupom, que estará disponível no seu carrinho de compras após o login.</li></ul>",
+      "title": "Política de Promoção",
+      "__resolveType": "site/sections/Institucional/InstitutionalRichText.tsx"
+    },
+    {
+      "__resolveType": "Footer - Brandili"
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx"
+}

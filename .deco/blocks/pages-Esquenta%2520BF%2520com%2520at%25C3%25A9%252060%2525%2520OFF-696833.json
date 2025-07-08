@@ -1,0 +1,57 @@
+{
+  "name": "Esquenta BF com até 60% OFF",
+  "path": "/black-friday",
+  "sections": [
+    {
+      "__resolveType": "commerce/sections/Seo/SeoPLP.tsx",
+      "jsonLD": {
+        "__resolveType": "PLP Loader"
+      }
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "site/sections/Institucional/customizableBreadcrumb.tsx",
+      "links": [
+        {
+          "href": "/black-friday",
+          "label": "Esquenta Black Friday"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Product/SearchResult.tsx",
+      "page": {
+        "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+        "count": 20,
+        "sort": "discount:desc",
+        "fuzzy": "automatic",
+        "selectedFacets": [
+          {
+            "key": "ProductClusterIds",
+            "value": "881"
+          }
+        ]
+      },
+      "cardLayout": {
+        "__resolveType": "Product Card Layout - 01"
+      },
+      "layout": {
+        "variant": "aside",
+        "columns": {
+          "mobile": 2,
+          "desktop": 4
+        },
+        "format": "Pagination"
+      }
+    },
+    {
+      "__resolveType": "Footer - Brandili"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

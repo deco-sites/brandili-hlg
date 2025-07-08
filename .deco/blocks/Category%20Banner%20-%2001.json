@@ -1,0 +1,23 @@
+{
+  "banners": [
+    {
+      "image": {
+        "mobile": "https://assets.decocache.com/brandili/bb9b7c0e-9164-46ad-ad98-4eba1adc73e8/1742493244783-91102b71-4832-486a-b683-5f7b06f649af",
+        "desktop": "https://assets.decocache.com/brandili/89dc0a90-3fc8-4f5a-9e50-77c4fbe9a046/1742493246082-ec597b6a-dcf1-48ca-a99d-95b3c6304f96"
+      },
+      "title": "Woman",
+      "matcher": "/feminino/*",
+      "subtitle": "As"
+    },
+    {
+      "image": {
+        "mobile": "https://assets.decocache.com/brandili/bb9b7c0e-9164-46ad-ad98-4eba1adc73e8/1742493244783-91102b71-4832-486a-b683-5f7b06f649af",
+        "desktop": "https://assets.decocache.com/brandili/89dc0a90-3fc8-4f5a-9e50-77c4fbe9a046/1742493246082-ec597b6a-dcf1-48ca-a99d-95b3c6304f96"
+      },
+      "title": "Woman",
+      "matcher": "/*",
+      "subtitle": "As"
+    }
+  ],
+  "__resolveType": "site/sections/Category/CategoryBanner.tsx"
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Progressiva",
+  "path": "/progressiva",
+  "default": {
+    "possiblePaths": []
+  },
+  "sections": {
+    "variants": [
+      {
+        "rule": {
+          "__resolveType": "website/matchers/always.ts"
+        },
+        "value": [
+          {
+            "__resolveType": "Header - 01"
+          },
+          {
+            "__resolveType": "site/sections/Institucional/customizableBreadcrumb.tsx",
+            "links": [
+              {
+                "href": "/progressiva",
+                "label": "Progressiva"
+              }
+            ]
+          },
+          {
+            "page": {
+              "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+              "sort": "discount:desc",
+              "count": 20,
+              "fuzzy": "automatic",
+              "similars": false,
+              "selectedFacets": [
+                {
+                  "key": "productClusterIds",
+                  "value": "956"
+                }
+              ]
+            },
+            "__resolveType": "site/sections/Product/SearchResult.tsx",
+            "layout": {
+              "format": "Pagination",
+              "columns": {
+                "mobile": 2,
+                "desktop": 4
+              },
+              "variant": "aside",
+              "pagination": "show-more"
+            },
+            "cardLayout": {
+              "__resolveType": "Product Card Layout - 01"
+            },
+            "startingPage": 1
+          },
+          {
+            "__resolveType": "Footer - Brandili"
+          }
+        ]
+      }
+    ],
+    "__resolveType": "website/flags/multivariate.ts"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

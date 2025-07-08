@@ -1,0 +1,69 @@
+{
+  "cart": {
+    "freeShippingObjectiveQuantity": 600
+  },
+  "logo": {
+    "alt": "Glamour logo by deco",
+    "src": "https://assets.decocache.com/brandili/dded91e8-cab2-4a22-bdd7-ee715d06ae10/1742493176669-7ece0680-65ff-49ed-ac5a-e7f20436b085",
+    "width": 184,
+    "height": 47
+  },
+  "alerts": [
+    "Use this template to create your store at deco.cx"
+  ],
+  "topBar": {
+    "bgColor": "bg-red-0",
+    "logoMundi": {
+      "alt": "Mundi",
+      "src": "https://assets.decocache.com/brandili/6c66aea8-fe22-4c6b-8c71-255e7178e406/1742493177819-1d424d11-e77f-46c4-a980-c90bfe7ae566",
+      "width": 78,
+      "height": 22
+    },
+    "logoBrandili": {
+      "alt": "Brandili",
+      "src": "https://assets.decocache.com/brandili/103b5ac7-6bfc-4866-be70-0123c058eb37/1742493178979-ca4c6a37-4086-4896-9176-4033251a220c",
+      "width": 99,
+      "height": 25
+    }
+  },
+  "buttons": {
+    "hideCartButton": false,
+    "hideSearchButton": true,
+    "hideWishlistButton": true,
+    "hideHeaderCampaignTimer": false
+  },
+  "navItems": {
+    "__resolveType": "navbar"
+  },
+  "products": [],
+  "searchbar": {
+    "name": "q",
+    "action": "/s",
+    "loader": {
+      "data": {
+        "count": 2,
+        "__resolveType": "vtex/loaders/intelligentSearch/suggestions.ts"
+      },
+      "__resolveType": "resolved"
+    },
+    "placeholder": "O que você procura ?"
+  },
+  "suggestions": {
+    "products": [],
+    "searches": []
+  },
+  "logoPosition": "left",
+  "__resolveType": "site/sections/Header/Header.tsx",
+  "headerCampaignTimer": {
+    "text": "<p>Entrega Expressa para São Paulo e Região!</p>",
+    "labels": {
+      "seconds": "seg",
+      "minutes": "min",
+      "hours": "horas",
+      "days": "dias"
+    },
+    "ctaText": "Valide Aqui",
+    "expiresAt": "2025-05-07T02:59:00.000Z",
+    "link": "/institucional/abrangencia-entrega-expressa"
+  }
+}

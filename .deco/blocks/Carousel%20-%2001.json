@@ -1,0 +1,39 @@
+{
+  "images": [
+    {
+      "alt": "/feminino",
+      "action": {
+        "href": "https://www.deco.cx/",
+        "label": "deco.cx",
+        "title": "VTEX Store",
+        "subTitle": "Visit our site and start building now:"
+      },
+      "mobile": "https://assets.decocache.com/brandili/de6495a7-2a68-4988-8115-0a9896f66e20/1742493236028-24278f9e-412d-4a8a-b2d3-57353bb1b368",
+      "desktop": "https://assets.decocache.com/brandili/fcb557e5-3a01-40de-a86b-defd68612da8/1742493237121-96e58473-71aa-4419-af42-7d1a3d66b1ae"
+    },
+    {
+      "alt": "/feminino",
+      "action": {
+        "href": "https://www.deco.cx/",
+        "label": "deco.cx",
+        "title": "VTEX Store",
+        "subTitle": "Visit our site and start building now:"
+      },
+      "mobile": "https://assets.decocache.com/brandili/950cad7b-a844-4b60-8b7e-32478163bf4b/1742493238321-eeaa624c-a3e1-45e8-a6fe-034233cfbcd0",
+      "desktop": "https://assets.decocache.com/brandili/d8251bc0-0b1b-444b-8d0a-243d1f8b9a9b/1742493239482-7949d031-9a79-4639-b85e-62fd90af85a9"
+    },
+    {
+      "alt": "/feminino",
+      "action": {
+        "href": "https://www.deco.cx/",
+        "label": "deco.cx",
+        "title": "VTEX Store",
+        "subTitle": "Visit our site and start building now:"
+      },
+      "mobile": "https://assets.decocache.com/brandili/549c1b92-31e2-4af1-8f00-412fd306f362/1742493240744-ae89571c-4a7c-44bf-9aeb-a341fd049d19",
+      "desktop": "https://assets.decocache.com/brandili/e91a6b6c-af91-49da-9e1f-83a0cf669842/1742493241854-7ec121e4-5cfe-4b7b-b942-d1ed4493803d"
+    }
+  ],
+  "preload": true,
+  "__resolveType": "site/sections/Images/Carousel.tsx"
+}

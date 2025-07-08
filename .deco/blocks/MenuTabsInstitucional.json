@@ -1,0 +1,37 @@
+{
+  "items": [
+    {
+      "href": "/institucional/quem-somos",
+      "label": "Quem Somos"
+    },
+    {
+      "href": "/institucional/politicas-de-devolucao",
+      "label": "Políticas de devolução"
+    },
+    {
+      "href": "/institucional/politicas-de-pagamento",
+      "label": "Política de Pagamento"
+    },
+    {
+      "href": "/institucional/politicas-de-privacidade",
+      "label": "Política de Privacidade"
+    },
+    {
+      "href": "/institucional/politicas-de-privacidade-e-tratamento-de-dados",
+      "label": "Políticas de privacidade e tratamento de dados"
+    },
+    {
+      "href": "/institucional/politicas-de-entrega",
+      "label": "Políticas de entrega"
+    },
+    {
+      "href": "/institucional/politicas-de-promocao",
+      "label": "Políticas de promoção"
+    },
+    {
+      "label": "Abrangência Entrega Expressa",
+      "href": "/institucional/abrangencia-entrega-expressa"
+    }
+  ],
+  "__resolveType": "site/sections/Institucional/MenuTabsInstitucional.tsx"
+}

@@ -1,0 +1,21 @@
+{
+  "account": "brandili",
+  "platform": "vtex",
+  "publicUrl": "secure.brandili.com.br",
+  "salesChannel": "1",
+  "__resolveType": "decohub/apps/vtex.ts",
+  "defaultSegment": {
+    "channelPrivacy": "public"
+  },
+  "usePortalSitemap": false,
+  "appKey": {
+    "__resolveType": "website/loaders/secret.ts",
+    "encrypted": "dd4d27d76b676bbf0e370d36c3d6b7cc2fbc4f793896b7201d242bb56d3e1763",
+    "name": "VTEX_APP_KEY"
+  },
+  "appToken": {
+    "__resolveType": "website/loaders/secret.ts",
+    "encrypted": "13c2afb22874e7bb0ca4ca0dd935f93bbaf94fb8c1d7ccbc47d184165cedc7837a7eda63f91a1295968d8f50b3998d3b1492f566b47f420c00e74929a30037e5e703879318a47d0075768199b0df759591c4742cc00886f89fdfedede4778bac1f7b20929ad032c6078312dba4877d995f0dec04c699f2d15334634f3181f8875cef064884e6650f5e555d464791bbbb",
+    "name": "VTEX_APP_TOKEN"
+  }
+}

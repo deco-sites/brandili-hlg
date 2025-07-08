@@ -1,0 +1,571 @@
+{
+  "name": "Licenciados",
+  "path": "/licenciados",
+  "sections": [
+    {
+      "title": "Brandili",
+      "noIndexing": false,
+      "description": "Escolha a maior loja de moda infantil para fazer parte do guarda-roupa das crianças! Peças confortáveis, charmosas e muito acessíveis, confira!",
+      "__resolveType": "website/sections/Seo/Seo.tsx",
+      "titleTemplate": "%s",
+      "descriptionTemplate": "%s"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "dots": false,
+      "arrows": false,
+      "images": [
+        {
+          "alt": "Conheça nossas Licenças",
+          "action": {
+            "href": "/licenciados-49",
+            "label": "Conheça nossas Licenças",
+            "title": "Conheça nossas Licenças",
+            "subTitle": "Conheça nossas Licenças"
+          },
+          "mobile": "https://assets.decocache.com/brandili/6e455a60-fe59-40af-8dce-7a6cbff2fd88/B2C_Banner_StitchLicenciados_375x480px.gif",
+          "desktop": "https://assets.decocache.com/brandili/b6cdd07d-b790-4dec-89ba-517957e8dad2/B2C_Banner_StitchLicenciados_1920x600px.gif"
+        }
+      ],
+      "preload": true,
+      "__resolveType": "site/sections/Images/Carousel.tsx"
+    },
+    {
+      "header": {
+        "title": "Escolha sua licença",
+        "seeMore": {}
+      },
+      "images": [
+        {
+          "alt": "Stitch",
+          "href": "/stitch",
+          "image": "https://assets.decocache.com/brandili/81e8b4d7-f216-4ebe-883a-0db203b19bcb/stitch-(1).png",
+          "imageWidth": 102,
+          "imageHeight": 137
+        },
+        {
+          "alt": "Mickey e Minnie Mouse",
+          "href": "https://www.brandili.com.br/licenciados/mickey-minnie-mouse",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/977b24bd-6515-4f61-8770-bb3bafd37985/mickey-20241206-133502.png",
+          "imageWidth": 102,
+          "imageHeight": 137
+        },
+        {
+          "href": "https://www.brandili.com.br/licenciados/minecraft",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/cd2b1f18-2977-4a3f-8e06-a0979ca9a911/minecraft-20241206-133510.png",
+          "imageWidth": 102,
+          "imageHeight": 137,
+          "alt": "Minecraft"
+        },
+        {
+          "alt": "Moana",
+          "href": "https://www.brandili.com.br/licenciados/moana",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/22cac5aa-b387-4a94-94ee-61edc11987cf/moana-20241206-133644.png",
+          "imageWidth": 102,
+          "imageHeight": 137
+        },
+        {
+          "alt": "Sonic Prime",
+          "href": "https://www.brandili.com.br/licenciados/sonic",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/9b9de402-5b13-48d1-917b-3e284d73622a/sonic-20241206-133615.png",
+          "imageWidth": 102,
+          "imageHeight": 137
+        },
+        {
+          "href": "https://www.brandili.com.br/licenciados/wandinha",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/35dd751d-8026-4a28-b598-4ce508bb43a3/wandinha-20241206-133440.png",
+          "imageWidth": 102,
+          "imageHeight": 137,
+          "alt": "Wandinha"
+        },
+        {
+          "alt": "Vingadores",
+          "href": "https://www.brandili.com.br/licenciados/vingadores",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/2b563356-7915-4ce1-852b-abfd9c0912f2/vingadores-20241206-133451.png",
+          "imageWidth": 102,
+          "imageHeight": 137
+        },
+        {
+          "href": "https://www.brandili.com.br/licenciados/homem-aranha",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/b80ad806-a4bb-40a8-84f4-f50b1336ff66/homemaranha-20241206-133527.png",
+          "imageWidth": 102,
+          "imageHeight": 137,
+          "alt": "Homem Aranha"
+        },
+        {
+          "alt": "Turma da Mônica",
+          "href": "https://www.brandili.com.br/licenciados/turma-da-monica",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/5aee0d93-0084-4244-9b4f-de9f59a1bcb1/monica-20241206-133519.png",
+          "imageWidth": 102,
+          "imageHeight": 137
+        },
+        {
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/a0572dd9-9044-4228-ba86-11bfd3ea7e69/flamengo-20241206-133557.png",
+          "imageWidth": 102,
+          "imageHeight": 137,
+          "alt": "Flamengo",
+          "href": "https://www.brandili.com.br/licenciados/flamengo"
+        },
+        {
+          "image": "https://assets.decocache.com/brandili/e94e12a6-46b3-4a8c-a016-c1ec65f2f657/onepiece-(1).png",
+          "imageWidth": 102,
+          "imageHeight": 137,
+          "alt": "One Piece",
+          "href": "https://www.brandili.com.br/licenciados/one-piece"
+        },
+        {
+          "image": "https://assets.decocache.com/brandili/05bee753-cfb5-4a37-80ae-7378a80909bb/naruto-(1).png",
+          "href": "https://www.brandili.com.br/licenciados/naruto",
+          "alt": "Naruto",
+          "imageHeight": 137,
+          "imageWidth": 102
+        }
+      ],
+      "__resolveType": "site/sections/Images/MiniBanners.tsx"
+    },
+    {
+      "cta": "Clique e confira",
+      "image": {
+        "src": "https://assets.decocache.com/brandili/b7c9310e-2fae-4de0-82e1-b683f89d184a/Stitch-(1).jpg",
+        "href": "/stitch",
+        "alt": "Stitch",
+        "hiddenMobile": false
+      },
+      "label": "Stitch",
+      "section": {
+        "layout": {
+          "dots": true,
+          "showArrows": true,
+          "headerfontSize": "Normal",
+          "headerAlignment": "center",
+          "numberOfSliders": {
+            "mobile": 2,
+            "desktop": 2
+          }
+        },
+        "products": {
+          "props": {
+            "sort": "release:desc",
+            "count": 4,
+            "fuzzy": "automatic",
+            "query": "Stitch"
+          },
+          "__resolveType": "vtex/loaders/intelligentSearch/productList.ts"
+        },
+        "cardLayout": {
+          "basics": {
+            "oldPriceSize": "Small",
+            "contentAlignment": "Left"
+          },
+          "onMouseOver": {
+            "card": "None",
+            "image": "Change image"
+          },
+          "elementsPositions": {
+            "skuSelector": "Top",
+            "favoriteIcon": "Top right"
+          }
+        },
+        "__resolveType": "site/sections/Product/ProductShelf.tsx"
+      },
+      "__resolveType": "site/sections/Product/ShelfWithImage.tsx",
+      "backgroundColor": "bg-orange-0",
+      "position": "reverse"
+    },
+    {
+      "cta": "Clique e confira",
+      "image": {
+        "src": "https://assets.decocache.com/brandili/e65f8d39-a166-4d92-b11a-7b0169bb14e7/Turma-da-Monica.jpg",
+        "href": "/licenciados/turma-da-monica"
+      },
+      "label": "Turma da Mônica",
+      "section": {
+        "layout": {
+          "dots": true,
+          "showArrows": true,
+          "headerfontSize": "Normal",
+          "headerAlignment": "center",
+          "numberOfSliders": {
+            "mobile": 2,
+            "desktop": 2
+          }
+        },
+        "products": {
+          "props": {
+            "sort": "release:desc",
+            "count": 4,
+            "fuzzy": "automatic",
+            "query": "Turma da Mônica"
+          },
+          "__resolveType": "vtex/loaders/intelligentSearch/productList.ts"
+        },
+        "cardLayout": {
+          "basics": {
+            "oldPriceSize": "Small",
+            "contentAlignment": "Left"
+          },
+          "onMouseOver": {
+            "card": "None",
+            "image": "Change image"
+          },
+          "elementsPositions": {
+            "skuSelector": "Top",
+            "favoriteIcon": "Top right"
+          }
+        },
+        "__resolveType": "site/sections/Product/ProductShelf.tsx"
+      },
+      "description": "Na Brandili você encontra diversas opções de roupas licenciadas e exclusivas da Turma da Mônica! Vista seu pequeno com conforto e qualidade. Confira nossos modelos!",
+      "__resolveType": "site/sections/Product/ShelfWithImage.tsx",
+      "backgroundColor": "bg-yellow-1"
+    },
+    {
+      "cta": "Clique e confira",
+      "image": {
+        "alt": "Vingadores",
+        "src": "https://assets.decocache.com/brandili/970f6504-0132-4435-8223-939c8482782b/Vingadores.jpg",
+        "href": "/licenciados/vingadores"
+      },
+      "label": "Vingadores",
+      "section": {
+        "layout": {
+          "dots": true,
+          "showArrows": true,
+          "headerfontSize": "Normal",
+          "headerAlignment": "center",
+          "numberOfSliders": {
+            "mobile": 2,
+            "desktop": 2
+          }
+        },
+        "products": {
+          "props": {
+            "sort": "release:desc",
+            "count": 4,
+            "fuzzy": "automatic",
+            "query": "Vingadores"
+          },
+          "__resolveType": "vtex/loaders/intelligentSearch/productList.ts"
+        },
+        "cardLayout": {
+          "basics": {
+            "oldPriceSize": "Small",
+            "contentAlignment": "Left"
+          },
+          "onMouseOver": {
+            "card": "None",
+            "image": "Change image"
+          },
+          "elementsPositions": {
+            "skuSelector": "Top",
+            "favoriteIcon": "Top right"
+          }
+        },
+        "__resolveType": "site/sections/Product/ProductShelf.tsx"
+      },
+      "position": "reverse",
+      "__resolveType": "site/sections/Product/ShelfWithImage.tsx",
+      "backgroundColor": "bg-pink-0",
+      "description": "Na Brandili você encontra diversas opções de roupas infantis licenciadas e exclusivas dos Vingadores! Vista seu pequeno herói com conforto e qualidade. Confira nossos modelos!"
+    },
+    {
+      "cta": "Clique e confira",
+      "image": {
+        "alt": "Moana",
+        "src": "https://assets.decocache.com/brandili/dab4647a-486b-4b13-af4a-fd60fd1acc68/Moana-(2).jpg",
+        "href": "/licenciados/moana"
+      },
+      "label": "Moana",
+      "section": {
+        "layout": {
+          "dots": true,
+          "showArrows": true,
+          "headerfontSize": "Normal",
+          "headerAlignment": "center",
+          "numberOfSliders": {
+            "mobile": 2,
+            "desktop": 2
+          }
+        },
+        "products": {
+          "props": {
+            "sort": "release:desc",
+            "count": 4,
+            "fuzzy": "automatic",
+            "query": "Moana"
+          },
+          "__resolveType": "vtex/loaders/intelligentSearch/productList.ts"
+        },
+        "cardLayout": {
+          "basics": {
+            "oldPriceSize": "Small",
+            "contentAlignment": "Left"
+          },
+          "onMouseOver": {
+            "card": "None",
+            "image": "Change image"
+          },
+          "elementsPositions": {
+            "skuSelector": "Top",
+            "favoriteIcon": "Top right"
+          }
+        },
+        "__resolveType": "site/sections/Product/ProductShelf.tsx"
+      },
+      "position": "normal",
+      "__resolveType": "site/sections/Product/ShelfWithImage.tsx",
+      "backgroundColor": "bg-orange-0"
+    },
+    {
+      "cta": "Clique e confira",
+      "image": {
+        "alt": "Sonic",
+        "src": "https://assets.decocache.com/brandili/ed4b5ef8-b739-4299-8029-2598ead0bb81/Sonic-(2).jpg",
+        "href": "/licenciados/sonic"
+      },
+      "label": "Sonic",
+      "section": {
+        "layout": {
+          "dots": true,
+          "showArrows": true,
+          "headerfontSize": "Normal",
+          "headerAlignment": "center",
+          "numberOfSliders": {
+            "mobile": 2,
+            "desktop": 2
+          }
+        },
+        "products": {
+          "props": {
+            "sort": "release:desc",
+            "count": 4,
+            "fuzzy": "automatic",
+            "query": "Sonic"
+          },
+          "__resolveType": "vtex/loaders/intelligentSearch/productList.ts"
+        },
+        "cardLayout": {
+          "basics": {
+            "oldPriceSize": "Small",
+            "contentAlignment": "Left"
+          },
+          "onMouseOver": {
+            "card": "None",
+            "image": "Change image"
+          },
+          "elementsPositions": {
+            "skuSelector": "Top",
+            "favoriteIcon": "Top right"
+          }
+        },
+        "__resolveType": "site/sections/Product/ProductShelf.tsx"
+      },
+      "position": "reverse",
+      "__resolveType": "site/sections/Product/ShelfWithImage.tsx",
+      "backgroundColor": "bg-pink-0",
+      "description": "Coleção exclusiva de roupas licenciadas do Sonic na Brandili. Peças divertidas e cheias de estilo para deixar os pequenos velozes."
+    },
+    {
+      "cta": "Clique e confira",
+      "image": {
+        "alt": "Mickey & Minnie Mouse",
+        "src": "https://assets.decocache.com/brandili/77965940-a8a6-4a80-8753-c2edb98c3b90/Mickey-e-Minnie-Mouse.jpg",
+        "href": "/licenciados/mickey-minnie-mouse"
+      },
+      "label": "Mickey & Minnie Mouse",
+      "section": {
+        "layout": {
+          "dots": true,
+          "showArrows": true,
+          "headerfontSize": "Normal",
+          "headerAlignment": "center",
+          "numberOfSliders": {
+            "mobile": 1,
+            "desktop": 2
+          }
+        },
+        "products": {
+          "props": {
+            "sort": "release:desc",
+            "count": 4,
+            "fuzzy": "automatic",
+            "query": "mickey e minnie mouse"
+          },
+          "__resolveType": "vtex/loaders/intelligentSearch/productList.ts"
+        },
+        "cardLayout": {
+          "basics": {
+            "oldPriceSize": "Small",
+            "contentAlignment": "Left"
+          },
+          "onMouseOver": {
+            "card": "None",
+            "image": "Change image"
+          },
+          "elementsPositions": {
+            "skuSelector": "Top",
+            "favoriteIcon": "Top right"
+          }
+        },
+        "__resolveType": "site/sections/Product/ProductShelf.tsx"
+      },
+      "position": "normal",
+      "__resolveType": "site/sections/Product/ShelfWithImage.tsx",
+      "backgroundColor": "bg-yellow-1",
+      "description": "Coleção exclusiva de roupas licenciadas do Mickey e Minnie na Brandili. Peças divertidas e cheias de estilo para vestir os pequenos com os personagens mais amados da Disney. Confira agora!"
+    },
+    {
+      "cta": "Clique e confira",
+      "image": {
+        "alt": "Minecraft",
+        "src": "https://assets.decocache.com/brandili/76326e09-7313-4a6c-96c5-b0f1635939c9/Minecraft-(2).jpg",
+        "href": "/licenciados/minecraft"
+      },
+      "label": "Minecraft",
+      "section": {
+        "layout": {
+          "dots": true,
+          "showArrows": true,
+          "headerfontSize": "Normal",
+          "headerAlignment": "center",
+          "numberOfSliders": {
+            "mobile": 2,
+            "desktop": 2
+          }
+        },
+        "products": {
+          "props": {
+            "sort": "release:desc",
+            "count": 4,
+            "fuzzy": "automatic",
+            "query": "Minecraft"
+          },
+          "__resolveType": "vtex/loaders/intelligentSearch/productList.ts"
+        },
+        "cardLayout": {
+          "basics": {
+            "oldPriceSize": "Small",
+            "contentAlignment": "Left"
+          },
+          "onMouseOver": {
+            "card": "None",
+            "image": "Change image"
+          },
+          "elementsPositions": {
+            "skuSelector": "Top",
+            "favoriteIcon": "Top right"
+          }
+        },
+        "__resolveType": "site/sections/Product/ProductShelf.tsx"
+      },
+      "position": "reverse",
+      "__resolveType": "site/sections/Product/ShelfWithImage.tsx",
+      "backgroundColor": "bg-yellow-1",
+      "description": "Coleção de roupas infantis inspiradas no universo Minecraft pela Brandili. Conforto, estilo e aventura se unem em peças perfeitas para pequenos fãs do game. Vista seu filho com a magia dos blocos e personagens de Minecraft."
+    },
+    {
+      "cta": "Clique e confira",
+      "image": {
+        "alt": "Homem Aranha",
+        "src": "https://assets.decocache.com/brandili/48ed1042-5e4b-4e81-a9a2-3eebc56793ae/Homem-Aranha.jpg",
+        "href": "/licenciados/homem-aranha"
+      },
+      "label": "Homem Aranha",
+      "section": {
+        "layout": {
+          "dots": true,
+          "showArrows": true,
+          "headerfontSize": "Normal",
+          "headerAlignment": "center",
+          "numberOfSliders": {
+            "mobile": 2,
+            "desktop": 2
+          }
+        },
+        "products": {
+          "props": {
+            "sort": "release:desc",
+            "count": 4,
+            "fuzzy": "automatic",
+            "query": "Homem Aranha"
+          },
+          "__resolveType": "vtex/loaders/intelligentSearch/productList.ts"
+        },
+        "cardLayout": {
+          "basics": {
+            "oldPriceSize": "Small",
+            "contentAlignment": "Left"
+          },
+          "onMouseOver": {
+            "card": "None",
+            "image": "Change image"
+          },
+          "elementsPositions": {
+            "skuSelector": "Top",
+            "favoriteIcon": "Top right"
+          }
+        },
+        "__resolveType": "site/sections/Product/ProductShelf.tsx"
+      },
+      "position": "normal",
+      "__resolveType": "site/sections/Product/ShelfWithImage.tsx",
+      "backgroundColor": "bg-pink-0",
+      "description": "Explore a linha exclusiva do Homem-Aranha na Brandili! Roupas infantis de alta qualidade que combinam estilo e conforto, inspirando coragem e aventuras. Vista seu pequeno herói com peças duráveis e confortáveis, perfeitas para o dia a dia. Compre online agora!"
+    },
+    {
+      "cta": "Clique e confira",
+      "image": {
+        "alt": "Wandinha",
+        "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/brandili/fbe2689f-b5a3-4dd2-822f-41417932db60/7908374276_703x460px_wandinha-20241125-142301.jpg",
+        "href": "/licenciados/wandinha"
+      },
+      "label": "Wandinha",
+      "section": {
+        "layout": {
+          "dots": true,
+          "showArrows": true,
+          "headerfontSize": "Normal",
+          "headerAlignment": "center",
+          "numberOfSliders": {
+            "mobile": 2,
+            "desktop": 2
+          }
+        },
+        "products": {
+          "props": {
+            "sort": "release:desc",
+            "count": 4,
+            "fuzzy": "automatic",
+            "query": "Wandinha"
+          },
+          "__resolveType": "vtex/loaders/intelligentSearch/productList.ts"
+        },
+        "cardLayout": {
+          "basics": {
+            "oldPriceSize": "Small",
+            "contentAlignment": "Left"
+          },
+          "onMouseOver": {
+            "card": "None",
+            "image": "Change image"
+          },
+          "elementsPositions": {
+            "skuSelector": "Top",
+            "favoriteIcon": "Top right"
+          }
+        },
+        "__resolveType": "site/sections/Product/ProductShelf.tsx"
+      },
+      "position": "reverse",
+      "__resolveType": "site/sections/Product/ShelfWithImage.tsx",
+      "backgroundColor": "bg-orange-0",
+      "description": "Coleção Wandinha na Brandili! Roupas infantis que combinam conforto e durabilidade, inspiradas no espírito independente e marcante da Wandinha. Estimule a imaginação das pequenas com peças cheias de estilo e qualidade. Compre online e vista as meninas com personalidade!"
+    },
+    {
+      "__resolveType": "Footer - Brandili"
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx"
+}
