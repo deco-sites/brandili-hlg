@@ -9,6 +9,7 @@ import Navbar from "./Navbar.tsx ";
 import TopBar from "./TopBar.tsx ";
 import HeaderCampaignTimer from "./HeaderCampaignTimer.tsx";
 import { type SectionProps } from "@deco/deco";
+
 export interface Logo {
     src: ImageWidget;
     alt: string;
@@ -117,9 +118,10 @@ function Header({ searchbar, navItems = [
     text: "",
     link: "#",
     ctaText: "Vou levar",
-}, logoPosition = "center", buttons, device, }: SectionProps<typeof loader>) {
+}, logoPosition = "center", buttons, device, url }: SectionProps<typeof loader>) {
     const platform = usePlatform();
     const items = navItems ?? [];
+
     return (<>
       <header>
         <div class={`scrollHeader top-0 bg-base-100 w-full z-50 rounded-b-2xl shadow-blg`}>
@@ -128,13 +130,17 @@ function Header({ searchbar, navItems = [
           <div>
             <HeaderCampaignTimer expiresAt={headerCampaignTimer.expiresAt} labels={headerCampaignTimer.labels} text={headerCampaignTimer.text} link={headerCampaignTimer.link} ctaText={headerCampaignTimer.ctaText} buttons={buttons}/>
             <TopBar device={device} logoBrandili={topBar?.logoBrandili} logoMundi={topBar?.logoMundi} bgColor={topBar?.bgColor}/>
-            <Navbar device={device} items={items} searchbar={searchbar && { ...searchbar, platform }} logo={logo} logoLink={logoLink} logoPosition={logoPosition} buttons={buttons}/>
+            <Navbar url={url} device={device} items={items} searchbar={searchbar && { ...searchbar, platform }} logo={logo} logoLink={logoLink} logoPosition={logoPosition} buttons={buttons}/>
           </div>
         </div>
       </header>
     </>);
 }
 export const loader = (props: Props, _req: Request, ctx: AppContext) => {
-    return { ...props, device: ctx.device };
+    return {
+        ...props, 
+        device: ctx.device,
+        url: _req.url
+    };
 };
 export default Header;

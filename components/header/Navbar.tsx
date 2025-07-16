@@ -19,6 +19,7 @@ function Navbar({
   buttons,
   logoPosition = "left",
   device,
+  url
 }: {
   items: SiteNavigationElement[];
   searchbar?: SearchbarProps;
@@ -27,6 +28,7 @@ function Navbar({
   buttons?: Buttons;
   logoPosition?: "left" | "center";
   device: "mobile" | "desktop" | "tablet";
+  url: string;
 }) {
   const platform = usePlatform();
   return device !== "desktop"
@@ -48,14 +50,14 @@ function Navbar({
               href={logoLink ?? "/"}
               class="navbar flex-grow inline-flex items-center justify-center max-w-[140px]"
               style={{ minHeight: navbarHeight }}
-              aria-label="Store logo"
+              aria-label={`Brandili logo`}
             >
-              <Image
-                src={logo.src}
-                alt={logo.alt}
-                width={logo.width || 100}
-                height={logo.height || 13}
-              />
+                <Image
+                  src={logo.src}
+                  alt={logo.alt}
+                  width={logo.width || 100}
+                  height={logo.height || 13}
+                />
             </a>
           )}
 
@@ -89,14 +91,25 @@ function Navbar({
               href={logoLink ?? "/"}
               class="navbar flex-grow inline-flex items-center justify-center max-w-[140px]"
               style={{ minHeight: navbarHeight }}
-              aria-label="Store logo"
+              aria-label={`Brandili Logo - ${url}`}
             >
-              <Image
-                src={logo.src}
-                alt={logo.alt}
-                width={logo.width || 100}
-                height={logo.height || 13}
-              />
+              {url == "https://www.brandili.com.br" || url == "https://brandili.com.br" || "http://localhost:8000" ? (
+                <h1 aria-label={logo.alt}>
+                  <Image
+                    src={logo.src}
+                    alt={logo.alt}
+                    width={logo.width || 100}
+                    height={logo.height || 13}
+                  />
+                </h1>
+              ) : (
+                <Image
+                  src={logo.src}
+                  alt={logo.alt}
+                  width={logo.width || 100}
+                  height={logo.height || 13}
+                />
+              )}
             </a>
           )}
 
@@ -131,15 +144,26 @@ function Navbar({
               {logo && (
                 <a
                   href={logoLink ?? "/"}
-                  aria-label="Store logo"
+                  aria-label={`Brandili Logo`}
                   class="block max-w-[140px]"
                 >
-                  <Image
-                    src={logo.src}
-                    alt={logo.alt}
-                    width={logo.width || 100}
-                    height={logo.height || 13}
-                  />
+                  {url == "https://www.brandili.com.br" || url == "https://brandili.com.br" || "http://localhost:8000" ? (
+                    <h1 aria-label={logo.alt}>
+                      <Image
+                        src={logo.src}
+                        alt={logo.alt}
+                        width={logo.width || 100}
+                        height={logo.height || 13}
+                      />
+                    </h1>
+                  ) : (
+                    <Image
+                      src={logo.src}
+                      alt={logo.alt}
+                      width={logo.width || 100}
+                      height={logo.height || 13}
+                    />
+                  )}
                 </a>
               )}
             </div>
@@ -213,7 +237,7 @@ function Navbar({
               {logo && (
                 <a
                   href={logoLink ?? "/"}
-                  aria-label="Store logo"
+                  aria-label="Brandili Logo"
                   class="block max-w-[140px]"
                 >
                   <Image

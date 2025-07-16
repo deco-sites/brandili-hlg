@@ -386,7 +386,7 @@ function Footer({
             <div class="flex flex-col gap-10 bg-blue-0 py-6 px-3">
               <div class="flex flex-col w-full max-w-[1440px] m-auto gap-y-9 mt-2">
                 <div class="w-full flex flex-col full-desktop:grid md:grid-cols-[20%_80%]">
-                  <div class="flex full-tablet:items-center full-tablet:justify-center cs-min-desktop:mt-[35px]">
+                  <div class="flex full-tablet:items-center full-tablet:justify-center cs-min-desktop:mt-9">
                     {_logo}
                   </div>
                   {_sectionLinks}
@@ -421,7 +421,7 @@ function Footer({
             <div class="flex flex-col gap-10 bg-gold-2 py-6 px-3">
               <div class="flex flex-col w-full max-w-[1440px] m-auto gap-y-9 mt-2">
                 <div class="w-full flex flex-col full-desktop:grid md:grid-cols-[20%_80%]">
-                  <div class="flex full-tablet:items-center full-tablet:justify-center cs-min-desktop:mt-[35px]">
+                  <div class="flex full-tablet:items-center full-tablet:justify-center cs-min-desktop:mt-9">
                     {_logo}
                   </div>
                   {_sectionLinks}

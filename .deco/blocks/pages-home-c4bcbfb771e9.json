@@ -2443,8 +2443,7 @@
           {
             "__resolveType": "website/sections/Seo/SeoV2.tsx",
             "type": "website",
-            "title": "Brandili - Moda para Crianças",
-            "titleTemplate": "Roupas Infantis de Qualidade | "
+            "title": "Brandili - Moda para Crianças"
           },
           {
             "__resolveType": "Header - 01"
@@ -2530,7 +2529,7 @@
             },
             "images": [
               {
-                "image": "https://assets.decocache.com/brandili/9dd7317d-5a21-47d0-b22f-78b0895eaa7e/8910320933_tamanhos_280x350px_bebes.jpg",
+                "image": "https://assets.decocache.com/brandili-hlg/6d66dca1-2141-417f-b5a5-9bc326102e22/image-1.jpeg",
                 "imageHeight": 350,
                 "imageWidth": 280,
                 "alt": "Bebês",
@@ -2538,27 +2537,27 @@
               },
               {
                 "alt": "Meninos",
-                "image": "https://assets.decocache.com/brandili/ae871fcc-bdde-46e3-8049-fe46f90557c2/8910320933_tamanhos_280x350px_meninos.jpg",
+                "image": "https://assets.decocache.com/brandili-hlg/5af77a6b-2bf6-4ad3-b16d-506f8a1b8139/image-2.jpeg",
                 "imageWidth": 280,
                 "imageHeight": 350,
                 "href": "https://www.brandili.com.br/meninos"
               },
               {
-                "image": "https://assets.decocache.com/brandili/cf4c839a-ce9b-496b-a43f-d258a617c507/8910320933_tamanhos_280x350px_meninas.jpg",
+                "image": "https://assets.decocache.com/brandili-hlg/2f5135a8-772f-4163-a018-7ef832037fb7/meninas-brandili.jpeg",
                 "imageWidth": 280,
                 "imageHeight": 350,
                 "alt": "Meninas",
                 "href": "https://www.brandili.com.br/meninas"
               },
               {
-                "image": "https://assets.decocache.com/brandili/1fa696ea-c049-4891-a73c-5efee5756ab7/8910320933_tamanhos_280x350px_unissex.jpg",
+                "image": "https://assets.decocache.com/brandili-hlg/64ed814c-1336-4fa7-9391-e218f14a7698/unissex-brandili.jpeg",
                 "imageWidth": 280,
                 "imageHeight": 350,
                 "alt": "Unissex",
                 "href": "/unissex"
               },
               {
-                "image": "https://assets.decocache.com/brandili/001c62c0-0054-4591-85d7-101eaa7eae3b/8910320933_tamanhos_280x350px_young.jpg",
+                "image": "https://assets.decocache.com/brandili-hlg/c4799e3c-f7ff-43b7-b125-0da38861def5/young-brandili.jpeg",
                 "imageWidth": 280,
                 "imageHeight": 350,
                 "alt": "Youg Class",

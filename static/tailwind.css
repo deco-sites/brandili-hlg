@@ -5033,9 +5033,6 @@ details.collapse summary::-webkit-details-marker {
 .h-\[22px\] {
   height: 22px;
 }
-.h-\[29px\] {
-  height: 29px;
-}
 .h-\[30px\] {
   height: 30px;
 }
@@ -5086,6 +5083,9 @@ details.collapse summary::-webkit-details-marker {
 .max-h-16 {
   max-height: 4rem;
 }
+.max-h-24 {
+  max-height: 6rem;
+}
 .max-h-64 {
   max-height: 16rem;
 }
@@ -5131,9 +5131,6 @@ details.collapse summary::-webkit-details-marker {
 .max-h-\[88vh\] {
   max-height: 88vh;
 }
-.max-h-\[93px\] {
-  max-height: 93px;
-}
 .max-h-fit {
   max-height: -moz-fit-content;
   max-height: fit-content;
@@ -5153,11 +5150,11 @@ details.collapse summary::-webkit-details-marker {
 .min-h-12 {
   min-height: 3rem;
 }
+.min-h-14 {
+  min-height: 3.5rem;
+}
 .min-h-9 {
   min-height: 2.25rem;
-}
-.min-h-\[0\] {
-  min-height: 0;
 }
 .min-h-\[100px\] {
   min-height: 100px;
@@ -5298,9 +5295,6 @@ details.collapse summary::-webkit-details-marker {
 }
 .w-\[332px\] {
   width: 332px;
-}
-.w-\[33px\] {
-  width: 33px;
 }
 .w-\[363px\] {
   width: 363px;
@@ -10067,8 +10061,8 @@ iframe#launcher,
 }
 @media (min-width: 1200px) {
 
-  .cs-min-desktop\:mt-\[35px\] {
-    margin-top: 35px;
+  .cs-min-desktop\:mt-9 {
+    margin-top: 2.25rem;
   }
 
   .cs-min-desktop\:hidden {

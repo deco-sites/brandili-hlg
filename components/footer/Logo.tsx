@@ -19,7 +19,7 @@ export default function Logo({ logo, logoFooter }: Props) {
           <div
             class={`${
               logoFooter
-                ? "max-h-[93px] full-desktop:max-w-fit full-desktop:max-h-fit full-desktop:mr-6"
+                ? "max-h-24 full-desktop:max-w-fit full-desktop:max-h-fit full-desktop:mr-6"
                 : "max-w-28 max-h-16"
             }`}
           >

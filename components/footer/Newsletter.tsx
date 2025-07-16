@@ -64,7 +64,7 @@ function Newsletter({ content = {} }: Props, { device }: Props) {
       <div class="w-full max-w-[1440px] m-auto">
         <div class="flex flex-col">
           {content?.title && (<h4 class="flex flex-row items-center gap-x-1 text-2xl text-gray-0 font-medium">
-              {content?.title} <i class="w-[33px] h-[29px]">{_logo}</i>
+              {content?.title} <i class="w-8 h-7">{_logo}</i>
             </h4>)}
           {content?.description && (<div class="text-gray-1 text-sm font-normal">
               {content?.description}
@@ -75,13 +75,13 @@ function Newsletter({ content = {} }: Props, { device }: Props) {
             <div class="grid justify-between gap-4 grid-cols-[37%_37%_23%] full-phone:grid-cols-1">
               <div class="form-group">
                 <label>{content?.form?.placeholder || "Digite seu nome"}</label>
-                <input name="name" class="w-full h-[38px] text-base-content outline-none px-3 text-gray-8 bg-transparent" required/>
+                <input name="name" class="w-full h-9 text-base-content outline-none px-3 text-gray-8 bg-transparent" required/>
               </div>
               <div class="form-group peer">
                 <label>
                   {content?.form?.placeholder || "Digite seu e-mail"}
                 </label>
-                <input name="email" class="w-full h-[38px] text-base-content outline-none px-3 text-gray-8 bg-transparent" type="email" required/>
+                <input name="email" class="w-full h-9 text-base-content outline-none px-3 text-gray-8 bg-transparent" type="email" required/>
               </div>
               {content?.form?.helpText && device === "mobile" && (<div class="checkbox-newsletter flex flex-row sm:hidden items-center">
                   <input class="aceite rounded" type="checkbox" id="aceite" name="terms"/>

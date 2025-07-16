@@ -13,7 +13,7 @@ export default function ManagedBy({
     <>
       {content && content.items && (
         <div
-          class={`flex flex-col items-center justify-center min-h-[51px] gap-1 border rounded-sm ${
+          class={`flex flex-col items-center justify-center min-h-14 gap-1 border rounded-sm ${
             layout === "Variation Brandili"
               ? "border-white-2"
               : "border-gray-17"

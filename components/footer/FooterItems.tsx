@@ -75,10 +75,10 @@ export default function FooterItems({
                       : "border-gray-17"
                   }`}
                 >
-                  <input id={section.label} type="checkbox" class="min-h-[0]" />
+                  <input id={section.label} type="checkbox" class="min-h-0" />
                   <label
                     htmlFor={section.label}
-                    class={`collapse-title min-h-[0] flex items-center gap-2 font-normal text-sm ${
+                    class={`collapse-title min-h-0 flex items-center gap-2 font-normal text-sm ${
                       section.textColor ?? "text-black-0"
                     }`}
                   >
