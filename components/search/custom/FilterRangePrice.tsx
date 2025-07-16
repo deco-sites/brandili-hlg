@@ -19,7 +19,10 @@ function applyFilterPrice(
   searchParams.set("filter.price", `${min}:${max}`);
   const newUrl = `${window.location.pathname}?${searchParams.toString()}`;
 
-  globalThis.addEventListener("mouseup", () => globalThis.location.href = newUrl)
+  globalThis.addEventListener(
+    "mouseup",
+    () => globalThis.location.href = newUrl,
+  );
 }
 
 function FilterRange(

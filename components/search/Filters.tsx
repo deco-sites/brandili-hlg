@@ -37,8 +37,9 @@ function ValueItem({ url, selected, label, quantity }: FilterToggleValue) {
 }
 
 function FilterValues({ key, values }: FilterToggle) {
-  const flexDirection =
-    key === "tamanho" || key === "cor" ? "flex-row" : "flex-col";
+  const flexDirection = key === "tamanho" || key === "cor"
+    ? "flex-row"
+    : "flex-col";
 
   if (key === "price") {
     const val: number = values.length;
@@ -59,21 +60,24 @@ function FilterValues({ key, values }: FilterToggle) {
     max = Math.max(...arr);
 
     const url: string | undefined = values[0]?.url?.split("&filter.price")[0];
-    const urlChanged: string | undefined =
-      values[0]?.url?.split("&filter.price=")[1];
+    const urlChanged: string | undefined = values[0]?.url?.split(
+      "&filter.price=",
+    )[1];
     const minMax: string[] | undefined = urlChanged?.split("%3A");
 
-    return values.length > 0 ? (
-      <>
-        <FilterRange
-          min={min}
-          max={max}
-          currentUrlFilterPrice={url}
-          currentMinFacet={Number(minMax[0])}
-          currentMaxFacet={Number(minMax[1])}
-        />
-      </>
-    ) : null;
+    return values.length > 0
+      ? (
+        <>
+          <FilterRange
+            min={min}
+            max={max}
+            currentUrlFilterPrice={url}
+            currentMinFacet={Number(minMax[0])}
+            currentMaxFacet={Number(minMax[1])}
+          />
+        </>
+      )
+      : null;
   }
 
   return (
@@ -81,7 +85,7 @@ function FilterValues({ key, values }: FilterToggle) {
       <ul
         class={clx(
           "hidden full-desktop:grid full-desktop:grid-cols-3 gap-2 shadow-blg-1 bg-white-0",
-          "full-desktop:p-3 full-desktop:lg:rounded full-desktop:min-w-52 full-desktop:w-max"
+          "full-desktop:p-3 full-desktop:lg:rounded full-desktop:min-w-52 full-desktop:w-max",
         )}
       >
         {values.map((item) => {
@@ -121,9 +125,11 @@ function FilterValues({ key, values }: FilterToggle) {
               range && (
                 <ValueItem
                   {...item}
-                  label={`${formatPrice(range.from)} - ${formatPrice(
-                    range.to
-                  )}`}
+                  label={`${formatPrice(range.from)} - ${
+                    formatPrice(
+                      range.to,
+                    )
+                  }`}
                 />
               )
             );
@@ -155,9 +161,11 @@ function FilterValues({ key, values }: FilterToggle) {
               range && (
                 <ValueItem
                   {...item}
-                  label={`${formatPrice(range.from)} - ${formatPrice(
-                    range.to
-                  )}`}
+                  label={`${formatPrice(range.from)} - ${
+                    formatPrice(
+                      range.to,
+                    )
+                  }`}
                 />
               )
             );
@@ -186,7 +194,7 @@ function Filters({ filters }: Props) {
       <ul
         class={clx(
           "hidden full-desktop:flex flex-col full-desktop:flex-row gap-3",
-          "pb-6 full-desktop:pb-1 full-desktop:overflow-auto filter-overflow"
+          "pb-6 full-desktop:pb-1 full-desktop:overflow-auto filter-overflow",
         )}
       >
         {filters.filter(isToggle).map((filter) => {
@@ -217,22 +225,23 @@ function Filters({ filters }: Props) {
                       ? "order-3"
                       : "order-last"
                   }
-                  `
+                  `,
                 )}
               >
                 <span
                   data-label={filter.label}
                   class={`text-gray-0 text-sm capitalize cursor-pointer flex justify-between lg:justify-evenly items-center gap-2 lg:p-1 ${
                     filter.label == "Departamentos" && !toggleDept.value ||
-                    filter.label == "Gênero" && !toggleGen.value ||
-                    filter.label == "Categorias" && !toggleCat.value ||
-                    filter.label == "Subcategorias" && !toggleSubCat.value ||
-                    filter.label == "Preço" && !togglePrice.value ||
-                    filter.label == "Cor" && !toggleCor.value ||
-                    filter.label == "Faixa Etária" && !toggleFaixEt.value ||
-                    filter.label == "Marca" && !toggleBrand.value ||
-                    filter.label == "Tamanho" && !toggleTam.value
-                    ? "plus bg-white-0 z-20 rounded" : "less lg:z-20"
+                      filter.label == "Gênero" && !toggleGen.value ||
+                      filter.label == "Categorias" && !toggleCat.value ||
+                      filter.label == "Subcategorias" && !toggleSubCat.value ||
+                      filter.label == "Preço" && !togglePrice.value ||
+                      filter.label == "Cor" && !toggleCor.value ||
+                      filter.label == "Faixa Etária" && !toggleFaixEt.value ||
+                      filter.label == "Marca" && !toggleBrand.value ||
+                      filter.label == "Tamanho" && !toggleTam.value
+                      ? "plus bg-white-0 z-20 rounded"
+                      : "less lg:z-20"
                   }`}
                   onClick={() => {
                     if (filter.label == "Departamentos") {
@@ -245,7 +254,7 @@ function Filters({ filters }: Props) {
                       !toggleFaixEt.value ? toggleFaixEt.value = true : "";
                       !toggleBrand.value ? toggleBrand.value = true : "";
                       !toggleTam.value ? toggleTam.value = true : "";
-                    } 
+                    }
                     if (filter.label == "Gênero") {
                       toggleGen.value = !toggleGen.value;
                       !toggleDept.value ? toggleDept.value = true : "";
@@ -269,7 +278,7 @@ function Filters({ filters }: Props) {
                       !toggleTam.value ? toggleTam.value = true : "";
                     }
                     if (filter.label == "Subcategorias") {
-                      toggleSubCat.value = !toggleSubCat.value
+                      toggleSubCat.value = !toggleSubCat.value;
                       !toggleDept.value ? toggleDept.value = true : "";
                       !toggleGen.value ? toggleGen.value = true : "";
                       !toggleCat.value ? toggleCat.value = true : "";
@@ -280,7 +289,7 @@ function Filters({ filters }: Props) {
                       !toggleTam.value ? toggleTam.value = true : "";
                     }
                     if (filter.label == "Preço") {
-                      togglePrice.value = !togglePrice.value
+                      togglePrice.value = !togglePrice.value;
                       !toggleDept.value ? toggleDept.value = true : "";
                       !toggleGen.value ? toggleGen.value = true : "";
                       !toggleCat.value ? toggleCat.value = true : "";
@@ -289,10 +298,9 @@ function Filters({ filters }: Props) {
                       !toggleFaixEt.value ? toggleFaixEt.value = true : "";
                       !toggleBrand.value ? toggleBrand.value = true : "";
                       !toggleTam.value ? toggleTam.value = true : "";
-
                     }
                     if (filter.label == "Cor") {
-                      toggleCor.value = !toggleCor.value
+                      toggleCor.value = !toggleCor.value;
                       !toggleDept.value ? toggleDept.value = true : "";
                       !toggleGen.value ? toggleGen.value = true : "";
                       !toggleCat.value ? toggleCat.value = true : "";
@@ -303,7 +311,7 @@ function Filters({ filters }: Props) {
                       !toggleTam.value ? toggleTam.value = true : "";
                     }
                     if (filter.label == "Faixa Etária") {
-                      toggleFaixEt.value = !toggleFaixEt.value
+                      toggleFaixEt.value = !toggleFaixEt.value;
                       !toggleDept.value ? toggleDept.value = true : "";
                       !toggleGen.value ? toggleGen.value = true : "";
                       !toggleCat.value ? toggleCat.value = true : "";
@@ -314,7 +322,7 @@ function Filters({ filters }: Props) {
                       !toggleTam.value ? toggleTam.value = true : "";
                     }
                     if (filter.label == "Marca") {
-                      toggleBrand.value = !toggleBrand.value
+                      toggleBrand.value = !toggleBrand.value;
                       !toggleDept.value ? toggleDept.value = true : "";
                       !toggleGen.value ? toggleGen.value = true : "";
                       !toggleCat.value ? toggleCat.value = true : "";
@@ -325,7 +333,7 @@ function Filters({ filters }: Props) {
                       !toggleTam.value ? toggleTam.value = true : "";
                     }
                     if (filter.label == "Tamanho") {
-                      toggleTam.value = !toggleTam.value
+                      toggleTam.value = !toggleTam.value;
                       !toggleDept.value ? toggleDept.value = true : "";
                       !toggleGen.value ? toggleGen.value = true : "";
                       !toggleCat.value ? toggleCat.value = true : "";
@@ -342,14 +350,14 @@ function Filters({ filters }: Props) {
                 <div
                   class={`${
                     filter.label == "Departamentos" && toggleDept.value ||
-                    filter.label == "Gênero" && toggleGen.value ||
-                    filter.label == "Categorias" && toggleCat.value ||
-                    filter.label == "Subcategorias" && toggleSubCat.value ||
-                    filter.label == "Preço" && togglePrice.value ||
-                    filter.label == "Cor" && toggleCor.value ||
-                    filter.label == "Faixa Etária" && toggleFaixEt.value ||
-                    filter.label == "Marca" && toggleBrand.value ||
-                    filter.label == "Tamanho" && toggleTam.value
+                      filter.label == "Gênero" && toggleGen.value ||
+                      filter.label == "Categorias" && toggleCat.value ||
+                      filter.label == "Subcategorias" && toggleSubCat.value ||
+                      filter.label == "Preço" && togglePrice.value ||
+                      filter.label == "Cor" && toggleCor.value ||
+                      filter.label == "Faixa Etária" && toggleFaixEt.value ||
+                      filter.label == "Marca" && toggleBrand.value ||
+                      filter.label == "Tamanho" && toggleTam.value
                       ? "h-0 pt-0 overflow-hidden "
                       : "h-full pt-4 lg:pt-6 lg:filter-drop lg:z-20"
                   } transition-3s lg:absolute lg:top-4`}
@@ -359,15 +367,16 @@ function Filters({ filters }: Props) {
                 <div
                   class={`opacity-70 fixed bottom-0 top-0 left-0 right-0 w-[100%] h-[100%] ${
                     filter.label == "Departamentos" && toggleDept.value ||
-                    filter.label == "Gênero" && toggleGen.value ||
-                    filter.label == "Categorias" && toggleCat.value ||
-                    filter.label == "Subcategorias" && toggleSubCat.value ||
-                    filter.label == "Preço" && togglePrice.value ||
-                    filter.label == "Cor" && toggleCor.value ||
-                    filter.label == "Faixa Etária" && toggleFaixEt.value ||
-                    filter.label == "Marca" && toggleBrand.value ||
-                    filter.label == "Tamanho" && toggleTam.value
-                    ? "hidden" : "block z-10"
+                      filter.label == "Gênero" && toggleGen.value ||
+                      filter.label == "Categorias" && toggleCat.value ||
+                      filter.label == "Subcategorias" && toggleSubCat.value ||
+                      filter.label == "Preço" && togglePrice.value ||
+                      filter.label == "Cor" && toggleCor.value ||
+                      filter.label == "Faixa Etária" && toggleFaixEt.value ||
+                      filter.label == "Marca" && toggleBrand.value ||
+                      filter.label == "Tamanho" && toggleTam.value
+                      ? "hidden"
+                      : "block z-10"
                   }`}
                   onClick={() => {
                     !toggleDept.value ? toggleDept.value = true : "";
@@ -380,7 +389,8 @@ function Filters({ filters }: Props) {
                     !toggleBrand.value ? toggleBrand.value = true : "";
                     !toggleTam.value ? toggleTam.value = true : "";
                   }}
-                ></div>
+                >
+                </div>
               </li>
             )
           );
@@ -418,7 +428,7 @@ function Filters({ filters }: Props) {
                       ? "order-3"
                       : "order-last"
                   }
-                `
+                `,
                 )}
               >
                 <span

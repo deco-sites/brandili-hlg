@@ -1,3 +1,3 @@
 export default function CustomerServiceCenter() {
-    return <div id="NeoassistCentral"></div>
-  }
+  return <div id="NeoassistCentral"></div>;
+}

@@ -1,1 +1,4 @@
-{"WpPosts":{"__resolveType":"Posts from WordPress"},"__resolveType":"site/sections/Miscellaneous/PostsFromWordPress.tsx"}
+{
+  "WpPosts": { "__resolveType": "Posts from WordPress" },
+  "__resolveType": "site/sections/Miscellaneous/PostsFromWordPress.tsx"
+}

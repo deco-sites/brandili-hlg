@@ -15,9 +15,7 @@ export default function QuickBuyGallerySlider({ product, open }: Props) {
   const { image: images } = product;
 
   if (!open) {
-    return (
-      <></>
-    );
+    return <></>;
   }
 
   return (
@@ -48,7 +46,7 @@ export default function QuickBuyGallerySlider({ product, open }: Props) {
         <ul
           class={clx(
             "absolute left-6 top-5 overflow-y-scroll",
-            "carousel carousel-end gap-1 px-0 flex-col z-30"
+            "carousel carousel-end gap-1 px-0 flex-col z-30",
           )}
         >
           {images?.map((img, index) => (

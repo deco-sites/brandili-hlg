@@ -1,1 +1,65 @@
-{"name":"Search","path":"/s","sections":{"variants":[{"rule":{"urlIncludes":"/mundi","__resolveType":"site/matchers/UrlIncludes.ts"},"value":[{"type":"website","__resolveType":"website/sections/Seo/Seo.tsx","titleTemplate":"%s | Deco.cx","descriptionTemplate":"%s | Deco.cx"},{"__resolveType":"Header - 02"},{"page":{"__resolveType":"PLP Loader"},"layout":{"format":"Pagination","columns":{"mobile":2,"desktop":4},"variant":"aside"},"cardLayout":{"hide":{"favoriteIcon":true,"productDescription":true},"onMouseOver":{"card":"None","image":"Change image"}},"__resolveType":"site/sections/Product/SearchResult.tsx"},{"__resolveType":"Footer - Mundi"}]},{"rule":{"__resolveType":"website/matchers/always.ts"},"value":[{"type":"website","__resolveType":"website/sections/Seo/Seo.tsx","titleTemplate":"%s ","descriptionTemplate":"%s "},{"__resolveType":"Header - 01"},{"page":{"__resolveType":"PLP Loader"},"layout":{"format":"Pagination","columns":{"mobile":2,"desktop":4},"variant":"aside"},"cardLayout":{"hide":{"favoriteIcon":true,"productDescription":true},"onMouseOver":{"card":"None","image":"Change image"}},"__resolveType":"site/sections/Product/SearchResult.tsx"},{"__resolveType":"Footer - Brandili"}]}],"__resolveType":"website/flags/multivariate.ts"},"__resolveType":"website/pages/Page.tsx"}
+{
+  "name": "Search",
+  "path": "/s",
+  "sections": {
+    "variants": [
+      {
+        "rule": {
+          "urlIncludes": "/mundi",
+          "__resolveType": "site/matchers/UrlIncludes.ts"
+        },
+        "value": [
+          {
+            "type": "website",
+            "__resolveType": "website/sections/Seo/Seo.tsx",
+            "titleTemplate": "%s | Deco.cx",
+            "descriptionTemplate": "%s | Deco.cx"
+          },
+          { "__resolveType": "Header - 02" },
+          {
+            "page": { "__resolveType": "PLP Loader" },
+            "layout": {
+              "format": "Pagination",
+              "columns": { "mobile": 2, "desktop": 4 },
+              "variant": "aside"
+            },
+            "cardLayout": {
+              "hide": { "favoriteIcon": true, "productDescription": true },
+              "onMouseOver": { "card": "None", "image": "Change image" }
+            },
+            "__resolveType": "site/sections/Product/SearchResult.tsx"
+          },
+          { "__resolveType": "Footer - Mundi" }
+        ]
+      },
+      {
+        "rule": { "__resolveType": "website/matchers/always.ts" },
+        "value": [
+          {
+            "type": "website",
+            "__resolveType": "website/sections/Seo/Seo.tsx",
+            "titleTemplate": "%s ",
+            "descriptionTemplate": "%s "
+          },
+          { "__resolveType": "Header - 01" },
+          {
+            "page": { "__resolveType": "PLP Loader" },
+            "layout": {
+              "format": "Pagination",
+              "columns": { "mobile": 2, "desktop": 4 },
+              "variant": "aside"
+            },
+            "cardLayout": {
+              "hide": { "favoriteIcon": true, "productDescription": true },
+              "onMouseOver": { "card": "None", "image": "Change image" }
+            },
+            "__resolveType": "site/sections/Product/SearchResult.tsx"
+          },
+          { "__resolveType": "Footer - Brandili" }
+        ]
+      }
+    ],
+    "__resolveType": "website/flags/multivariate.ts"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

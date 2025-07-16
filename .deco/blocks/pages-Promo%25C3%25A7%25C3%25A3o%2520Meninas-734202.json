@@ -1,1 +1,53 @@
-{"name":"Promoção Meninas","path":"/promocao/meninas","sections":[{"__resolveType":"commerce/sections/Seo/SeoPLP.tsx","jsonLD":{"__resolveType":"PLP Loader"}},{"__resolveType":"Header - 01"},{"__resolveType":"site/sections/Institucional/customizableBreadcrumb.tsx","links":[{"href":"/3-conjuntos-por-99","label":"3 Conjuntos por 99"}]},{"__resolveType":"site/sections/Product/SearchResult.tsx","page":{"__resolveType":"vtex/loaders/intelligentSearch/productListingPage.ts","sort":"","fuzzy":"automatic","selectedFacets":[{"value":"723","key":"productClusterIds"},{"key":"category-1","value":"meninas"},{"key":"category-2","value":"roupas"},{"key":"category-3","value":"conjunto"}],"count":20},"layout":{"columns":{"mobile":2,"desktop":4},"format":"Pagination","variant":"aside"},"cardLayout":{"basics":{"contentAlignment":"Left","oldPriceSize":"Small"},"elementsPositions":{"skuSelector":"Top","favoriteIcon":"Top right"},"onMouseOver":{"image":"Change image","card":"None","showFavoriteIcon":true,"showSkuSelector":true}}},{"__resolveType":"Footer - Brandili"}],"seo":{"__resolveType":"website/sections/Seo/SeoV2.tsx"},"__resolveType":"website/pages/Page.tsx"}
+{
+  "name": "Promoção Meninas",
+  "path": "/promocao/meninas",
+  "sections": [
+    {
+      "__resolveType": "commerce/sections/Seo/SeoPLP.tsx",
+      "jsonLD": { "__resolveType": "PLP Loader" }
+    },
+    { "__resolveType": "Header - 01" },
+    {
+      "__resolveType": "site/sections/Institucional/customizableBreadcrumb.tsx",
+      "links": [
+        { "href": "/3-conjuntos-por-99", "label": "3 Conjuntos por 99" }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Product/SearchResult.tsx",
+      "page": {
+        "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+        "sort": "",
+        "fuzzy": "automatic",
+        "selectedFacets": [
+          { "value": "723", "key": "productClusterIds" },
+          { "key": "category-1", "value": "meninas" },
+          { "key": "category-2", "value": "roupas" },
+          { "key": "category-3", "value": "conjunto" }
+        ],
+        "count": 20
+      },
+      "layout": {
+        "columns": { "mobile": 2, "desktop": 4 },
+        "format": "Pagination",
+        "variant": "aside"
+      },
+      "cardLayout": {
+        "basics": { "contentAlignment": "Left", "oldPriceSize": "Small" },
+        "elementsPositions": {
+          "skuSelector": "Top",
+          "favoriteIcon": "Top right"
+        },
+        "onMouseOver": {
+          "image": "Change image",
+          "card": "None",
+          "showFavoriteIcon": true,
+          "showSkuSelector": true
+        }
+      }
+    },
+    { "__resolveType": "Footer - Brandili" }
+  ],
+  "seo": { "__resolveType": "website/sections/Seo/SeoV2.tsx" },
+  "__resolveType": "website/pages/Page.tsx"
+}

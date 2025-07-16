@@ -105,7 +105,7 @@ const snippet = (expiresAt: string, rootId: string) => {
 
         expired && expired.classList.remove("hidden");
         counter && counter.classList.remove("hidden");
-        
+
         setValue(`${rootId}::days`, days);
         setValue(`${rootId}::hours`, hours);
         setValue(`${rootId}::minutes`, minutes);
@@ -240,13 +240,15 @@ function ProductCountDownCard({
           aria-label="view product"
           class="grid grid-cols-1 grid-rows-1 w-full rounded"
         >
-          {/* <figcaption class="absolute top-1 left-0 flex flex-col justify-center items-center gap-[2px] full-phone:gap-0 p-2 full-phone:p-[2px] max-w-[68px] full-phone:max-w-[46px]">
+          {
+            /* <figcaption class="absolute top-1 left-0 flex flex-col justify-center items-center gap-[2px] full-phone:gap-0 p-2 full-phone:p-[2px] max-w-[68px] full-phone:max-w-[46px]">
             {firstSku && lastSku && (
               <span class="text-gray-0 text-[9px] leading-none full-phone:text-[8px] text-center font-light flex flex-col justify-center items-center flag-size">
                 Tamanhos {firstSku} ao {lastSku}
               </span>
             )}
-          </figcaption> */}
+          </figcaption> */
+          }
           <Image
             src={front.url!}
             alt={front.alternateName}

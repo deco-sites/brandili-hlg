@@ -1,1 +1,6 @@
-{"layout":{"dots":false,"showArrows":true},"WpPosts":{"__resolveType":"Posts from WP"},"maxPosts":4,"__resolveType":"site/sections/Miscellaneous/PostsFromWordPress.tsx"}
+{
+  "layout": { "dots": false, "showArrows": true },
+  "WpPosts": { "__resolveType": "Posts from WP" },
+  "maxPosts": 4,
+  "__resolveType": "site/sections/Miscellaneous/PostsFromWordPress.tsx"
+}

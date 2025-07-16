@@ -46,7 +46,7 @@ function ProductInfo({ page, layout, similars }: Props) {
 
   const description = product.description || isVariantOf?.description;
 
-  const productidentifier = isVariantOf?.model
+  const productidentifier = isVariantOf?.model;
 
   const {
     price = 0,
@@ -92,7 +92,9 @@ function ProductInfo({ page, layout, similars }: Props) {
         </div>
         <div>
           {gtin && (
-            <span class="text-sm text-gray-1 font-poppins">Ref.: {productidentifier}</span>
+            <span class="text-sm text-gray-1 font-poppins">
+              Ref.: {productidentifier}
+            </span>
           )}
         </div>
         <h1>
@@ -130,7 +132,7 @@ function ProductInfo({ page, layout, similars }: Props) {
         </div>
         {availability === "https://schema.org/InStock" && (
           <span class="text-sm font-poppins text-gray-12 font-light">
-            Ou em {installments?.replace ("." , ",")}
+            Ou em {installments?.replace(".", ",")}
           </span>
         )}
       </div>

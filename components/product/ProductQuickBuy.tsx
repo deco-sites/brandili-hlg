@@ -23,14 +23,17 @@ const ProductQuickBuy = ({ product, open }: Props) => {
   const showOutOfStock = useSignal(false);
   const selectedSku: any = useSignal("");
   const hasVariant = isVariantOf?.hasVariant ?? [];
-  const { price = 0, listPrice, seller = "1", installments, availability } = useOffer(offers);
+  const { price = 0, listPrice, seller = "1", installments, availability } =
+    useOffer(offers);
 
   const productUrl: any = url?.split("?") ?? [];
 
   const sectionId = useId();
 
   const variantSelector: any = hasVariant?.map((item, index) => {
-    const size = item?.additionalProperty?.find((propertyValue) => propertyValue.name === "Tamanho")?.value;
+    const size = item?.additionalProperty?.find((propertyValue) =>
+      propertyValue.name === "Tamanho"
+    )?.value;
     const sku = item?.sku;
     const productId = item?.productID;
     const { availability } = useOffer(item?.offers);
@@ -50,7 +53,9 @@ const ProductQuickBuy = ({ product, open }: Props) => {
         key={index}
         id={sectionId}
         className={`size-wrapper order-${size} ${
-          availability === "https://schema.org/InStock" ? "available" : "unavailable"
+          availability === "https://schema.org/InStock"
+            ? "available"
+            : "unavailable"
         }`}
       >
         <input
@@ -85,7 +90,9 @@ const ProductQuickBuy = ({ product, open }: Props) => {
       </div>
       <div class="quick-buy-body pt-2 pb-4 px-5 full-phone:px-4">
         <div class="product-name mt-2">
-          <span class="font-normal text-xl capitalize font-poppins text-gray-0">{isVariantOf?.name}</span>
+          <span class="font-normal text-xl capitalize font-poppins text-gray-0">
+            {isVariantOf?.name}
+          </span>
         </div>
         <div class="mt-4">
           <div class="flex flex-row items-center">
@@ -100,22 +107,35 @@ const ProductQuickBuy = ({ product, open }: Props) => {
             {(listPrice ?? 0) > price && (
               <div class="flex items-center justify-center">
                 <span class="bg-red-0/5 text-red-0 font-poppins rounded-sm py-[2px] px-1 border border-solid border-red-0 text-sm font-normal">
-                  {listPrice && price ? `-${Math.round(((listPrice - price) / listPrice) * 100)}% OFF` : ""}
+                  {listPrice && price
+                    ? `-${
+                      Math.round(((listPrice - price) / listPrice) * 100)
+                    }% OFF`
+                    : ""}
                 </span>
               </div>
             )}
           </div>
           {availability === "https://schema.org/InStock" && (
-            <span class="text-sm font-poppins text-gray-12 font-light">Ou em {installments}</span>
+            <span class="text-sm font-poppins text-gray-12 font-light">
+              Ou em {installments}
+            </span>
           )}
         </div>
         <div class="flex mt-4 sm:mt-6 gap-2 flex-wrap">{variantSelector}</div>
         <div class={`mt-4 ${showOutOfStock.value ? "pb-0" : "pb-32"}`}>
           <QuickSizeList product={product} />
         </div>
-        <div class={`mt-4 sm:mt-10 flex flex-col gap-2 ${showOutOfStock.value ? "visible" : "hidden"}`}>
+        <div
+          class={`mt-4 sm:mt-10 flex flex-col gap-2 ${
+            showOutOfStock.value ? "visible" : "hidden"
+          }`}
+        >
           <OutOfStock productID={selectedSku.value} />
-          <a href={productUrl[0]} class="text-center w-full text-gray-0 text-sm block pb-3">
+          <a
+            href={productUrl[0]}
+            class="text-center w-full text-gray-0 text-sm block pb-3"
+          >
             Veja a descrição completa
           </a>
         </div>
@@ -126,11 +146,22 @@ const ProductQuickBuy = ({ product, open }: Props) => {
         >
           {open && (
             <div class="flex gap-2 pt-3 mb-3">
-              <WishlistButtonVtex variant="full" productID={productID} productGroupID={productGroupID} />
-              <AddToCartButtonVTEX eventParams={{ items: [eventItem] }} productID={selectedSku.value} seller={seller} />
+              <WishlistButtonVtex
+                variant="full"
+                productID={productID}
+                productGroupID={productGroupID}
+              />
+              <AddToCartButtonVTEX
+                eventParams={{ items: [eventItem] }}
+                productID={selectedSku.value}
+                seller={seller}
+              />
             </div>
           )}
-          <a href={productUrl[0]} class="text-center w-full text-blue-0 text-sm block pb-3">
+          <a
+            href={productUrl[0]}
+            class="text-center w-full text-blue-0 text-sm block pb-3"
+          >
             Veja a descrição completa
           </a>
         </div>

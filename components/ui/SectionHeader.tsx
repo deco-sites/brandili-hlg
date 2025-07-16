@@ -24,7 +24,7 @@ function Header(props: Props) {
               props.alignment === "left" ? "text-left" : "text-center"
             }`}
           >
-            {props.title && props.title.trim() !== '' &&
+            {props.title && props.title.trim() !== "" &&
               (
                 <h2 class="text-2xl full-phone:text-xl text-gray-0 font-semibold">
                   {props.title}

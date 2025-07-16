@@ -59,7 +59,11 @@ const CustomSkuSelector = ({ product, breadcrumbList }: Props) => {
       <div
         key={index}
         id={sectionId}
-        className={`size-wrapper ${availability === "https://schema.org/InStock"? "available": "unavailable"} order-${size}`}
+        className={`size-wrapper ${
+          availability === "https://schema.org/InStock"
+            ? "available"
+            : "unavailable"
+        } order-${size}`}
       >
         <input
           type="radio"

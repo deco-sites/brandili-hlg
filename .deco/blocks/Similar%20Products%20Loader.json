@@ -1,1 +1,4 @@
-{"page":{"__resolveType":"PDP Loader"},"__resolveType":"site/loaders/CustomSimilars.ts"}
+{
+  "page": { "__resolveType": "PDP Loader" },
+  "__resolveType": "site/loaders/CustomSimilars.ts"
+}

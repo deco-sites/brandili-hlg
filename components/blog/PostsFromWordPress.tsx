@@ -16,7 +16,7 @@ export interface Props {
 
 const PostsFromWordPress = ({ WpPosts, layout }: Props) => {
   const id = useId();
-  const posts = WpPosts?.WpPosts ?? []
+  const posts = WpPosts?.WpPosts ?? [];
 
   const slideDesktop = {
     1: "cs-min-desktop:w-full",

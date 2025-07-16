@@ -1,5 +1,5 @@
 import Button from "../../../components/ui/Button.tsx";
-import { useState, useEffect } from "preact/hooks";
+import { useEffect, useState } from "preact/hooks";
 import Icon from "site/components/ui/Icon.tsx";
 
 export interface Props {

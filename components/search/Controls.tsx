@@ -42,7 +42,13 @@ function SearchControls({
                 class="!shadow-none bg-transparent hover:bg-transparent border-0 hover:border-0 absolute left-3"
                 onClick={() => (open.value = false)}
               >
-                <Icon id="XMark" class="text-white-0" width={13} height={13} strokeWidth={3} />
+                <Icon
+                  id="XMark"
+                  class="text-white-0"
+                  width={13}
+                  height={13}
+                  strokeWidth={3}
+                />
               </Button>
               <h2 class="px-4 py-3">
                 <span class="font-medium text-white-0 text-xl">Filtros</span>

@@ -6,7 +6,10 @@ import Icon from "../../components/ui/Icon.tsx";
 import SearchControls from "../../islands/SearchControls.tsx";
 import { useId } from "../../sdk/useId.ts";
 import { useOffer } from "../../sdk/useOffer.ts";
-import type { ProductListingPage, ProductDetailsPage} from "apps/commerce/types.ts";
+import type {
+  ProductDetailsPage,
+  ProductListingPage,
+} from "apps/commerce/types.ts";
 import { mapProductToAnalyticsItem } from "apps/commerce/utils/productToAnalyticsItem.ts";
 import ProductGallery, { Columns } from "../product/ProductGallery.tsx";
 import EmptySearch from "../../components/search/EmptySearch.tsx";

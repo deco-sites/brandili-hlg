@@ -11,7 +11,9 @@ interface Props {
   };
 }
 
-function InstagramElfsight({ title, description, titleLayout, link, elfsightid }: Props) {
+function InstagramElfsight(
+  { title, description, titleLayout, link, elfsightid }: Props,
+) {
   return (
     <>
       <Head>
@@ -25,12 +27,13 @@ function InstagramElfsight({ title, description, titleLayout, link, elfsightid }
       <div className="mb-9">
         <HeaderInstagram
           title={title || "Instagram"}
-          description={description || "Explore o universo encantador da moda infantil!"}
+          description={description ||
+            "Explore o universo encantador da moda infantil!"}
           link={link}
           alignment={titleLayout?.headerAlignment || "center"}
         />
         <div
-          class= {elfsightid}
+          class={elfsightid}
           data-elfsight-app-lazy="data-elfsight-app-lazy"
         >
         </div>

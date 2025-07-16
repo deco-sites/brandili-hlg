@@ -4,7 +4,7 @@ export interface Props {
   title?: string;
   fontSize?: "Small" | "Normal" | "Large";
   description?: string;
-    /** @description href */
+  /** @description href */
   link?: string;
   alignment?: "center" | "left";
   colorReverse?: boolean;
@@ -27,7 +27,8 @@ function HeaderCustom(props: Props) {
                     <a
                       href={props.link ??
                         "https://www.instagram.com/mundioficial/"}
-                      target="_blank" title="@brandili_oficial"
+                      target="_blank"
+                      title="@brandili_oficial"
                     >
                       {props.title}
                     </a>
@@ -41,7 +42,8 @@ function HeaderCustom(props: Props) {
                   <a
                     href={props.link ??
                       "https://www.instagram.com/brandili_oficial/"}
-                    target="_blank" title="@brandili_oficial"
+                    target="_blank"
+                    title="@brandili_oficial"
                   >
                     {props.description}
                   </a>

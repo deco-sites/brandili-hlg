@@ -8,6 +8,5 @@ export default defineConfig({
     manifest,
     htmx: true,
     // deno-lint-ignore no-explicit-any
-    
   }),
 });

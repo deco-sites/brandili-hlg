@@ -36,7 +36,7 @@ export interface Props {
 
 function ProductCountDownShelf({
   products,
-  title,  
+  title,
   layout,
   cardLayout,
   expiresAt,

@@ -122,10 +122,10 @@ export default function KitLookShoppableBanner({
                 alt={image?.altText}
               />
             </Picture>
-            {pins?.map(({ mobile, desktop, link, label }, index) => {     
+            {pins?.map(({ mobile, desktop, link, label }, index) => {
               if (!products[index]) {
-                return
-              }     
+                return;
+              }
               const listImage: any = products[index]?.image;
               const productName = products[index]?.name;
               const productImage: any = listImage[0].url;
@@ -165,9 +165,11 @@ export default function KitLookShoppableBanner({
                           <div class="flex items-center justify-center border border-gray-15 w-auto px-1">
                             <span class="text-xs text-gray-0 font-semibold">
                               {listPrice && price
-                                ? `${Math.round(
-                                    ((listPrice - price) / listPrice) * 100
-                                  )}% `
+                                ? `${
+                                  Math.round(
+                                    ((listPrice - price) / listPrice) * 100,
+                                  )
+                                }% `
                                 : ""}
                               OFF
                             </span>
@@ -220,7 +222,7 @@ export default function KitLookShoppableBanner({
           class={clx(
             "grid",
             layout?.showArrows && "grid-cols-[48px_1fr_48px]",
-            "px-0 md:px-5 full-tablet:mt-5 container full-phone:hidden"
+            "px-0 md:px-5 full-tablet:mt-5 container full-phone:hidden",
           )}
         >
           <Slider class="carousel carousel-center sm:carousel-end gap-6 col-span-full row-start-2 row-end-5">
@@ -230,7 +232,7 @@ export default function KitLookShoppableBanner({
                 class={clx(
                   "carousel-item",
                   slideDesktop[layout?.numberOfSliders?.desktop ?? 3],
-                  slideMobile[layout?.numberOfSliders?.mobile ?? 1]
+                  slideMobile[layout?.numberOfSliders?.mobile ?? 1],
                 )}
               >
                 <ProductCard

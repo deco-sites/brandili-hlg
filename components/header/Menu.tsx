@@ -48,7 +48,7 @@ function MenuItemTitle({ item }: { item: SiteNavigationElement }) {
 function MenuItem({ item }: { item: SiteNavigationElement }) {
   const { name, url, children } = item;
   const lastImage = item?.image?.at(-1);
-  const menucategories = ["Roupas", "Categorias", "Faixa etária" ]
+  const menucategories = ["Roupas", "Categorias", "Faixa etária"];
   return children && children?.length > 0 && (
     <div
       class={`submenu bg-base-100 gap-6 w-full right-0 left-0 ${
@@ -69,7 +69,12 @@ function MenuItem({ item }: { item: SiteNavigationElement }) {
       <ul class="flex flex-col items-start justify-center gap-y-2.5">
         {children.map((node) => (
           <li class="menu-mobile collapse collapse-plus bg-gray-4 rounded-none">
-            <input type="checkbox" checked={node?.name && menucategories.includes(node?.name) ? true  : false} />
+            <input
+              type="checkbox"
+              checked={node?.name && menucategories.includes(node?.name)
+                ? true
+                : false}
+            />
             <a class="collapse-title text-gray-0 text-base gray-4 font-normal min-h-fit py-3 px-4">
               <span>{node.name}</span>
             </a>

@@ -1,1 +1,11 @@
-{"id":"18129","title":"Teste","expiresAt":"2024-05-31T19:52:00.000Z","productCards":[{"id":"18129","expiresAt":"2024-05-31T20:59:00.000Z"},{"id":"18189","expiresAt":"2024-05-31T20:59:00.000Z"},{"id":"17929","expiresAt":"2024-05-31T21:00:00.000Z"}],"__resolveType":"site/loaders/VtexProductLoader.ts"}
+{
+  "id": "18129",
+  "title": "Teste",
+  "expiresAt": "2024-05-31T19:52:00.000Z",
+  "productCards": [
+    { "id": "18129", "expiresAt": "2024-05-31T20:59:00.000Z" },
+    { "id": "18189", "expiresAt": "2024-05-31T20:59:00.000Z" },
+    { "id": "17929", "expiresAt": "2024-05-31T21:00:00.000Z" }
+  ],
+  "__resolveType": "site/loaders/VtexProductLoader.ts"
+}

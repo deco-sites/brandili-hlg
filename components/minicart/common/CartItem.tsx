@@ -77,8 +77,8 @@ function CartItem(
 
       <div class="flex flex-col gap-">
         <div class="flex justify-between items-center">
-          <a href= {url}>
-          <span class="text-xs text-gray-1 font-normal">{name}</span>
+          <a href={url}>
+            <span class="text-xs text-gray-1 font-normal">{name}</span>
           </a>
         </div>
         <div class="flex items-center gap-2">

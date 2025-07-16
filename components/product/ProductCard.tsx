@@ -74,12 +74,12 @@ function ProductCard({ product, preload, itemListName, layout, index }: Props) {
             .replace(" - Mundi", "")
             .replace("-2024", "")}
         </span>
-      )
+      ),
   );
 
   const arrProduct = product?.isVariantOf?.hasVariant?.map((item: any) => {
     return item?.additionalProperty?.find(
-      (item: any) => item.name === "Tamanho"
+      (item: any) => item.name === "Tamanho",
     )?.value;
   });
 
@@ -100,9 +100,9 @@ function ProductCard({ product, preload, itemListName, layout, index }: Props) {
         align === "center" ? "text-center" : "text-start"
       }
         ${
-          l?.onMouseOver?.card === "Move up" &&
-          "duration-500 transition-translate ease-in-out lg:hover:-translate-y-2"
-        }
+        l?.onMouseOver?.card === "Move up" &&
+        "duration-500 transition-translate ease-in-out lg:hover:-translate-y-2"
+      }
       `}
       data-deco="view-product"
     >
@@ -133,7 +133,8 @@ function ProductCard({ product, preload, itemListName, layout, index }: Props) {
           aria-label="view product"
           class="grid grid-cols-1 grid-rows-1 w-full rounded"
         >
-          {/* <figcaption class="absolute z-10 top-1 left-0 flex flex-col justify-center items-center gap-[2px] full-phone:gap-0 p-2 full-phone:p-[2px] max-w-[68px] full-phone:max-w-[46px]">
+          {
+            /* <figcaption class="absolute z-10 top-1 left-0 flex flex-col justify-center items-center gap-[2px] full-phone:gap-0 p-2 full-phone:p-[2px] max-w-[68px] full-phone:max-w-[46px]">
             {firstSku && lastSku && firstSku !== lastSku && (
               <span class="text-gray-0 text-[9px] leading-none full-phone:text-[8px] text-center font-light flex flex-col justify-center items-center flag-size">
                 Tamanhos {firstSku} ao {lastSku}
@@ -144,7 +145,8 @@ function ProductCard({ product, preload, itemListName, layout, index }: Props) {
                 Tamanho {firstSku}
               </span>
             )}
-          </figcaption> */}
+          </figcaption> */
+          }
           <Image
             src={front.url!}
             alt={front.alternateName}
@@ -175,7 +177,8 @@ function ProductCard({ product, preload, itemListName, layout, index }: Props) {
             class={`${
               back?.url ? "visible" : "hidden"
             } hover-image full-tablet:hidden w-[116px] absolute bottom-[3px] h-[3px] bg-gray-0/70 transition-3s left-0 lg:group-hover:translate-x-[200%] lg:group-hover:left-auto`}
-          ></div>
+          >
+          </div>
         </a>
         <QuickBuyButton product={product} />
       </figure>
@@ -186,22 +189,26 @@ function ProductCard({ product, preload, itemListName, layout, index }: Props) {
         </div>
       )}
       <div class="flex-auto flex flex-col p-2 full-phone:p-1 gap-3 lg:gap-2 bg-white-0">
-        {l?.hide?.productName ? (
-          ""
-        ) : (
-          <div class="flex flex-col gap-0">
-            {l?.hide?.productName ? (
-              ""
-            ) : (
-              <h2
-                class="truncate text-sm text-gray-1 font-normal mob-prod-name"
-                dangerouslySetInnerHTML={{
-                  __html: product?.isVariantOf?.name ?? "",
-                }}
-              />
-            )}
-          </div>
-        )}
+        {l?.hide?.productName
+          ? (
+            ""
+          )
+          : (
+            <div class="flex flex-col gap-0">
+              {l?.hide?.productName
+                ? (
+                  ""
+                )
+                : (
+                  <h2
+                    class="truncate text-sm text-gray-1 font-normal mob-prod-name"
+                    dangerouslySetInnerHTML={{
+                      __html: product?.isVariantOf?.name ?? "",
+                    }}
+                  />
+                )}
+            </div>
+          )}
 
         <div class="flex flex-col gap-2">
           <div class="flex flex-col gap-0 min-h-12 justify-center">
@@ -222,9 +229,11 @@ function ProductCard({ product, preload, itemListName, layout, index }: Props) {
                 <div class="flex items-center justify-center border border-red-1 w-[56px] h-[22px]">
                   <span class="text-xs text-red-1 font-medium">
                     {listPrice && price
-                      ? `${Math.round(
-                          ((listPrice - price) / listPrice) * 100
-                        )}% `
+                      ? `${
+                        Math.round(
+                          ((listPrice - price) / listPrice) * 100,
+                        )
+                      }% `
                       : ""}
                     OFF
                   </span>

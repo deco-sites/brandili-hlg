@@ -2,33 +2,34 @@ export interface Props {
   /**
    * @title Número máximo de posts
    * @default 4
-   * */
-  maxNumberOfPosts?: number
+   */
+  maxNumberOfPosts?: number;
 }
 
 export interface Post {
-  link: string
-  title: string
-  excerpt: string
-  image: string
+  link: string;
+  title: string;
+  excerpt: string;
+  image: string;
 }
 
 interface WpApiReturn {
-  link: string
+  link: string;
   title: {
-    rendered: string
-  }
+    rendered: string;
+  };
   excerpt: {
-    rendered: string
-  }
-  yoast_head: string
+    rendered: string;
+  };
+  yoast_head: string;
 }
 export interface Posts {
-  WpPosts: Post[]
+  WpPosts: Post[];
 }
 
-export default async function GetPosts({ maxNumberOfPosts = 8 }: Props): Promise<Posts | null> {
-
+export default async function GetPosts(
+  { maxNumberOfPosts = 8 }: Props,
+): Promise<Posts | null> {
   function extractImageUrl(yoastHead: string) {
     const regex = /<meta property="og:image" content="(.*?)"/;
 
@@ -36,9 +37,9 @@ export default async function GetPosts({ maxNumberOfPosts = 8 }: Props): Promise
 
     if (match && match[1]) {
       const imageUrl = match[1];
-      return imageUrl
+      return imageUrl;
     } else {
-      return null
+      return null;
     }
   }
 

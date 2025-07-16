@@ -25,7 +25,13 @@ export interface Props {
   page: ProductDetailsPage;
 }
 
-const Aside = ({ title, onClose, children }: { title: string; onClose?: () => void; children: ComponentChildren }) => (
+const Aside = (
+  { title, onClose, children }: {
+    title: string;
+    onClose?: () => void;
+    children: ComponentChildren;
+  },
+) => (
   <div class="bg-base-100 h-full w-full max-w-[375px]">
     <div class="flex justify-between items-center">
       <h3 class="px-4 py-3">
@@ -66,7 +72,9 @@ const AsideMinicart = ({
           <span class="font-normal text-xl text-gray-0">{title}</span>
           {qtdItemsMinicart.value > 0 && (
             <span class="quantity-items text-sm text-gray-3 font-normal">
-              {`(${qtdItemsMinicart.value} ${qtdItemsMinicart.value > 1 ? "itens" : "item"} )`}
+              {`(${qtdItemsMinicart.value} ${
+                qtdItemsMinicart.value > 1 ? "itens" : "item"
+              } )`}
             </span>
           )}
         </h3>
@@ -89,11 +97,17 @@ const AsideMinicart = ({
   );
 };
 
-const AsideQuickBuy = ({ onClose, children }: { onClose?: () => void; children: ComponentChildren }) => (
+const AsideQuickBuy = (
+  { onClose, children }: { onClose?: () => void; children: ComponentChildren },
+) => (
   <div class="bg-white-0 flex h-full">
     <div class="flex justify-between items-center mb-5">
       {onClose && (
-        <Button aria-label="X" class="bg-transparent top-0 btn-ghost absolute right-0 z-10" onClick={onClose}>
+        <Button
+          aria-label="X"
+          class="bg-transparent top-0 btn-ghost absolute right-0 z-10"
+          onClick={onClose}
+        >
           <Icon id="XMark" width={13} height={13} strokeWidth={1} />
         </Button>
       )}
@@ -171,11 +185,9 @@ function Drawers({ menu, searchbar, children, platform, page }: Props) {
             {displayMenu.value && <Menu {...menu} />}
 
             <div
-              class={
-                searchbar && displaySearchDrawer.value
-                  ? "searchBar-brandili w-full full-desktop:w-screen relative"
-                  : "searchBar-brandili w-full full-desktop:w-screen relative hidden"
-              }
+              class={searchbar && displaySearchDrawer.value
+                ? "searchBar-brandili w-full full-desktop:w-screen relative"
+                : "searchBar-brandili w-full full-desktop:w-screen relative hidden"}
             >
               <Searchbar {...searchbar} />
             </div>
@@ -189,7 +201,10 @@ function Drawers({ menu, searchbar, children, platform, page }: Props) {
         open={displayCart.value !== false}
         onClose={() => (displayCart.value = false)}
         aside={
-          <AsideMinicart title="Minha sacola" onClose={() => (displayCart.value = false)}>
+          <AsideMinicart
+            title="Minha sacola"
+            onClose={() => (displayCart.value = false)}
+          >
             <Cart platform={platform} />
           </AsideMinicart>
         }
@@ -204,8 +219,14 @@ function Drawers({ menu, searchbar, children, platform, page }: Props) {
             (displayQuickBuy.value = false), (productTransfer.value = false);
           }}
           aside={
-            <AsideQuickBuy onClose={() => ((displayQuickBuy.value = false), (productTransfer.value = false))}>
-              <ProductQuickBuy product={productTransfer.value} open={displayQuickBuy.value} />
+            <AsideQuickBuy
+              onClose={() => ((displayQuickBuy.value = false),
+                (productTransfer.value = false))}
+            >
+              <ProductQuickBuy
+                product={productTransfer.value}
+                open={displayQuickBuy.value}
+              />
             </AsideQuickBuy>
           }
         >
@@ -216,11 +237,13 @@ function Drawers({ menu, searchbar, children, platform, page }: Props) {
         <Drawer
           class="drawer-end drawer-overcontent"
           open={displayKitLook.value !== false}
-          onClose={() => ((displayKitLook.value = false), (kitTransfer.value = ""))}
+          onClose={() => ((displayKitLook.value = false),
+            (kitTransfer.value = ""))}
           aside={
             <AsideKitLook
               title="Compre o look"
-              onClose={() => ((displayKitLook.value = false), (kitTransfer.value = ""))}
+              onClose={() => ((displayKitLook.value = false),
+                (kitTransfer.value = ""))}
             >
               <ProductKitLook product={kitTransfer.value} />
             </AsideKitLook>
