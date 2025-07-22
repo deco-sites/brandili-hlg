@@ -93,8 +93,12 @@ function Navbar({
               style={{ minHeight: navbarHeight }}
               aria-label={`Brandili Logo - ${url}`}
             >
-              {url == "https://www.brandili.com.br" ||
-                  url == "https://brandili.com.br" || "http://localhost:8000"
+              {url == "https://www.brandili.com.br" 
+              || url == "https://brandili.com.br"
+              || url == "http://localhost:8000"
+              || url == "sites-brandili-hlg--vdqi85.decocdn.com"
+              || url == "https://sites-brandili-hlg--vdqi85.decocdn.com"
+
                 ? (
                   <h1 aria-label={logo.alt}>
                     <Image
