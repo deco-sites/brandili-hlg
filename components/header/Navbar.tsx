@@ -155,7 +155,7 @@ function Navbar({
                   class="block max-w-[140px]"
                 >
                   {url == "https://www.brandili.com.br" ||
-                      url == "https://brandili.com.br"
+                      url == "https://brandili.com.br" || url == "sites-brandili-hlg--vdqi85.decocdn.com" || url == "https://sites-brandili-hlg--vdqi85.decocdn.com"
                     ? (
                       <h1 aria-label={logo.alt}>
                         <Image
