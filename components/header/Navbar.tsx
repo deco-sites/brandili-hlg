@@ -91,7 +91,7 @@ function Navbar({
               href={logoLink ?? "/"}
               class="navbar flex-grow inline-flex items-center justify-center max-w-[140px]"
               style={{ minHeight: navbarHeight }}
-              aria-label={`Brandili Logo - ${url}`}
+              aria-label={`Brandili Logo`}
             >
               {url == "https://www.brandili.com.br" 
               || url == "https://brandili.com.br"
@@ -150,7 +150,7 @@ function Navbar({
               {logo && (
                 <a
                   href={logoLink ?? "/"}
-                  aria-label={`Brandili Logo ${url}`}
+                  aria-label={`Brandili Logo`}
                   class="block max-w-[140px]"
                 >
                   {url == "https://www.brandili.com.br" ||
