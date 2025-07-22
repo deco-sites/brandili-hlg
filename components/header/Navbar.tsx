@@ -151,12 +151,11 @@ function Navbar({
               {logo && (
                 <a
                   href={logoLink ?? "/"}
-                  aria-label={`Brandili Logo`}
+                  aria-label={`Brandili Logo ${url}`}
                   class="block max-w-[140px]"
                 >
                   {url == "https://www.brandili.com.br" ||
-                      url == "https://brandili.com.br" ||
-                      "http://localhost:8000"
+                      url == "https://brandili.com.br"
                     ? (
                       <h1 aria-label={logo.alt}>
                         <Image

@@ -4555,6 +4555,9 @@ details.collapse summary::-webkit-details-marker {
 .right-2 {
   right: 0.5rem;
 }
+.right-4 {
+  right: 1rem;
+}
 .right-6 {
   right: 1.5rem;
 }
@@ -4588,8 +4591,14 @@ details.collapse summary::-webkit-details-marker {
 .top-\[34px\] {
   top: 34px;
 }
+.top-\[41px\] {
+  top: 41px;
+}
 .top-\[59px\] {
   top: 59px;
+}
+.top-\[70px\] {
+  top: 70px;
 }
 .-z-10 {
   z-index: -10;
@@ -4608,6 +4617,9 @@ details.collapse summary::-webkit-details-marker {
 }
 .z-50 {
   z-index: 50;
+}
+.z-\[-2\] {
+  z-index: -2;
 }
 .-order-1 {
   order: -1;
@@ -4735,11 +4747,17 @@ details.collapse summary::-webkit-details-marker {
 .m-1 {
   margin: 0.25rem;
 }
+.m-2 {
+  margin: 0.5rem;
+}
 .m-5 {
   margin: 1.25rem;
 }
 .m-6 {
   margin: 1.5rem;
+}
+.m-8 {
+  margin: 2rem;
 }
 .m-auto {
   margin: auto;
@@ -5021,6 +5039,9 @@ details.collapse summary::-webkit-details-marker {
 .h-\[100\%\] {
   height: 100%;
 }
+.h-\[10px\] {
+  height: 10px;
+}
 .h-\[174px\] {
   height: 174px;
 }
@@ -5088,6 +5109,9 @@ details.collapse summary::-webkit-details-marker {
 }
 .max-h-64 {
   max-height: 16rem;
+}
+.max-h-\[110px\] {
+  max-height: 110px;
 }
 .max-h-\[156px\] {
   max-height: 156px;
@@ -5274,6 +5298,9 @@ details.collapse summary::-webkit-details-marker {
 }
 .w-\[100\%\] {
   width: 100%;
+}
+.w-\[10px\] {
+  width: 10px;
 }
 .w-\[110px\] {
   width: 110px;
@@ -6361,6 +6388,10 @@ details.collapse summary::-webkit-details-marker {
   --tw-bg-opacity: 1;
   background-color: rgb(0 191 255 / var(--tw-bg-opacity));
 }
+.bg-\[\#0D1717\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(13 23 23 / var(--tw-bg-opacity));
+}
 .bg-\[\#161616\] {
   --tw-bg-opacity: 1;
   background-color: rgb(22 22 22 / var(--tw-bg-opacity));
@@ -6380,6 +6411,10 @@ details.collapse summary::-webkit-details-marker {
 .bg-\[\#A9A9A9\] {
   --tw-bg-opacity: 1;
   background-color: rgb(169 169 169 / var(--tw-bg-opacity));
+}
+.bg-\[\#C9CFCF\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(201 207 207 / var(--tw-bg-opacity));
 }
 .bg-\[\#FF0000\] {
   --tw-bg-opacity: 1;
@@ -6623,6 +6658,9 @@ details.collapse summary::-webkit-details-marker {
 }
 .p-6 {
   padding: 1.5rem;
+}
+.p-8 {
+  padding: 2rem;
 }
 .px-0 {
   padding-left: 0px;
@@ -6913,6 +6951,9 @@ details.collapse summary::-webkit-details-marker {
 .text-\[22px\] {
   font-size: 22px;
 }
+.text-\[24px\] {
+  font-size: 24px;
+}
 .text-\[26px\] {
   font-size: 26px;
 }
@@ -6924,6 +6965,9 @@ details.collapse summary::-webkit-details-marker {
 }
 .text-\[40px\] {
   font-size: 40px;
+}
+.text-\[48px\] {
+  font-size: 48px;
 }
 .text-\[80px\] {
   font-size: 80px;
@@ -7010,6 +7054,9 @@ details.collapse summary::-webkit-details-marker {
 }
 .leading-\[15px\] {
   line-height: 15px;
+}
+.leading-\[16px\] {
+  line-height: 16px;
 }
 .leading-\[18px\] {
   line-height: 18px;
@@ -8726,6 +8773,15 @@ iframe#launcher,
   outline: 2px solid transparent;
   outline-offset: 2px;
 }
+.disabled\:hidden:disabled {
+  display: none;
+}
+.group[open] .group-open\:border-b-\[4px\] {
+  border-bottom-width: 4px;
+}
+.group[open] .group-open\:font-semibold {
+  font-weight: 600;
+}
 .group:hover .group-hover\:visible {
   visibility: visible;
 }
@@ -8778,6 +8834,10 @@ iframe#launcher,
 .group:disabled .group-disabled\:border-primary {
   --tw-border-opacity: 1;
   border-color: var(--fallback-p,oklch(var(--p)/var(--tw-border-opacity)));
+}
+.group:disabled .group-disabled\:bg-\[\#0D1717\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(13 23 23 / var(--tw-bg-opacity));
 }
 .group:disabled .group-disabled\:bg-gray-0 {
   --tw-bg-opacity: 1;
@@ -8892,6 +8952,10 @@ iframe#launcher,
 
   .sm\:h-full {
     height: 100%;
+  }
+
+  .sm\:w-1\/2 {
+    width: 50%;
   }
 
   .sm\:w-2 {
@@ -9114,6 +9178,10 @@ iframe#launcher,
     font-size: 13px;
   }
 
+  .sm\:text-\[20px\] {
+    font-size: 20px;
+  }
+
   .sm\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
@@ -9121,6 +9189,10 @@ iframe#launcher,
 
   .sm\:leading-\[15px\] {
     line-height: 15px;
+  }
+
+  .sm\:leading-\[28px\] {
+    line-height: 28px;
   }
 
   .sm\:first\:ml-0:first-child {
