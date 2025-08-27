@@ -24,6 +24,11 @@
     },
     {
       "__resolveType": "Footer - Brandili"
+    },
+    {
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "canonical": "https://www.brandili.com.br/institucional/politicas-de-pagamento",
+      "title": "Políticas de Pagamento Brandili - Formas Seguras e Práticas de Pagamento"
     }
   ],
   "__resolveType": "website/pages/Page.tsx"

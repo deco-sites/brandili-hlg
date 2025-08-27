@@ -56,9 +56,9 @@ export default function MiniBanners({ images, slider, header }: Props) {
     >
       <div class="flex justify-between items-start">
         <div class="flex flex-col w-full sm:mb-3">
-          <h3 class="text-2xl full-phone:text-xl text-gray-0 font-semibold mb-1">
+          <h2 class="text-2xl full-phone:text-xl text-gray-0 font-semibold mb-1">
             {header?.title}
-          </h3>
+          </h2>
           {header?.description && (
             <span class="mt-3 text-secondary">{header?.description || ""}</span>
           )}

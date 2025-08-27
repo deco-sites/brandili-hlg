@@ -23,7 +23,7 @@ function HeaderCustom(props: Props) {
             {props.title &&
               (
                 <>
-                  <h2 class="text-xl text-gray-0 font-poppins font-medium capitalize mb-[3px]">
+                  <h4 class="text-xl text-gray-0 font-poppins font-medium capitalize mb-[3px]">
                     <a
                       href={props.link ??
                         "https://www.instagram.com/mundioficial/"}
@@ -32,7 +32,7 @@ function HeaderCustom(props: Props) {
                     >
                       {props.title}
                     </a>
-                  </h2>
+                  </h4>
                   <span class="border borer-gray-0 w-14 h-[1px] text-center block mx-auto mb-1" />
                 </>
               )}

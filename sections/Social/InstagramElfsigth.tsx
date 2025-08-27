@@ -20,7 +20,7 @@ function InstagramElfsight(
         <script
           src="https://static.elfsight.com/platform/platform.js"
           data-use-service-core
-          defer
+          defer="true"
         >
         </script>
       </Head>

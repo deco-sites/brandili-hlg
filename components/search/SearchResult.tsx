@@ -69,6 +69,8 @@ function Result({
   const isPartial = url.searchParams.get("partial") === "true";
   const isFirstPage = !pageInfo.previousPage;
 
+  console.log('Page', pageInfo)
+
   return (
     <>
       <div class="container py-6 sm:py-7 mb-2 mt-3">

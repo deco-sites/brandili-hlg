@@ -115,10 +115,8 @@
             "jsonLDs": [
               {}
             ],
-            "titleTemplate": "%s",
             "descriptionTemplate": "%s",
-            "title": "%s",
-            "description": "%s"
+            "titleTemplate": "%s"
           },
           {
             "__resolveType": "Header - 01"

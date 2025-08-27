@@ -3,6 +3,11 @@
   "path": "/institucional/politicas-de-devolucao",
   "sections": [
     {
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "canonical": "https://www.brandili.com.br/institucional/politicas-de-devolucao",
+      "title": "Políticas de Devolução Brandili - Facilidade e Confiança nas Trocas"
+    },
+    {
       "__resolveType": "Header - 01"
     },
     {

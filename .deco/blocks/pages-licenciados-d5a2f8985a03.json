@@ -8,7 +8,8 @@
       "description": "Escolha a maior loja de moda infantil para fazer parte do guarda-roupa das crianças! Peças confortáveis, charmosas e muito acessíveis, confira!",
       "__resolveType": "website/sections/Seo/Seo.tsx",
       "titleTemplate": "Licenciados | %s",
-      "descriptionTemplate": "%s"
+      "descriptionTemplate": "%s",
+      "canonical": "https://www.brandili.com.br/licenciados"
     },
     {
       "__resolveType": "Header - 01"

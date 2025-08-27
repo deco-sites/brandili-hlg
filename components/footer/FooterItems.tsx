@@ -28,13 +28,13 @@ export default function FooterItems({
             {sections.map((section) => (
               <li>
                 <div class="flex flex-col gap-2">
-                  <span
-                    class={`font-medium text-base  ${
+                  <h5
+                    class={`font-medium text-base ${
                       section.textColor ?? "text-black-0"
                     }`}
                   >
                     {section.label}
-                  </span>
+                  </h5>
                   <ul class="flex flex-col gap-1 flex-wrap text-sm">
                     {section.items?.map((item) => (
                       <li>

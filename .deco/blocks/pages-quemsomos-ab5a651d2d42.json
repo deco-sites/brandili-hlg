@@ -25,6 +25,10 @@
     },
     {
       "__resolveType": "Footer - Brandili"
+    },
+    {
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "canonical": "https://www.brandili.com.br/institucional/quem-somos"
     }
   ],
   "__resolveType": "website/pages/Page.tsx"

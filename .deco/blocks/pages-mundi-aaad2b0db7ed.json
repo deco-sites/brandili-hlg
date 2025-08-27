@@ -12,7 +12,8 @@
             "description": "Escolha a maior loja de moda infantil para fazer parte do guarda-roupa das crianças! Peças confortáveis, charmosas e muito acessíveis, confira!",
             "__resolveType": "website/sections/Seo/Seo.tsx",
             "titleTemplate": "Mundi – Brandili",
-            "descriptionTemplate": "Escolha a maior loja de moda infantil para fazer parte do guarda-roupa das crianças! Peças confortáveis, charmosas e muito acessíveis, confira!"
+            "descriptionTemplate": "Escolha a maior loja de moda infantil para fazer parte do guarda-roupa das crianças! Peças confortáveis, charmosas e muito acessíveis, confira!",
+            "canonical": "https://www.brandili.com.br/mundi"
           },
           {
             "__resolveType": "Header - 02"

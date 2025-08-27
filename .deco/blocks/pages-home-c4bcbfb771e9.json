@@ -2443,7 +2443,8 @@
           {
             "__resolveType": "website/sections/Seo/SeoV2.tsx",
             "type": "website",
-            "title": "Brandili - Moda para Crianças"
+            "title": "Roupas Infantis de Qualidade | Brandili - Moda para Crianças",
+            "canonical": "https://www.brandili.com.br/"
           },
           {
             "__resolveType": "Header - 01"
