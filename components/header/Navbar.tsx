@@ -100,6 +100,9 @@ function Navbar({
 
                 ? (
                   <h1 aria-label={logo.alt}>
+                    <span class="sr-only">
+                      Brandili - Roupas Infantis
+                    </span>
                     <Image
                       src={logo.src}
                       alt={logo.alt}
@@ -157,6 +160,9 @@ function Navbar({
                       url == "https://brandili.com.br" || url == "sites-brandili-hlg--vdqi85.decocdn.com/" || url == "https://sites-brandili-hlg--vdqi85.decocdn.com/"
                     ? (
                       <h1 aria-label={logo.alt}>
+                        <span class="sr-only">
+                          Brandili - Roupas Infantis
+                        </span>
                         <Image
                           src={logo.src}
                           alt={logo.alt}
