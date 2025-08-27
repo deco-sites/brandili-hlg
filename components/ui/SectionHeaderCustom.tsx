@@ -38,7 +38,7 @@ function HeaderCustom(props: Props) {
               )}
             {props.description &&
               (
-                <h3 class="text-base full-phone:text-xs text-gray-1 font-poppins font-normal">
+                <h6 class="text-base full-phone:text-xs text-gray-1 font-poppins font-normal">
                   <a
                     href={props.link ??
                       "https://www.instagram.com/brandili_oficial/"}
@@ -47,7 +47,7 @@ function HeaderCustom(props: Props) {
                   >
                     {props.description}
                   </a>
-                </h3>
+                </h6>
               )}
           </div>
         )
