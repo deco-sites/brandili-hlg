@@ -3,11 +3,11 @@
   "path": "/licenciados",
   "sections": [
     {
-      "title": "Brandili",
+      "title": "Personagens licenciados - Brandili",
       "noIndexing": false,
       "description": "Escolha a maior loja de moda infantil para fazer parte do guarda-roupa das crianças! Peças confortáveis, charmosas e muito acessíveis, confira!",
       "__resolveType": "website/sections/Seo/Seo.tsx",
-      "titleTemplate": "Licenciados | %s",
+      "titleTemplate": "Personagens licenciados - Brandili",
       "descriptionTemplate": "%s",
       "canonical": "https://www.brandili.com.br/licenciados"
     },

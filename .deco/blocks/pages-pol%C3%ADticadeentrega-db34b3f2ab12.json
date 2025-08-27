@@ -28,7 +28,8 @@
     {
       "__resolveType": "website/sections/Seo/SeoV2.tsx",
       "canonical": "https://www.brandili.com.br/institucional/politicas-de-entrega",
-      "title": "Políticas de Entrega Brandili - Entregas Rápidas e Seguras em Todo o Brasil"
+      "title": "Políticas de Entrega Brandili - Entregas Rápidas e Seguras em Todo o Brasil",
+      "description": "Informações sobre prazos, custos e formas de entrega para suas compras na Brandili."
     }
   ],
   "__resolveType": "website/pages/Page.tsx"

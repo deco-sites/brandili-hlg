@@ -2444,7 +2444,8 @@
             "__resolveType": "website/sections/Seo/SeoV2.tsx",
             "type": "website",
             "title": "Roupas Infantis de Qualidade | Brandili - Moda para Crianças",
-            "canonical": "https://www.brandili.com.br/"
+            "canonical": "https://www.brandili.com.br/",
+            "description": "Escolha a Brandili, referência em moda infantil! Roupas infantis confortáveis, charmosas e acessíveis para meninos e meninas. Estilo e qualidade para o dia a dia!"
           },
           {
             "__resolveType": "Header - 01"

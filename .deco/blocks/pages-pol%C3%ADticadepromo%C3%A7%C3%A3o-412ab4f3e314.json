@@ -28,7 +28,8 @@
     {
       "__resolveType": "website/sections/Seo/SeoV2.tsx",
       "canonical": "https://www.brandili.com.br/institucional/politicas-de-promocao",
-      "title": "Políticas de Promoção Brandili - Ofertas e Descontos Imperdíveis para Você"
+      "title": "Políticas de Promoção Brandili - Ofertas e Descontos Imperdíveis para Você",
+      "description": "Descubra as condições das promoções na Brandili e aproveite ofertas imperdíveis."
     }
   ],
   "__resolveType": "website/pages/Page.tsx"

@@ -28,7 +28,8 @@
     {
       "__resolveType": "website/sections/Seo/SeoV2.tsx",
       "canonical": "https://www.brandili.com.br/institucional/politicas-de-pagamento",
-      "title": "Políticas de Pagamento Brandili - Formas Seguras e Práticas de Pagamento"
+      "title": "Políticas de Pagamento Brandili - Formas Seguras e Práticas de Pagamento",
+      "description": "Veja as opções de pagamento disponíveis na Brandili, com segurança e praticidade para suas compras."
     }
   ],
   "__resolveType": "website/pages/Page.tsx"

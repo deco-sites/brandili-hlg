@@ -28,7 +28,8 @@
     {
       "__resolveType": "website/sections/Seo/SeoV2.tsx",
       "canonical": "https://www.brandili.com.br/institucional/politicas-de-privacidade-e-tratamento-de-dados",
-      "title": "Políticas de Privacidade e Tratamento de Dados Brandili - Compromisso com a Sua Segurança"
+      "title": "Políticas de Privacidade e Tratamento de Dados Brandili - Compromisso com a Sua Segurança",
+      "description": "Saiba como a Brandili coleta e trata seus dados pessoais de maneira segura e transparente."
     }
   ],
   "__resolveType": "website/pages/Page.tsx"

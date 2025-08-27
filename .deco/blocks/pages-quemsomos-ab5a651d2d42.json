@@ -28,7 +28,9 @@
     },
     {
       "__resolveType": "website/sections/Seo/SeoV2.tsx",
-      "canonical": "https://www.brandili.com.br/institucional/quem-somos"
+      "canonical": "https://www.brandili.com.br/institucional/quem-somos",
+      "description": "Conheça a Brandili, nossa história e compromisso em oferecer qualidade e estilo para toda a família.",
+      "title": "Quem Somos Brandili - Mais de 60 Anos de Amor e Conforto para as Crianças"
     }
   ],
   "__resolveType": "website/pages/Page.tsx"
